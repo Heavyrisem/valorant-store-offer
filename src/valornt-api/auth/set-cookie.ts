@@ -1,6 +1,10 @@
-import { AxiosInstance } from 'axios';
+import { CookieJar } from 'tough-cookie';
 
-export const fetchAuthCookie = async (axiosInstance: AxiosInstance) => {
+import { createAxiosInstance } from '../axiosInstance';
+
+export const fetchAuthCookie = async () => {
+  const axiosInstance = createAxiosInstance();
+  const jar = new CookieJar();
   const auth = {
     client_id: 'play-valorant-web-prod',
     nonce: '1',
@@ -13,5 +17,8 @@ export const fetchAuthCookie = async (axiosInstance: AxiosInstance) => {
     method: 'POST',
     url: 'https://auth.riotgames.com/api/v1/authorization',
     data: auth,
+    jar,
   });
+
+  return jar.serialize();
 };

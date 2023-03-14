@@ -1,13 +1,10 @@
-import { Client, DMChannel, GatewayIntentBits } from 'discord.js';
+import { Client, GatewayIntentBits } from 'discord.js';
 import dotenv from 'dotenv';
 import prettyms from 'pretty-print-ms';
 
-import { COMMAND, COMMAND_ARGS, registerCommands } from './discord-bot/commands';
-import { user } from './secret';
-import { login, getPlayerInfo } from './valornt-api/auth';
-import { createAxiosInstance } from './valornt-api/axiosInstance';
-import { getUserStoreFront } from './valornt-api/store';
-import { getImagesUrlFromItem } from './valornt-api/util/store-front-parser';
+import { handleAuthenticationInteraction } from './discord-bot/commands/authentication';
+import { registerCommands } from './discord-bot/register-command';
+import { COMMAND } from './discord-bot/resource';
 
 dotenv.config();
 
@@ -54,13 +51,7 @@ client.on('interactionCreate', async (interaction): Promise<any> => {
       interaction.reply(`\`${client.ws.ping} ms\``);
       break;
     case COMMAND.AUTHENTICATION:
-      if (interaction.inGuild())
-        return interaction.user.send('`인증은 개인 메세지에서 진행해 주세요.`');
-
-      const userId = interaction.options.get(COMMAND_ARGS.AUTHENTICATION_ID, true);
-      const userPw = interaction.options.get(COMMAND_ARGS.AUTHENTICATION_PW, true);
-
-      interaction.reply('asfd');
+      await handleAuthenticationInteraction(interaction);
       break;
     default:
   }

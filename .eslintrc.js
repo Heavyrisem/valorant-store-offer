@@ -53,6 +53,7 @@ module.exports = {
         '@typescript-eslint/no-unused-expressions': 'off',
         'jsx-filename-extension': 'off',
         'import/prefer-default-export': 'off',
-        'no-param-reassign': 'off'
+        'no-param-reassign': 'off',
+        'class-methods-use-this': 'off'
     },
 };

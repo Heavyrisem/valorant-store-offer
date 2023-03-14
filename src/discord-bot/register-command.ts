@@ -1,19 +1,13 @@
-import { GuildWidgetStyle, REST, Routes, SlashCommandBuilder } from 'discord.js';
+import { REST, Routes, SlashCommandBuilder } from 'discord.js';
 
-export enum COMMAND {
-  PING = '핑',
-  AUTHENTICATION = '로그인',
-}
-export enum COMMAND_ARGS {
-  AUTHENTICATION_ID = '아이디',
-  AUTHENTICATION_PW = '패스워드',
-}
+import { COMMAND, COMMAND_ARGS } from './resource/command.constrant';
 
 const commands = [
   new SlashCommandBuilder().setName(COMMAND.PING).setDescription('핑을 표시합니다.'),
   new SlashCommandBuilder()
     .setName(COMMAND.AUTHENTICATION)
     .setDescription('라이엇 계정으로 로그인합니다.')
+    .setDMPermission(true)
     .addStringOption((option) =>
       option
         .setName(COMMAND_ARGS.AUTHENTICATION_ID)
@@ -24,6 +18,16 @@ const commands = [
       option
         .setName(COMMAND_ARGS.AUTHENTICATION_PW)
         .setDescription('라이엇 패스워드')
+        .setRequired(true),
+    ),
+  new SlashCommandBuilder()
+    .setName(COMMAND.MULTIFACTOR_AUTH)
+    .setDescription('2단계 인증을 진행합니다')
+    .setDMPermission(true)
+    .addStringOption((option) =>
+      option
+        .setName(COMMAND_ARGS.AUTHENTICATION_CODE)
+        .setDescription('라이엇 2단계 인증 코드')
         .setRequired(true),
     ),
 ];
