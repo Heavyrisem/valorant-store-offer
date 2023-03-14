@@ -1,4 +1,4 @@
-import { AxiosInstance } from "axios";
+import { AxiosInstance } from 'axios';
 
 interface PlayerInfoResponse {
   country: string;
@@ -36,7 +36,7 @@ interface PlayerInfoResponse {
 }
 
 export const getPlayerInfo = async (axiosInstance: AxiosInstance) => {
-  return await axiosInstance
-    .get<PlayerInfoResponse>("https://auth.riotgames.com/userinfo")
+  return axiosInstance
+    .get<PlayerInfoResponse>('https://auth.riotgames.com/userinfo')
     .then(({ data }) => data);
 };

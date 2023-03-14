@@ -1,4 +1,4 @@
-import { AxiosInstance } from "axios";
+import { AxiosInstance } from 'axios';
 
 export interface StorefrontResponse {
   FeaturedBundle: {
@@ -129,9 +129,9 @@ export interface StorefrontResponse {
 export const getUserStoreFront = async (
   axiosInstance: AxiosInstance,
   puuid: string,
-  shard = "kr"
+  shard = 'kr',
 ) => {
   return (await axiosInstance.get)<StorefrontResponse>(
-    `https://pd.${shard}.a.pvp.net/store/v2/storefront/${puuid}`
+    `https://pd.${shard}.a.pvp.net/store/v2/storefront/${puuid}`,
   ).then(({ data }) => data);
 };

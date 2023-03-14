@@ -1,2 +1,2 @@
-export * from "./prices";
-export * from "./store-front";
+export * from './prices';
+export * from './store-front';

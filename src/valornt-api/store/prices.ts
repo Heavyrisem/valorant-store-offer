@@ -1,4 +1,4 @@
-import { AxiosInstance } from "axios";
+import { AxiosInstance } from 'axios';
 
 export interface PricesResponse {
   Offers: {
@@ -19,10 +19,7 @@ export interface PricesResponse {
   }[];
 }
 
-export const getUserPrices = async (
-  axiosInstance: AxiosInstance,
-  shard = "kr"
-) => {
+export const getUserPrices = async (axiosInstance: AxiosInstance, shard = 'kr') => {
   return axiosInstance
     .get<PricesResponse>(`https://pd.${shard}.a.pvp.net/store/v1/offers`)
     .then(({ data }) => data);
