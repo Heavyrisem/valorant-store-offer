@@ -1,9 +1,7 @@
-import { AxiosError, AxiosInstance, AxiosInterceptorOptions } from 'axios';
+import { AxiosError, AxiosInstance } from 'axios';
 
-import { AxiosCache, createAxiosInstance, getCacheFromAxiosInstance } from '../axiosInstance';
 import { getEntitlementToken } from './entitlement';
 import { setAuthorizationHeader, setEntitleMentHeader } from './set-authorization';
-import { fetchAuthCookie } from './set-cookie';
 
 export interface UserInfo {
   username: string;
@@ -12,7 +10,7 @@ export interface UserInfo {
 
 interface BaseLoginResponse {
   type: string;
-  error?: 'auth_failure' | string;
+  error?: 'auth_failure' | 'multifactor_attempt_failed' | string;
   country: string;
 }
 
@@ -61,24 +59,42 @@ const parseTokenFromURLString = (url: string) => {
   return token;
 };
 
-const fetchTokens = async (axiosInstance: AxiosInstance, user?: UserInfo): Promise<LoginResult> => {
-  const userInfo = {
-    type: 'auth',
-    remember: false,
-    language: 'ko_KR',
-    ...user,
-  };
+interface LoginOption {
+  user?: UserInfo;
+  code?: string;
+}
+
+export const login = async (
+  axiosInstance: AxiosInstance,
+  { user, code }: LoginOption,
+): Promise<LoginResult> => {
+  let sendData;
+  if (user) {
+    sendData = {
+      type: 'auth',
+      remember: false,
+      language: 'ko_KR',
+      ...user,
+    };
+  } else if (code) {
+    sendData = {
+      type: 'multifactor',
+      rememberDevice: false,
+      code,
+    };
+  }
 
   const response = await axiosInstance
     .request<LoginResponse>({
       method: 'PUT',
       url: 'https://auth.riotgames.com/api/v1/authorization',
-      data: userInfo,
+      data: sendData,
     })
     .then(({ data }) => data);
 
   if (response.error) {
     if (response.error === 'auth_failure') throw new Error('로그인 실패');
+    else if (response.error === 'multifactor_attempt_failed') throw new Error('2단계 인증 실패');
     else throw new Error(response.error);
   }
 
@@ -112,13 +128,13 @@ const fetchTokens = async (axiosInstance: AxiosInstance, user?: UserInfo): Promi
       };
     }
 
-    throw new Error(`\`Multi-Factor ${multifactor.method} 로그인 방식은 지원되지 않습니다.\``);
+    throw new Error(`Multi-Factor ${multifactor.method} 로그인 방식은 지원되지 않습니다.`);
   }
 
-  throw new Error('Login Fail');
+  throw new Error(`로그인 실패, ${response}`);
 };
 
-const refetchToken = async (axiosInstance: AxiosInstance) => {
+export const refetchToken = async (axiosInstance: AxiosInstance) => {
   const token = await axiosInstance
     .get(
       'https://auth.riotgames.com/authorize?redirect_uri=https%3A%2F%2Fplayvalorant.com%2Fopt_in&client_id=play-valorant-web-prod&response_type=token%20id_token&nonce=1',
@@ -127,6 +143,7 @@ const refetchToken = async (axiosInstance: AxiosInstance) => {
     .catch((err) => {
       if (err instanceof AxiosError) {
         if (err.response?.status !== 303) throw err;
+        console.log('DEBUG:', err.response?.headers);
         return parseTokenFromURLString(err.response?.headers?.location);
       }
       throw err;
@@ -140,23 +157,33 @@ const refetchToken = async (axiosInstance: AxiosInstance) => {
   return { token, entitlementToken };
 };
 
-export const getLoggedInAxiosInstanceByUserInfo = async (user: UserInfo): Promise<LoginResult> => {
-  const serializedCookie = await fetchAuthCookie();
-  const axiosInstance = createAxiosInstance(serializedCookie);
+// export const multifactorLogin = async (axiosInstance: AxiosInstance, code: string) => {
+//   const data = {
+//     type: 'multifactor',
+//     rememberDevice: false,
+//     code,
+//   };
+//   const response = await axiosInstance.put('https://auth.riotgames.com/api/v1/authorization', data);
+//   console.log(response.data, response.headers);
+// };
 
-  return fetchTokens(axiosInstance, user);
-  // const tmp = await fetchTokens(axiosInstance, user);
-  // await refetchToken(axiosInstance);
-  // return tmp;
-};
+// export const getLoggedInAxiosInstanceByUserInfo = async (user: UserInfo): Promise<LoginResult> => {
+//   const serializedCookie = await fetchAuthCookie();
+//   const axiosInstance = createAxiosInstance(serializedCookie);
 
-export const getLoggedInAxiosInstanceByCachedData = async (cachedData: AxiosCache) => {
-  const axiosInstance = createAxiosInstance(
-    cachedData.cookie,
-    cachedData.token,
-    cachedData.entitlementToken,
-  );
-  await refetchToken(axiosInstance);
+//   return fetchTokens(axiosInstance, user);
+//   // const tmp = await fetchTokens(axiosInstance, user);
+//   // await refetchToken(axiosInstance);
+//   // return tmp;
+// };
 
-  return axiosInstance;
-};
+// export const getLoggedInAxiosInstanceByCachedData = async (cachedData: AxiosCache) => {
+//   const axiosInstance = createAxiosInstance(
+//     cachedData.cookie,
+//     cachedData.token,
+//     cachedData.entitlementToken,
+//   );
+//   await refetchToken(axiosInstance);
+
+//   return axiosInstance;
+// };

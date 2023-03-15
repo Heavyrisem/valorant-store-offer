@@ -2,7 +2,11 @@ import { Client, GatewayIntentBits } from 'discord.js';
 import dotenv from 'dotenv';
 import prettyms from 'pretty-print-ms';
 
-import { handleAuthenticationInteraction } from './discord-bot/commands/authentication';
+import {
+  handleAuthenticationInteraction,
+  handleMultiFactorAuthInteraction,
+} from './discord-bot/commands/authentication';
+import { handleStoreFrontInteraction } from './discord-bot/commands/store';
 import { registerCommands } from './discord-bot/register-command';
 import { COMMAND } from './discord-bot/resource';
 
@@ -46,14 +50,26 @@ client.on('ready', () => {
 client.on('interactionCreate', async (interaction): Promise<any> => {
   if (!interaction.isChatInputCommand()) return;
 
-  switch (interaction.commandName) {
-    case COMMAND.PING:
-      interaction.reply(`\`${client.ws.ping} ms\``);
-      break;
-    case COMMAND.AUTHENTICATION:
-      await handleAuthenticationInteraction(interaction);
-      break;
-    default:
+  try {
+    switch (interaction.commandName) {
+      case COMMAND.PING:
+        interaction.reply(`\`${client.ws.ping} ms\``);
+        break;
+      case COMMAND.AUTHENTICATION:
+        await handleAuthenticationInteraction(interaction);
+        break;
+      case COMMAND.MULTIFACTOR_AUTH:
+        await handleMultiFactorAuthInteraction(interaction);
+        break;
+      case COMMAND.STOREFRONT:
+        await handleStoreFrontInteraction(interaction);
+        break;
+      default:
+        await interaction.reply(`\`명령어를 찾을 수 없습니다.\``);
+    }
+  } catch (err) {
+    console.error(err);
+    interaction.channel?.send(`\`오류가 발생했습니다, ${err}\``);
   }
 });
 

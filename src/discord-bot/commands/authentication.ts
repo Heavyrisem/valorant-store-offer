@@ -1,10 +1,10 @@
 import { ChatInputCommandInteraction, CacheType } from 'discord.js';
 
 import { COMMAND_ARGS } from '@src/discord-bot/resource';
-import { getPlayerInfo, getLoggedInAxiosInstanceByUserInfo } from '@src/valornt-api/auth';
-import { AxiosCache } from '@src/valornt-api/axiosInstance';
+import { UnAuthorizedException } from '@src/valornt-api/exceptions/UnAuthorizedException';
+import { getPlayerInfo } from '@src/valornt-api/player';
 
-const axiosCache: Map<string, AxiosCache> = new Map();
+import { ValorantAxiosInstanceMap } from '../api/valorant-axios-cache';
 
 export const handleAuthenticationInteraction = async (
   interaction: ChatInputCommandInteraction<CacheType>,
@@ -12,16 +12,21 @@ export const handleAuthenticationInteraction = async (
   if (interaction.inGuild())
     return interaction.user.send('`인증은 개인 메세지에서 진행해 주세요.`');
 
+  await interaction.reply(`\`로그인 중입니다...\``);
+  await interaction.deleteReply();
+  await interaction.user.send(`\`로그인 중입니다...\``);
+  const userId = interaction.user.id;
   const username = interaction.options.get(COMMAND_ARGS.AUTHENTICATION_ID, true).value;
   const password = interaction.options.get(COMMAND_ARGS.AUTHENTICATION_PW, true).value;
 
   if (typeof username !== 'string' || typeof password !== 'string')
     throw new Error('잘못된 입력값 입니다.');
 
-  const { axiosInstance, ...loginResult } = await getLoggedInAxiosInstanceByUserInfo({
-    username,
-    password,
-  });
+  const { axiosInstance, ...loginResult } =
+    await ValorantAxiosInstanceMap.getAuthedInstanceByUserInfo(userId, {
+      username,
+      password,
+    });
 
   if (!loginResult.loggedIn) {
     if (loginResult.type === 'multifactor' && loginResult.multifactor) {
@@ -29,18 +34,20 @@ export const handleAuthenticationInteraction = async (
 
       switch (multifactor.method) {
         case 'email':
-          return interaction.reply(
+          return interaction.user.send(
             `\`이메일 로그인을 요청하였습니다.\n${multifactor.email} 에 전송된 ${multifactor.multiFactorCodeLength} 자리의 코드를 입력해 주세요.\``,
           );
         default:
       }
     }
 
-    return interaction.reply(`\`로그인에 실패했습니다. 로그인 유형: ${loginResult.type}\``);
+    return interaction.user.send(`\`로그인에 실패했습니다. 로그인 유형: ${loginResult.type}\``);
   }
 
   const playerInfo = await getPlayerInfo(axiosInstance);
-  return interaction.reply(`\`${playerInfo.acct.game_name}\` 로그인 되었습니다.`);
+  return interaction.user.send(
+    `\`${playerInfo.acct.game_name}#${playerInfo.acct.tag_line}\` 로그인 되었습니다.`,
+  );
 };
 
 export const handleMultiFactorAuthInteraction = async (
@@ -49,8 +56,19 @@ export const handleMultiFactorAuthInteraction = async (
   if (interaction.inGuild())
     return interaction.user.send('`인증은 개인 메세지에서 진행해 주세요.`');
 
+  const userId = interaction.user.id;
+
   const code = interaction.options.get(COMMAND_ARGS.AUTHENTICATION_CODE, true).value;
   if (typeof code !== 'string') throw new Error('잘못된 입력값 입니다.');
 
-  //   const;
+  if (!ValorantAxiosInstanceMap.hasInstnace(userId))
+    return interaction.reply('`로그인을 먼저 진행해 주세요`');
+
+  const { axiosInstance, ...loginResult } =
+    await ValorantAxiosInstanceMap.getAuthedInstanceByMultifactorCode(userId, code);
+
+  if (!loginResult.loggedIn) throw new UnAuthorizedException('2단계 인증에 실패했습니다.');
+
+  const playerInfo = await getPlayerInfo(axiosInstance);
+  return interaction.reply(`\`${playerInfo.acct.game_name}\` 로그인 되었습니다.`);
 };

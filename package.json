@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "swc ./src -d ./dist",
+    "build": "swc ./src -d ./dist --copy-files",
     "dev": "nodemon --exec \"pnpm build && node dist/main\" --watch src -e ts",
-    "start": "pnpm build && node dist/main",
+    "start": "node dist/main",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
@@ -40,6 +40,7 @@
     "discord.js": "^14.8.0",
     "dotenv": "^16.0.3",
     "node-fetch": "^3.3.1",
+    "node-html-to-image": "^3.3.0",
     "pretty-print-ms": "^1.0.5",
     "tough-cookie": "^4.1.2"
   }

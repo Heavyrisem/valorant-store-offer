@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  valorant_store_bot:
+    build: .
+    container_name: valorant_store_bot
+    restart: always

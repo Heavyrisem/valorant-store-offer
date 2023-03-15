@@ -33,6 +33,7 @@ module.exports = {
             {
                 js: 'never',
                 ts: 'never',
+                josn: 'never'
             },
         ],
         'import-helpers/order-imports': [
@@ -54,6 +55,7 @@ module.exports = {
         'jsx-filename-extension': 'off',
         'import/prefer-default-export': 'off',
         'no-param-reassign': 'off',
-        'class-methods-use-this': 'off'
+        'class-methods-use-this': 'off',
+        'no-restricted-syntax': 'off'
     },
 };

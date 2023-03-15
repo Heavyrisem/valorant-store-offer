@@ -1,13 +1,25 @@
+import { findOneById } from '../resource';
 import { SKIN_TIER, VALORANT_POINT } from '../resource/item-id.constrant';
 import { StorefrontResponse } from '../store/store-front';
 
-export interface SkinImageInfo {
+export interface StoreFrontItemInfo {
   tierID: SKIN_TIER;
   itemID: string;
+  itemName: {
+    ko: string;
+    en: string;
+  };
+  vp: number;
+  images: {
+    itemURL: string;
+    tierURL: string;
+  };
 }
 
-export const getImagesUrlFromItem = (storeFrontResponse: StorefrontResponse): SkinImageInfo[] => {
-  return storeFrontResponse.SkinsPanelLayout.SingleItemStoreOffers.map((item) => {
+export const getInfoFromStoreFrontItem = (
+  singleItemStoreOffers: StorefrontResponse['SkinsPanelLayout']['SingleItemStoreOffers'],
+): StoreFrontItemInfo[] => {
+  return singleItemStoreOffers.map((item) => {
     const [firstItem] = item.Rewards;
     let tierID;
 
@@ -32,6 +44,23 @@ export const getImagesUrlFromItem = (storeFrontResponse: StorefrontResponse): Sk
         break;
     }
 
-    return { itemID: firstItem.ItemID, tierID };
+    const skinInfoKo = findOneById(firstItem.ItemID, 'ko');
+    const skinInfoEn = findOneById(firstItem.ItemID, 'en');
+    if (!skinInfoKo || !skinInfoEn)
+      throw new Error(`${firstItem.ItemID} 에 대한 크로마 정보가 없습니다.`);
+
+    return {
+      itemID: firstItem.ItemID,
+      tierID,
+      vp: item.Cost[VALORANT_POINT],
+      itemName: {
+        ko: skinInfoKo.name,
+        en: skinInfoEn.name,
+      },
+      images: {
+        itemURL: `https://media.valorant-api.com/weaponskinlevels/${firstItem.ItemID}/displayicon.png`,
+        tierURL: `https://media.valorant-api.com/contenttiers/${tierID}/displayicon.png`,
+      },
+    };
   });
 };

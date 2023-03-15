@@ -1,7 +1,8 @@
 import { AxiosInstance } from 'axios';
 
 export const setAuthorizationHeader = (axiosInstance: AxiosInstance, token: string) => {
-  axiosInstance.defaults.headers.authorization = `Bearer ${token}`;
+  const safeToken = token.replace('Bearer ', '');
+  axiosInstance.defaults.headers.authorization = `Bearer ${safeToken}`;
 };
 
 export const setEntitleMentHeader = (axiosInstance: AxiosInstance, token: string) => {

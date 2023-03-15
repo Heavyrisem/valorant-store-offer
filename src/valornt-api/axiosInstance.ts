@@ -29,10 +29,9 @@ export interface AxiosCache {
 }
 
 export const getCacheFromAxiosInstance = (axiosInstance: AxiosInstance) => {
-  const token = axiosInstance.defaults.headers.authorization;
-  const entitlementToken = axiosInstance.defaults.headers['X-Riot-Entitlements-JWT'];
+  const token = String(axiosInstance.defaults.headers.authorization).replace('Bearer ', '');
+  const entitlementToken = String(axiosInstance.defaults.headers['X-Riot-Entitlements-JWT']);
   const cookie = JSON.stringify(axiosInstance.defaults.jar?.serializeSync() ?? {});
-  console.log(axiosInstance.defaults.jar?.serializeSync());
 
   return { token, entitlementToken, cookie };
 };

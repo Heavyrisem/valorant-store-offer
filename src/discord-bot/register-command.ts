@@ -30,6 +30,9 @@ const commands = [
         .setDescription('라이엇 2단계 인증 코드')
         .setRequired(true),
     ),
+  new SlashCommandBuilder()
+    .setName(COMMAND.STOREFRONT)
+    .setDescription('현재 상점에서 구매 가능한 아이템들을 가져옵니다.'),
 ];
 
 export const registerCommands = async (token: string, clientId: string) => {
