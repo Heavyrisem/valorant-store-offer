@@ -9,6 +9,11 @@ ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD true
 # 설치된 위치를 환경 변수로 설정(node에서 사용)
 ENV CHROMIUM_PATH /usr/bin/chromium-browser
 
+RUN mkdir /usr/share/fonts/nanumfont
+RUN wget http://cdn.naver.com/naver/NanumFont/fontfiles/NanumFont_TTF_ALL.zip
+RUN unzip NanumFont_TTF_ALL.zip -d /usr/share/fonts/nanumfont
+RUN fc-cache -f -v
+
 RUN npm i -g pnpm
 
 COPY ./package.json /app/
