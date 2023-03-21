@@ -38,5 +38,8 @@ interface PlayerInfoResponse {
 export const getPlayerInfo = async (axiosInstance: AxiosInstance) => {
   return axiosInstance
     .get<PlayerInfoResponse>('https://auth.riotgames.com/userinfo')
+    .then((res) => {
+      return res;
+    })
     .then(({ data }) => data);
 };

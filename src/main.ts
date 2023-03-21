@@ -5,6 +5,7 @@ import prettyms from 'pretty-print-ms';
 import {
   handleAuthenticationInteraction,
   handleMultiFactorAuthInteraction,
+  handleRefreshAuthInteraction,
 } from './discord-bot/commands/authentication';
 import { handleStoreFrontInteraction } from './discord-bot/commands/store';
 import { registerCommands } from './discord-bot/register-command';
@@ -60,6 +61,9 @@ client.on('interactionCreate', async (interaction): Promise<any> => {
         break;
       case COMMAND.MULTIFACTOR_AUTH:
         await handleMultiFactorAuthInteraction(interaction);
+        break;
+      case COMMAND.REFRESH_AUTH:
+        await handleRefreshAuthInteraction(interaction);
         break;
       case COMMAND.STOREFRONT:
         await handleStoreFrontInteraction(interaction);

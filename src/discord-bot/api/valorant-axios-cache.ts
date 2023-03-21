@@ -1,6 +1,6 @@
 import { AxiosInstance } from 'axios';
 
-import { fetchAuthCookie, login, UserInfo } from '@src/valornt-api/auth';
+import { fetchAuthCookie, login, refetchToken, UserInfo } from '@src/valornt-api/auth';
 import {
   AxiosCache,
   createAxiosInstance,
@@ -45,8 +45,7 @@ class ValorantAxiosCache {
     const axiosInstance = createAxiosInstance(serializedCookie);
 
     const loginResult = await login(axiosInstance, { user });
-    const axiosCache = getCacheFromAxiosInstance(axiosInstance);
-    this.cacheMap.set(key, axiosCache);
+    this.saveInstance(key, axiosInstance);
 
     return loginResult;
   }
@@ -59,9 +58,18 @@ class ValorantAxiosCache {
     return loginResult;
   }
 
+  async refreshAuthForInstance(key: string) {
+    const axiosInstance = await this.getInstanceFromCachedData(key);
+
+    await refetchToken(axiosInstance);
+    this.saveInstance(key, axiosInstance);
+
+    return axiosInstance;
+  }
+
   saveInstance(key: string, axiosInstance: AxiosInstance) {
-    console.log('Saving Instnace for', key);
     const axiosCache = getCacheFromAxiosInstance(axiosInstance);
+    // console.log('Saving Instnace for', key, axiosCache);
     this.cacheMap.set(key, axiosCache);
   }
 

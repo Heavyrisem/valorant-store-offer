@@ -9,7 +9,6 @@ specifiers:
   '@typescript-eslint/eslint-plugin': ^5.55.0
   '@typescript-eslint/parser': ^5.55.0
   axios: ^1.3.4
-  axios-cookiejar-support: ^4.0.6
   discord.js: ^14.8.0
   dotenv: ^16.0.3
   eslint: ^8.36.0
@@ -25,19 +24,16 @@ specifiers:
   nodemon: ^2.0.21
   prettier: ^2.8.4
   pretty-print-ms: ^1.0.5
-  tough-cookie: ^4.1.2
   ts-node: ^10.9.1
   typescript: ^4.9.5
 
 dependencies:
   axios: 1.3.4
-  axios-cookiejar-support: 4.0.6_vjpiselaacndbbx66nc2e3qzbm
   discord.js: 14.8.0
   dotenv: 16.0.3
   node-fetch: 3.3.1
   node-html-to-image: 3.3.0
   pretty-print-ms: 1.0.5
-  tough-cookie: 4.1.2
 
 devDependencies:
   '@swc/cli': 0.1.62_@swc+core@1.3.40
@@ -727,22 +723,6 @@ packages:
     resolution: {integrity: sha512-DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==}
     engines: {node: '>= 0.4'}
     dev: true
-
-  /axios-cookiejar-support/4.0.6_vjpiselaacndbbx66nc2e3qzbm:
-    resolution: {integrity: sha512-lWDhgM6bc2xYAsHkXEhceLpTu9ytAeIz1VSuL5FoUgGx2lqcMNbNxTD9Hm4x5c8JF5Me0HfNrb06fhEGMC30mQ==}
-    engines: {node: '>=14.18.0 <15.0.0 || >=16.0.0'}
-    peerDependencies:
-      axios: '>=0.20.0'
-      tough-cookie: '>=4.0.0'
-    dependencies:
-      axios: 1.3.4
-      http-cookie-agent: 5.0.2_tough-cookie@4.1.2
-      tough-cookie: 4.1.2
-    transitivePeerDependencies:
-      - deasync
-      - supports-color
-      - undici
-    dev: false
 
   /axios/1.3.4:
     resolution: {integrity: sha512-toYm+Bsyl6VC5wSkfkbbNB6ROv7KY93PEBBL6xyDczaIHasAiv4wPqQ/c4RjoQzipxRD2W5g21cOqQulZ7rHwQ==}
@@ -1905,25 +1885,6 @@ packages:
     resolution: {integrity: sha512-er295DKPVsV82j5kw1Gjt+ADA/XYHsajl82cGNQG2eyoPkvgUhX+nDIyelzhIWbbsXP39EHcI6l5tYs2FYqYXQ==}
     dev: true
 
-  /http-cookie-agent/5.0.2_tough-cookie@4.1.2:
-    resolution: {integrity: sha512-BiBmZyIMGl5mLKmY7KH2uCVlcNUl1jexjdtWXFCUF4DFOrNZg1c5iPPTzWDzU7Ngfb6fB03DPpJQ80KQWmycsg==}
-    engines: {node: '>=14.18.0 <15.0.0 || >=16.0.0'}
-    peerDependencies:
-      deasync: ^0.1.26
-      tough-cookie: ^4.0.0
-      undici: ^5.11.0
-    peerDependenciesMeta:
-      deasync:
-        optional: true
-      undici:
-        optional: true
-    dependencies:
-      agent-base: 6.0.2
-      tough-cookie: 4.1.2
-    transitivePeerDependencies:
-      - supports-color
-    dev: false
-
   /http2-wrapper/1.0.3:
     resolution: {integrity: sha512-V+23sDMr12Wnz7iTcDeJr3O6AIxlnvT/bmaAAAP/Xda35C90p9599p0F1eHR/N1KILWSoWVAiOMFjBBXaXSMxg==}
     engines: {node: '>=10.19.0'}
@@ -2615,10 +2576,6 @@ packages:
     resolution: {integrity: sha512-b/YwNhb8lk1Zz2+bXXpS/LK9OisiZZ1SNsSLxN1x2OXVEhW2Ckr/7mWE5vrC1ZTiJlD9g19jWszTmJsB+oEpFQ==}
     dev: true
 
-  /psl/1.9.0:
-    resolution: {integrity: sha512-E/ZsdU4HLs/68gYzgGTkMicWTLPdAftJLfJFlLUAAKZGkStNU72sZjT66SnMDVOfOWY/YAoiD7Jxa9iHvngcag==}
-    dev: false
-
   /pstree.remy/1.1.8:
     resolution: {integrity: sha512-77DZwxQmxKnu3aR542U+X8FypNzbfJ+C5XQDk3uWjWxn6151aIMGthWYRXTqT1E5oJvg+ljaa2OJi+VfvCOQ8w==}
     dev: true
@@ -2632,6 +2589,7 @@ packages:
   /punycode/2.3.0:
     resolution: {integrity: sha512-rRV+zQD8tVFys26lAGR9WUuS4iUAngJScM+ZRSKtvl5tKeZ2t5bvdNFdNHBW9FWR4guGHlgmsZ1G7BSm2wTbuA==}
     engines: {node: '>=6'}
+    dev: true
 
   /puppeteer-cluster/0.23.0_puppeteer@15.5.0:
     resolution: {integrity: sha512-108terIWDzPrQopmoYSPd5yDoy3FGJ2dNnoGMkGYPs6xtkdhgaECwpfZkzaRToMQPZibUOz0/dSSGgPEdXEhkQ==}
@@ -2667,10 +2625,6 @@ packages:
       - encoding
       - supports-color
       - utf-8-validate
-    dev: false
-
-  /querystringify/2.2.0:
-    resolution: {integrity: sha512-FIqgj2EUvTa7R50u0rGsyTftzjYmv/a3hO345bZNrqabNqjtgiDMgmo4mkUjd+nzU5oF3dClKqFIPUKybUyqoQ==}
     dev: false
 
   /queue-microtask/1.2.3:
@@ -2711,10 +2665,6 @@ packages:
       define-properties: 1.2.0
       functions-have-names: 1.2.3
     dev: true
-
-  /requires-port/1.0.0:
-    resolution: {integrity: sha512-KigOCHcocU3XODJxsu8i/j8T9tzT4adHiecwORRQ0ZZFcp7ahwXuRU1m+yuO90C5ZUyGeGfocHDI14M3L3yDAQ==}
-    dev: false
 
   /resolve-alpn/1.2.1:
     resolution: {integrity: sha512-0a1F4l73/ZFZOakJnQ3FvkJ2+gSTQWz/r2KE5OdDY0TxPm5h4GkqkWWfM47T7HsbnOtcJVEF4epCVy6u7Q3K+g==}
@@ -3042,16 +2992,6 @@ packages:
       nopt: 1.0.10
     dev: true
 
-  /tough-cookie/4.1.2:
-    resolution: {integrity: sha512-G9fqXWoYFZgTc2z8Q5zaHy/vJMjm+WV0AkAeHxVCQiEB1b+dGvWzFW6QV07cY5jQ5gRkeid2qIkzkxUnmoQZUQ==}
-    engines: {node: '>=6'}
-    dependencies:
-      psl: 1.9.0
-      punycode: 2.3.0
-      universalify: 0.2.0
-      url-parse: 1.5.10
-    dev: false
-
   /tr46/0.0.3:
     resolution: {integrity: sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==}
     dev: false
@@ -3186,23 +3126,11 @@ packages:
       busboy: 1.6.0
     dev: false
 
-  /universalify/0.2.0:
-    resolution: {integrity: sha512-CJ1QgKmNg3CwvAv/kOFmtnEN05f0D/cn9QntgNOQlQF9dgvVTHj3t+8JPdjqawCHk7V/KA+fbUqzZ9XWhcqPUg==}
-    engines: {node: '>= 4.0.0'}
-    dev: false
-
   /uri-js/4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
     dependencies:
       punycode: 2.3.0
     dev: true
-
-  /url-parse/1.5.10:
-    resolution: {integrity: sha512-WypcfiRhfeUP9vvF0j6rw0J3hrWrw6iZv3+22h6iRMJ/8z1Tj6XfLP4DsUix5MhMPnXpiHDoKyoZ/bdCkwBCiQ==}
-    dependencies:
-      querystringify: 2.2.0
-      requires-port: 1.0.0
-    dev: false
 
   /util-deprecate/1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}

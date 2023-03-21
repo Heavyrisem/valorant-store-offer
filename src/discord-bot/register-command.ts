@@ -31,8 +31,14 @@ const commands = [
         .setRequired(true),
     ),
   new SlashCommandBuilder()
+    .setName(COMMAND.REFRESH_AUTH)
+    .setDescription('인증 토큰 재발급 시도 # 미완성 기능입니다.'),
+  new SlashCommandBuilder()
     .setName(COMMAND.STOREFRONT)
     .setDescription('현재 상점에서 구매 가능한 아이템들을 가져옵니다.'),
+  new SlashCommandBuilder()
+    .setName(COMMAND.ME)
+    .setDescription('현재 로그인된 계정 정보를 가져옵니다.'),
 ];
 
 export const registerCommands = async (token: string, clientId: string) => {

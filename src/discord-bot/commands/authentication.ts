@@ -1,6 +1,7 @@
 import { ChatInputCommandInteraction, CacheType } from 'discord.js';
 
 import { COMMAND_ARGS } from '@src/discord-bot/resource';
+import { refetchToken } from '@src/valornt-api/auth';
 import { UnAuthorizedException } from '@src/valornt-api/exceptions/UnAuthorizedException';
 import { getPlayerInfo } from '@src/valornt-api/player';
 
@@ -45,6 +46,7 @@ export const handleAuthenticationInteraction = async (
   }
 
   const playerInfo = await getPlayerInfo(axiosInstance);
+  console.log(playerInfo);
   return interaction.user.send(
     `\`${playerInfo.acct.game_name}#${playerInfo.acct.tag_line}\` 로그인 되었습니다.`,
   );
@@ -71,4 +73,16 @@ export const handleMultiFactorAuthInteraction = async (
 
   const playerInfo = await getPlayerInfo(axiosInstance);
   return interaction.reply(`\`${playerInfo.acct.game_name}\` 로그인 되었습니다.`);
+};
+
+export const handleRefreshAuthInteraction = async (
+  interaction: ChatInputCommandInteraction<CacheType>,
+) => {
+  const userId = interaction.user.id;
+
+  const axiosInstance = await ValorantAxiosInstanceMap.refreshAuthForInstance(userId);
+
+  const playerInfo = await getPlayerInfo(axiosInstance);
+  console.log(playerInfo);
+  return interaction.reply(`\`${playerInfo.acct.game_name}\` 인증 토큰 재발급이 완료되었습니다.`);
 };

@@ -2,7 +2,9 @@ export enum COMMAND {
   PING = '핑',
   AUTHENTICATION = '로그인',
   MULTIFACTOR_AUTH = '인증',
+  REFRESH_AUTH = '재인증',
   STOREFRONT = '상점',
+  ME = '계정정보',
 }
 export enum COMMAND_ARGS {
   AUTHENTICATION_ID = '아이디',

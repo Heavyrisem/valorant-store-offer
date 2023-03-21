@@ -1,5 +1,6 @@
 import { AxiosError, AxiosInstance } from 'axios';
 
+import { mergeCookies } from '../util/cookie';
 import { getEntitlementToken } from './entitlement';
 import { setAuthorizationHeader, setEntitleMentHeader } from './set-authorization';
 
@@ -72,14 +73,14 @@ export const login = async (
   if (user) {
     sendData = {
       type: 'auth',
-      remember: false,
+      remember: true,
       language: 'ko_KR',
       ...user,
     };
   } else if (code) {
     sendData = {
       type: 'multifactor',
-      rememberDevice: false,
+      rememberDevice: true,
       code,
     };
   }
@@ -90,7 +91,10 @@ export const login = async (
       url: 'https://auth.riotgames.com/api/v1/authorization',
       data: sendData,
     })
-    .then(({ data }) => data);
+    .then((res) => {
+      axiosInstance.defaults.headers.Cookie = res.headers['set-cookie']?.join('; ') ?? '';
+      return res.data;
+    });
 
   if (response.error) {
     if (response.error === 'auth_failure') throw new Error('로그인 실패');
@@ -143,7 +147,12 @@ export const refetchToken = async (axiosInstance: AxiosInstance) => {
     .catch((err) => {
       if (err instanceof AxiosError) {
         if (err.response?.status !== 303) throw err;
-        console.log('DEBUG:', err.response?.headers);
+        const cookie = err.response.headers['set-cookie']?.join('; ') ?? '';
+        const prevCookie = String(axiosInstance.defaults.headers.Cookie) ?? cookie;
+        // if (cookie) axiosInstance.defaults.headers.Cookie = mergeCookies(cookie, prevCookie);
+        if (cookie) axiosInstance.defaults.headers.Cookie = cookie;
+
+        // console.log('DEBUG:', axiosInstance.defaults.headers.Cookie);
         return parseTokenFromURLString(err.response?.headers?.location);
       }
       throw err;
@@ -154,36 +163,7 @@ export const refetchToken = async (axiosInstance: AxiosInstance) => {
   const { entitlementToken } = await getEntitlementToken(axiosInstance);
   setEntitleMentHeader(axiosInstance, entitlementToken);
 
+  console.log(token);
+
   return { token, entitlementToken };
 };
-
-// export const multifactorLogin = async (axiosInstance: AxiosInstance, code: string) => {
-//   const data = {
-//     type: 'multifactor',
-//     rememberDevice: false,
-//     code,
-//   };
-//   const response = await axiosInstance.put('https://auth.riotgames.com/api/v1/authorization', data);
-//   console.log(response.data, response.headers);
-// };
-
-// export const getLoggedInAxiosInstanceByUserInfo = async (user: UserInfo): Promise<LoginResult> => {
-//   const serializedCookie = await fetchAuthCookie();
-//   const axiosInstance = createAxiosInstance(serializedCookie);
-
-//   return fetchTokens(axiosInstance, user);
-//   // const tmp = await fetchTokens(axiosInstance, user);
-//   // await refetchToken(axiosInstance);
-//   // return tmp;
-// };
-
-// export const getLoggedInAxiosInstanceByCachedData = async (cachedData: AxiosCache) => {
-//   const axiosInstance = createAxiosInstance(
-//     cachedData.cookie,
-//     cachedData.token,
-//     cachedData.entitlementToken,
-//   );
-//   await refetchToken(axiosInstance);
-
-//   return axiosInstance;
-// };
