@@ -5,6 +5,7 @@ import prettyms from 'pretty-print-ms';
 import {
   handleAuthenticationInteraction,
   handleMultiFactorAuthInteraction,
+  handleRefreshAuthInteraction,
 } from './discord-bot/commands/authentication';
 import { handleStoreFrontInteraction } from './discord-bot/commands/store';
 import { registerCommands } from './discord-bot/register-command';
@@ -63,6 +64,9 @@ client.on('interactionCreate', async (interaction): Promise<any> => {
         break;
       case COMMAND.STOREFRONT:
         await handleStoreFrontInteraction(interaction);
+        break;
+      case COMMAND.REFRESH_AUTH:
+        await handleRefreshAuthInteraction(interaction);
         break;
       default:
         await interaction.reply(`\`명령어를 찾을 수 없습니다.\``);

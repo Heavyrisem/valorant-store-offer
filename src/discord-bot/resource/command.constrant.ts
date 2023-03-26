@@ -3,6 +3,8 @@ export enum COMMAND {
   AUTHENTICATION = '로그인',
   MULTIFACTOR_AUTH = '인증',
   STOREFRONT = '상점',
+  REFRESH_AUTH = '재인증',
+  TEST = 'test',
 }
 export enum COMMAND_ARGS {
   AUTHENTICATION_ID = '아이디',

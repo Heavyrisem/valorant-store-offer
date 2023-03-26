@@ -73,7 +73,10 @@ export const createHtmlWithStoreFrontItems = (items: StoreFrontItemInfo[]) => `
             font-size: 16px;
             text-transform: uppercase;
         }
-        .skin-text.skin-title.bg{
+        .skin-text.skin-title.over {
+            z-index: 9999;
+        }
+        .skin-text.skin-title.bg {
             position: absolute;
             padding: 2px;
             font-size: 75px;
@@ -135,7 +138,7 @@ export const createHtmlWithStoreFrontItems = (items: StoreFrontItemInfo[]) => `
         </div>
           <span class="skin-price-text">${item.vp.toLocaleString()} VP</span>
         </div>
-        <div class="skin-text skin-title">${item.itemName.ko}</div>
+        <div class="skin-text skin-title over">${item.itemName.ko}</div>
         <div class="skin-text skin-title bg">${item.itemName.en}</div>
         <img src="https://media.valorant-api.com/weaponskinlevels/${item.itemID.toLowerCase()}/displayicon.png"
             class="skin-image ${item.vp > 3000 ? 'knife' : ''}" />

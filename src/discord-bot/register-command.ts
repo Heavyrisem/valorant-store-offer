@@ -33,6 +33,10 @@ const commands = [
   new SlashCommandBuilder()
     .setName(COMMAND.STOREFRONT)
     .setDescription('현재 상점에서 구매 가능한 아이템들을 가져옵니다.'),
+  new SlashCommandBuilder()
+    .setName(COMMAND.REFRESH_AUTH)
+    .setDescription('인증 정보를 새로고침 합니다'),
+  // new SlashCommandBuilder().setName(COMMAND.TEST).setDescription('테스트'),
 ];
 
 export const registerCommands = async (token: string, clientId: string) => {

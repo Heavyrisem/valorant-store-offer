@@ -1,4 +1,4 @@
-import { AxiosError, AxiosInstance } from 'axios';
+import { AxiosInstance } from 'axios';
 
 import { getEntitlementToken } from './entitlement';
 import { setAuthorizationHeader, setEntitleMentHeader } from './set-authorization';
@@ -134,20 +134,32 @@ export const login = async (
   throw new Error(`로그인 실패, ${response}`);
 };
 
+interface TokenRefreshResponse {
+  type: string;
+  response: {
+    mode: string;
+    parameters: {
+      uri: string;
+    };
+  };
+  country: string;
+}
+
 export const refetchToken = async (axiosInstance: AxiosInstance) => {
   const token = await axiosInstance
-    .get(
-      'https://auth.riotgames.com/authorize?redirect_uri=https%3A%2F%2Fplayvalorant.com%2Fopt_in&client_id=play-valorant-web-prod&response_type=token%20id_token&nonce=1',
+    .post<TokenRefreshResponse>(
+      'https://auth.riotgames.com/api/v1/authorization',
+      {
+        client_id: 'play-valorant-web-prod',
+        nonce: '1',
+        redirect_uri: 'https://playvalorant.com/opt_in',
+        response_type: 'token id_token',
+        scope: 'account openid',
+      },
       { maxRedirects: 0 },
     )
-    .catch((err) => {
-      if (err instanceof AxiosError) {
-        if (err.response?.status !== 303) throw err;
-        console.log('DEBUG:', err.response?.headers);
-        return parseTokenFromURLString(err.response?.headers?.location);
-      }
-      throw err;
-    });
+    .then(({ data }) => parseTokenFromURLString(data.response.parameters.uri));
+
   if (typeof token !== 'string') throw new Error('Unexpected Token Value');
   setAuthorizationHeader(axiosInstance, token);
 
