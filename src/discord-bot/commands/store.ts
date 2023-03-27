@@ -16,7 +16,7 @@ export const handleStoreFrontInteraction = async (
     return interaction.reply(`\`로그인을 먼저 진행해 주세요.\``);
   }
 
-  const axiosInstnace = ValorantAxiosInstanceMap.getInstanceFromCachedData(userId);
+  const axiosInstnace = ValorantAxiosInstanceMap.getInstanceFromCache(userId);
 
   await interaction.reply(`\`상점 정보를 불러오는 중입니다...\``);
 

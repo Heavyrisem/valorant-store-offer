@@ -1,6 +1,7 @@
 import { AxiosInstance } from 'axios';
+import { scheduleJob } from 'node-schedule';
 
-import { fetchAuthCookie, login, UserInfo } from '@src/valornt-api/auth';
+import { fetchAuthCookie, login, refetchToken, UserInfo } from '@src/valornt-api/auth';
 import {
   AxiosCache,
   createAxiosInstance,
@@ -13,6 +14,7 @@ class ValorantAxiosCache {
 
   constructor() {
     this.cacheMap = new Map();
+    scheduleJob('* 0/30 * * * *', this.refreshToken.bind(this));
   }
 
   hasInstnace(key: string): boolean {
@@ -26,7 +28,7 @@ class ValorantAxiosCache {
   //     return getLoggedInAxiosInstanceByCachedData(axiosCache);
   //   }
 
-  getInstanceFromCachedData(key: string) {
+  getInstanceFromCache(key: string) {
     const axiosCache = this.cacheMap.get(key);
     if (!axiosCache) throw new UnAuthorizedException('인증정보가 없습니다.');
 
@@ -45,14 +47,13 @@ class ValorantAxiosCache {
     const axiosInstance = createAxiosInstance(serializedCookie);
 
     const loginResult = await login(axiosInstance, { user });
-    const axiosCache = getCacheFromAxiosInstance(axiosInstance);
-    this.cacheMap.set(key, axiosCache);
+    this.saveInstance(key, axiosInstance);
 
     return loginResult;
   }
 
   async getAuthedInstanceByMultifactorCode(key: string, code: string) {
-    const axiosInstance = await this.getInstanceFromCachedData(key);
+    const axiosInstance = await this.getInstanceFromCache(key);
 
     const loginResult = await login(axiosInstance, { code });
     this.saveInstance(key, axiosInstance);
@@ -63,6 +64,21 @@ class ValorantAxiosCache {
     console.log('Saving Instnace for', key);
     const axiosCache = getCacheFromAxiosInstance(axiosInstance);
     this.cacheMap.set(key, axiosCache);
+  }
+
+  private async refreshToken() {
+    const keys = [...this.cacheMap.keys()];
+
+    keys.forEach(async (key) => {
+      try {
+        const axiosInstance = this.getInstanceFromCache(key);
+        await refetchToken(axiosInstance);
+        console.log('Token refetched', key);
+      } catch (err) {
+        console.log(`Error while refreshing token for ${key}`, err);
+        this.cacheMap.delete(key);
+      }
+    });
   }
 
   //   getAuthedInstance(key: string) {

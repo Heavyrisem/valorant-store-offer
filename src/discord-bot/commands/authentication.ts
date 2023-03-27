@@ -83,7 +83,7 @@ export const handleRefreshAuthInteraction = async (
 ) => {
   const userId = interaction.user.id;
 
-  const axiosInstance = ValorantAxiosInstanceMap.getInstanceFromCachedData(userId);
+  const axiosInstance = ValorantAxiosInstanceMap.getInstanceFromCache(userId);
 
   await refetchToken(axiosInstance);
 
