@@ -73,6 +73,7 @@ class ValorantAxiosCache {
       try {
         const axiosInstance = this.getInstanceFromCache(key);
         await refetchToken(axiosInstance);
+        this.saveInstance(key, axiosInstance);
         console.log('Token refetched', key);
       } catch (err) {
         console.log(`Error while refreshing token for ${key}`, err);
