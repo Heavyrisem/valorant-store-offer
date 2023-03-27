@@ -14,7 +14,7 @@ class ValorantAxiosCache {
 
   constructor() {
     this.cacheMap = new Map();
-    scheduleJob('* 0/30 * * * *', this.refreshToken.bind(this));
+    scheduleJob('0 0/30 * * * *', this.refreshToken.bind(this));
   }
 
   hasInstnace(key: string): boolean {
