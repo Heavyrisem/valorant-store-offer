@@ -15,6 +15,7 @@ RUN unzip NanumFont_TTF_ALL.zip -d /usr/share/fonts/nanumfont
 RUN fc-cache -f -v
 
 RUN npm i -g pnpm
+RUN pnpm --version
 
 COPY ./package.json /app/
 COPY ./pnpm-lock.yaml /app/
