@@ -1,5 +1,5 @@
 {
-  "version": "release-06.05",
+  "version": "release-06.07",
   "characters": [
     {
       "name": "Gekko",
@@ -185,6 +185,11 @@
     }
   ],
   "chromas": [
+    {
+      "name": "Altitude Odin",
+      "id": "092A25A4-422F-F577-37AC-26A5D489C155",
+      "assetName": "Default__HMG_Airplane_Standard_PrimaryAsset_C"
+    },
     {
       "name": "Xenohunter Odin",
       "id": "3CC39F94-443E-E0E1-39BE-21A9C9F3B0AA",
@@ -701,6 +706,11 @@
       "assetName": "Default__AK_Afterglow_Yellow_PrimaryAsset_C"
     },
     {
+      "name": "Altitude Vandal",
+      "id": "97873B03-4586-FE14-5790-DAA15D064DA0",
+      "assetName": "Default__AK_Airplane_Standard_PrimaryAsset_C"
+    },
+    {
       "name": "VALORANT GO! Vol. 2 Vandal",
       "id": "730ADB1B-4E94-F597-9F21-60B758DA1156",
       "assetName": "Default__AK_Anime2_Standard_PrimaryAsset_C"
@@ -969,6 +979,11 @@
       "name": "Avalanche Vandal",
       "id": "3B47B889-493B-B28F-131B-ADAF01E18970",
       "assetName": "Default__AK_Ice_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "Black.Market Vandal",
+      "id": "99D3410A-4921-3AF2-B57D-269EF3C0343C",
+      "assetName": "Default__AK_Infantry2_Standard_PrimaryAsset_C"
     },
     {
       "name": "Prism II Vandal",
@@ -1329,6 +1344,11 @@
       "name": "Horizon Bulldog",
       "id": "383EC3DB-4A96-9CB3-473F-849185937687",
       "assetName": "Default__Burst_Horizon_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "Black.Market Bulldog",
+      "id": "12AE9457-43C9-EC30-C37D-F8A52F4AE3D1",
+      "assetName": "Default__Burst_Infantry2_Standard_PrimaryAsset_C"
     },
     {
       "name": "K/TAC Bulldog",
@@ -2336,6 +2356,11 @@
       "assetName": "Default__AutoShotgun_Walnut_Standard_PrimaryAsset_C"
     },
     {
+      "name": "Altitude Bucky",
+      "id": "6F3DFF5C-4C09-ADDC-6B66-EE87D28247E3",
+      "assetName": "Default__PumpShotgun_Airplane_Standard_PrimaryAsset_C"
+    },
+    {
       "name": "Xenohunter Bucky",
       "id": "D956FFBA-4D51-9F09-BFE4-F8BC171EA164",
       "assetName": "Default__PumpShotgun_Alien_Standard_PrimaryAsset_C"
@@ -3131,6 +3156,11 @@
       "assetName": "Default__BasePistol_Ice_Standard_PrimaryAsset_C"
     },
     {
+      "name": "Black.Market Classic",
+      "id": "BE7B4527-4270-224C-E571-CB9132F84B75",
+      "assetName": "Default__BasePistol_Infantry2_Standard_PrimaryAsset_C"
+    },
+    {
       "name": "Prism III Classic",
       "id": "F2DFD614-4A97-FFAE-CC4A-F6B8F581D90D",
       "assetName": "Default__BasePistol_Iridescence2_Standard_PrimaryAsset_C"
@@ -3649,6 +3679,11 @@
       "name": "Immortalized Sheriff\n(Variant 3 Green)",
       "id": "C890F2DC-4AB6-37D9-8F3E-6E935AF70BE3",
       "assetName": "Default__Revolver_AbstractHeroes_v3_PrimaryAsset_C"
+    },
+    {
+      "name": "Altitude Sheriff",
+      "id": "F4F15EB8-415F-F395-4A83-4FA81F9C93FC",
+      "assetName": "Default__Revolver_Airplane_Standard_PrimaryAsset_C"
     },
     {
       "name": "Aristocrat Sheriff",
@@ -5051,6 +5086,11 @@
       "assetName": "Default__LeverSniper_Ice_Standard_PrimaryAsset_C"
     },
     {
+      "name": "Black.Market Marshal",
+      "id": "E574AFE9-412E-51D0-98DC-429B35912711",
+      "assetName": "Default__LeverSniper_Infantry2_Standard_PrimaryAsset_C"
+    },
+    {
       "name": "Couture Marshal",
       "id": "727BB66D-40E5-49E4-6368-44B95C56E8E0",
       "assetName": "Default__LeverSniper_LIW_Standard_PrimaryAsset_C"
@@ -5961,6 +6001,11 @@
       "assetName": "Default__Melee_Afterglow2_v3_PrimaryAsset_C"
     },
     {
+      "name": "Altitude Knuckle Knife",
+      "id": "BB9427CC-4782-AEAD-861F-4288C5ABFCAC",
+      "assetName": "Default__Melee_Airplane_Standard_PrimaryAsset_C"
+    },
+    {
       "name": "Xenohunter Knife",
       "id": "37714C64-482B-D68D-F704-139156A2577C",
       "assetName": "Default__Melee_Alien_Standard_PrimaryAsset_C"
@@ -6254,6 +6299,11 @@
       "name": "Outpost Melee",
       "id": "2F6DEEDA-45F5-9398-A057-1D968B9E91FD",
       "assetName": "Default__Melee_Industrial_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "Black.Market Butterfly Knife",
+      "id": "F5851647-448E-A209-915F-4597DF528522",
+      "assetName": "Default__Melee_Infantry2_Standard_PrimaryAsset_C"
     },
     {
       "name": "Prism Knife",
@@ -6703,6 +6753,11 @@
   ],
   "skins": [
     {
+      "name": "Altitude Odin",
+      "id": "89BE9866-4807-6235-2A95-499CD23828DF",
+      "assetName": "Default__HMG_Airplane_PrimaryAsset_C"
+    },
+    {
       "name": "Xenohunter Odin",
       "id": "94C085E6-48E1-C879-2552-88BF7850C5A8",
       "assetName": "Default__HMG_Alien_PrimaryAsset_C"
@@ -6958,6 +7013,11 @@
       "assetName": "Default__AK_Afterglow_PrimaryAsset_C"
     },
     {
+      "name": "Altitude Vandal",
+      "id": "C97CD8A3-44EF-8425-5BF6-11BF72128606",
+      "assetName": "Default__AK_Airplane_PrimaryAsset_C"
+    },
+    {
       "name": "VALORANT GO! Vol. 2 Vandal",
       "id": "BA6F2526-4ED2-8E62-49AA-EBBB04290682",
       "assetName": "Default__AK_Anime2_PrimaryAsset_C"
@@ -7081,6 +7141,11 @@
       "name": "Avalanche Vandal",
       "id": "41B55C92-4AEB-9C86-854A-4ABCD48EA0BA",
       "assetName": "Default__AK_Ice_PrimaryAsset_C"
+    },
+    {
+      "name": "Black.Market Vandal",
+      "id": "A810EC6B-46E7-767D-7186-2CBE49E7FE1B",
+      "assetName": "Default__AK_Infantry2_PrimaryAsset_C"
     },
     {
       "name": "Prism II Vandal",
@@ -7266,6 +7331,11 @@
       "name": "Horizon Bulldog",
       "id": "E931DCC8-48D4-F895-48B1-199EC573625B",
       "assetName": "Default__Burst_Horizon_PrimaryAsset_C"
+    },
+    {
+      "name": "Black.Market Bulldog",
+      "id": "1CBBDD73-4B22-4FAA-ACD0-0A9D6EA1963F",
+      "assetName": "Default__Burst_Infantry2_PrimaryAsset_C"
     },
     {
       "name": "K/TAC Bulldog",
@@ -7778,6 +7848,11 @@
       "assetName": "Default__AutoShotgun_Walnut_PrimaryAsset_C"
     },
     {
+      "name": "Altitude Bucky",
+      "id": "613152C2-47CF-BE72-9B45-B6958117B220",
+      "assetName": "Default__PumpShotgun_Airplane_PrimaryAsset_C"
+    },
+    {
       "name": "Xenohunter Bucky",
       "id": "0666931C-4580-EFD0-AF47-AFB9F2F72E55",
       "assetName": "Default__PumpShotgun_Alien_PrimaryAsset_C"
@@ -8168,6 +8243,11 @@
       "assetName": "Default__BasePistol_Ice_PrimaryAsset_C"
     },
     {
+      "name": "Black.Market Classic",
+      "id": "A6B46CEF-4ED2-79E4-D49A-459180CDBD23",
+      "assetName": "Default__BasePistol_Infantry2_PrimaryAsset_C"
+    },
+    {
       "name": "Prism III Classic",
       "id": "62ABF8B2-4511-131D-42C9-81A5EFD1B901",
       "assetName": "Default__BasePistol_Iridescence2_PrimaryAsset_C"
@@ -8441,6 +8521,11 @@
       "name": "Immortalized Sheriff",
       "id": "304E1A7A-411D-2D27-DAD6-C09702B5EA2F",
       "assetName": "Default__Revolver_AbstractHeroes_PrimaryAsset_C"
+    },
+    {
+      "name": "Altitude Sheriff",
+      "id": "1946D021-4C01-2CC7-D29E-4EB9E90279CD",
+      "assetName": "Default__Revolver_Airplane_PrimaryAsset_C"
     },
     {
       "name": "Aristocrat Sheriff",
@@ -9143,6 +9228,11 @@
       "assetName": "Default__LeverSniper_Ice_PrimaryAsset_C"
     },
     {
+      "name": "Black.Market Marshal",
+      "id": "FE297733-4ADA-D817-DD7E-17B9CD1D62D5",
+      "assetName": "Default__LeverSniper_Infantry2_PrimaryAsset_C"
+    },
+    {
       "name": "Couture Marshal",
       "id": "6F48F7FF-40A5-CC9E-1320-BDAA388F5CBF",
       "assetName": "Default__LeverSniper_LIW_PrimaryAsset_C"
@@ -9583,6 +9673,11 @@
       "assetName": "Default__Melee_Afterglow2_PrimaryAsset_C"
     },
     {
+      "name": "Altitude Knuckle Knife",
+      "id": "1BC43715-4679-3F9D-FFC1-D69B373407CC",
+      "assetName": "Default__Melee_Airplane_PrimaryAsset_C"
+    },
+    {
       "name": "Xenohunter Knife",
       "id": "C5482640-4652-6948-29C6-769E8198DB27",
       "assetName": "Default__Melee_Alien_PrimaryAsset_C"
@@ -9756,6 +9851,11 @@
       "name": "Outpost Melee",
       "id": "908BE835-43BC-B728-35A4-0FA91F612CC0",
       "assetName": "Default__Melee_Industrial_PrimaryAsset_C"
+    },
+    {
+      "name": "Black.Market Butterfly Knife",
+      "id": "9B6D0E3D-43EB-E9D5-4069-2194E02D6E6E",
+      "assetName": "Default__Melee_Infantry2_PrimaryAsset_C"
     },
     {
       "name": "Prism Knife",
@@ -9964,6 +10064,11 @@
     }
   ],
   "skinLevels": [
+    {
+      "name": "Altitude Odin",
+      "id": "578E9077-4F88-260C-E54C-B988425C60E4",
+      "assetName": "Default__HMG_Airplane_Lv1_PrimaryAsset_C"
+    },
     {
       "name": "Xenohunter Odin",
       "id": "89BAF0F4-4648-69FC-F0AF-2FBC69B97B80",
@@ -10385,6 +10490,11 @@
       "assetName": "Default__AK_Afterglow_Lv5_PrimaryAsset_C"
     },
     {
+      "name": "Altitude Vandal",
+      "id": "CF87CDDE-4C47-2663-DD74-E7B2F3C95506",
+      "assetName": "Default__AK_Airplane_Lv1_PrimaryAsset_C"
+    },
+    {
       "name": "VALORANT GO! Vol. 2 Vandal",
       "id": "23DE6607-4647-BCCD-8863-3DA2720E4152",
       "assetName": "Default__AK_Anime2_Lv1_PrimaryAsset_C"
@@ -10668,6 +10778,16 @@
       "name": "Avalanche Vandal",
       "id": "FBFC273B-4C12-961A-A4FB-978B43BE81A9",
       "assetName": "Default__AK_Ice_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "Black.Market Vandal",
+      "id": "51B545FA-4B53-65FB-1551-CC8D0554CBEB",
+      "assetName": "Default__AK_Infantry2_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "Black.Market Vandal Level 2 - The skin design changes if you are Attacker or Defender",
+      "id": "65C7DF10-4A5E-7EAA-DC45-D0A46F147B18",
+      "assetName": "Default__AK_Infantry2_Lv2_PrimaryAsset_C"
     },
     {
       "name": "Prism II Vandal",
@@ -10973,6 +11093,16 @@
       "name": "Horizon Bulldog",
       "id": "079F6046-49C3-72E3-BCFA-A5B6D01910DC",
       "assetName": "Default__Burst_Horizon_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "Black.Market Bulldog",
+      "id": "40FD5A8C-4900-93FC-62C2-ABA5C7D208D2",
+      "assetName": "Default__Burst_Infantry2_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "Black.Market Bulldog Level 2 - The skin design changes if you are Attacker or Defender",
+      "id": "0A6F26FC-4FB6-EB60-7E92-32BB0930C073",
+      "assetName": "Default__Burst_Infantry2_Lv2_PrimaryAsset_C"
     },
     {
       "name": "K/TAC Bulldog",
@@ -11825,6 +11955,11 @@
       "assetName": "Default__AutoShotgun_Walnut_Lv1_PrimaryAsset_C"
     },
     {
+      "name": "Altitude Bucky",
+      "id": "BCFB8A8B-47CB-DB6F-51E8-90AAF967E423",
+      "assetName": "Default__PumpShotgun_Airplane_Lv1_PrimaryAsset_C"
+    },
+    {
       "name": "Xenohunter Bucky",
       "id": "01A984B8-4B91-AB61-60B9-1BB9CE54BD04",
       "assetName": "Default__PumpShotgun_Alien_Lv1_PrimaryAsset_C"
@@ -12530,6 +12665,16 @@
       "assetName": "Default__BasePistol_IceLv1_PrimaryAsset_C"
     },
     {
+      "name": "Black.Market Classic",
+      "id": "11DBAAFE-4EF1-BBF3-D9DC-C089B88AD875",
+      "assetName": "Default__BasePistol_Infantry2_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "Black.Market Classic Level 2 - The skin design changes if you are Attacker or Defender",
+      "id": "4F13B0B3-46E7-7399-47F5-63BF95877F19",
+      "assetName": "Default__BasePistol_Infantry2_Lv2_PrimaryAsset_C"
+    },
+    {
       "name": "Prism III Classic",
       "id": "01868AF0-4D5C-6F65-5B77-B6BB5AADAF09",
       "assetName": "Default__BasePistol_Iridescence2_Lv1_PrimaryAsset_C"
@@ -12908,6 +13053,11 @@
       "name": "Immortalized Sheriff",
       "id": "D3F40FB9-40EC-B61F-7479-CEADED7B176A",
       "assetName": "Default__Revolver_AbstractHeroes_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "Altitude Sheriff",
+      "id": "C1A5FCC6-464A-1DA5-8401-6FB62D260613",
+      "assetName": "Default__Revolver_Airplane_Lv1_PrimaryAsset_C"
     },
     {
       "name": "Aristocrat Sheriff",
@@ -14165,6 +14315,16 @@
       "assetName": "Default__LeverSniper_IceLv1_PrimaryAsset_C"
     },
     {
+      "name": "Black.Market Marshal",
+      "id": "38E6F1D6-4F58-F090-1E48-99AACEA8B47C",
+      "assetName": "Default__LeverSniper_Infantry2_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "Black.Market Marshal Level 2 - The skin design changes if you are Attacker or Defender",
+      "id": "4C7B248F-4406-3A8B-D7EA-2FB8AA6F2EB5",
+      "assetName": "Default__LeverSniper_Infantry2_Lv2_PrimaryAsset_C"
+    },
+    {
       "name": "Couture Marshal",
       "id": "115AD37D-4126-20E5-35A5-D691AA97A03C",
       "assetName": "Default__LeverSniper_LIW_Lv1_PrimaryAsset_C"
@@ -14910,6 +15070,11 @@
       "assetName": "Default__Melee_Afterglow2_Lv2_PrimaryAsset_C"
     },
     {
+      "name": "Altitude Knuckle Knife",
+      "id": "2861ED64-4DD9-B0C6-A10D-EE98527924EB",
+      "assetName": "Default__Melee_Airplane_Lv1_PrimaryAsset_C"
+    },
+    {
       "name": "Xenohunter Knife",
       "id": "8E9F610A-41EA-FF48-D102-C7A0E5614C84",
       "assetName": "Default__Melee_Alien_Lv1_PrimaryAsset_C"
@@ -15218,6 +15383,16 @@
       "name": "Outpost Melee",
       "id": "3A1EC58C-4380-0622-7FDE-C1936519FCF2",
       "assetName": "Default__Melee_Industrial_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "Black.Market Butterfly Knife",
+      "id": "49F20FC3-483E-6343-7981-E6B086EEAC57",
+      "assetName": "Default__Melee_Infantry2_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "Black.Market Butterfly Knife Level 2",
+      "id": "F36FEB26-4F7D-2F06-F25F-769B179BD71F",
+      "assetName": "Default__Melee_Infantry2_Lv2_PrimaryAsset_C"
     },
     {
       "name": "Prism Knife",
@@ -15908,6 +16083,11 @@
       "name": "Creature Crew Spray",
       "id": "93A69CA4-4422-1E2F-D7E0-3BAA04B745FD",
       "assetName": "Default__SillyCreatures_PrimaryAsset_C"
+    },
+    {
+      "name": "Here I Am Spray",
+      "id": "32DF08B6-4D6E-D642-B57C-FC915063418B",
+      "assetName": "Default__AprilFools_PrimaryAsset_C"
     },
     {
       "name": "Gaia's Vengeance Spray",
@@ -17937,6 +18117,11 @@
       "assetName": "Default__SillyCreatures_Level1_PrimaryAsset_C"
     },
     {
+      "name": "Here I Am Spray",
+      "id": "068549D6-4C48-6945-1B21-BE8EC749D492",
+      "assetName": "Default__AprilFools_Level1_PrimaryAsset_C"
+    },
+    {
       "name": "Gaia's Vengeance Spray",
       "id": "6CCD421A-4FC6-4BE8-AE1D-799CA0C46D75",
       "assetName": "Default__Ashen_Level1_PrimaryAsset_C"
@@ -19849,6 +20034,11 @@
       "assetName": "Default__GunBuddy_Airhorn_PrimaryAsset_C"
     },
     {
+      "name": "Altitude Buddy",
+      "id": "D68825BF-4C77-BF42-A2C8-FAB1CD6F2D7F",
+      "assetName": "Default__GunBuddy_AirplaneTag_PrimaryAsset_C"
+    },
+    {
       "name": "Anansi Buddy",
       "id": "E99D20EB-472E-59F5-D669-E09CD168820A",
       "assetName": "Default__GunBuddy_Anansi_PrimaryAsset_C"
@@ -21459,6 +21649,11 @@
       "name": "Big Announcement Buddy",
       "id": "EE11A149-4BE0-089B-A4CF-DA8795020C33",
       "assetName": "Default__GunBuddy_Airhorn_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "Altitude Buddy",
+      "id": "FF9B5900-4921-C747-BF40-BF9977FA66AE",
+      "assetName": "Default__GunBuddy_AirplaneTag_Lv1_PrimaryAsset_C"
     },
     {
       "name": "Anansi Buddy",
@@ -24441,6 +24636,11 @@
       "name": "The Calm Card",
       "id": "BCF9CFF4-4163-A536-458D-22B8904876AD",
       "assetName": "Default__Playercard_BreezeBed_PrimaryAsset_C"
+    },
+    {
+      "name": "Caught One Card",
+      "id": "33910CD9-4AC5-A0E1-8E79-3CA6916AF3EF",
+      "assetName": "Default__Playercard_CypherSlowCard_PrimaryAsset_C"
     },
     {
       "name": "ChronoVoid Card",
