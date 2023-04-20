@@ -2,7 +2,7 @@ version: '3'
 
 services:
   valorant_store_bot:
-    build: .
+    image: ghcr.io/heavyrisem/valorant-store-offer:latest
     container_name: valorant_store_bot
     restart: always
     env_file:
