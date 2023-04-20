@@ -35,4 +35,4 @@ jobs:
 
       # buildx 명령어로 amd64, arm64, arm/v6, arm/v7 아키텍처 이미지 빌드 및
       - name: Docker Build
-        run: docker buildx build --platform linux/amd64,linux/arm64 -t heavyrisem/valorant-store-offer:latest --push .
+        run: docker buildx build --platform linux/amd64,linux/arm64 -t ${{ env.DOCKER_IMAGE }}:latest --push .
