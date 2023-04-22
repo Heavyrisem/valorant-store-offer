@@ -2,6 +2,7 @@ import { ChatInputCommandInteraction, CacheType } from 'discord.js';
 
 import { COMMAND_ARGS } from '@src/discord-bot/resource';
 import { refetchToken } from '@src/valornt-api/auth';
+import { SHARD } from '@src/valornt-api/constant/common.constant';
 import { UnAuthorizedException } from '@src/valornt-api/exceptions/UnAuthorizedException';
 import { getPlayerInfo } from '@src/valornt-api/player';
 
@@ -19,8 +20,10 @@ export const handleAuthenticationInteraction = async (
   const userId = interaction.user.id;
   const username = interaction.options.get(COMMAND_ARGS.AUTHENTICATION_ID, true).value;
   const password = interaction.options.get(COMMAND_ARGS.AUTHENTICATION_PW, true).value;
+  const shard =
+    interaction.options.get(COMMAND_ARGS.AUTHENTICATION_SHARD, false)?.value ?? SHARD.KR;
 
-  if (typeof username !== 'string' || typeof password !== 'string')
+  if (typeof username !== 'string' || typeof password !== 'string' || typeof shard !== 'string')
     throw new Error('잘못된 입력값 입니다.');
 
   const { axiosInstance, ...loginResult } =

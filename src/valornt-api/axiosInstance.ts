@@ -2,6 +2,8 @@ import axios, { AxiosInstance } from 'axios';
 import { HttpsCookieAgent } from 'http-cookie-agent/http';
 import { CookieJar } from 'tough-cookie';
 
+import { SHARD } from './constant/common.constant';
+
 export const getCookieFromInstance = (axiosInstance: AxiosInstance) => {
   const key = Object.getOwnPropertySymbols(axiosInstance.defaults.httpsAgent).find(
     (s) => s.description === 'cookieOptions',
@@ -50,6 +52,7 @@ export interface AxiosCache {
   token: string;
   entitlementToken: string;
   cookie: string;
+  shard: SHARD;
 }
 
 export const getCacheFromAxiosInstance = (axiosInstance: AxiosInstance) => {

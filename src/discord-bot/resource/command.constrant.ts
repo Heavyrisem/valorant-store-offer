@@ -10,4 +10,5 @@ export enum COMMAND_ARGS {
   AUTHENTICATION_ID = '아이디',
   AUTHENTICATION_PW = '패스워드',
   AUTHENTICATION_CODE = '인증코드',
+  AUTHENTICATION_SHARD = '지역',
 }

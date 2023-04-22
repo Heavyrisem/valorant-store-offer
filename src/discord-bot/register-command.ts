@@ -1,5 +1,7 @@
 import { REST, Routes, SlashCommandBuilder } from 'discord.js';
 
+import { SHARD } from '@src/valornt-api/constant/common.constant';
+
 import { COMMAND, COMMAND_ARGS } from './resource/command.constrant';
 
 const commands = [
@@ -19,6 +21,18 @@ const commands = [
         .setName(COMMAND_ARGS.AUTHENTICATION_PW)
         .setDescription('라이엇 패스워드')
         .setRequired(true),
+    )
+    .addStringOption((option) =>
+      option
+        .setName(COMMAND_ARGS.AUTHENTICATION_SHARD)
+        .addChoices(
+          ...['KR', 'AP', 'EU', 'NA', 'PBE'].map((shard) => ({
+            name: `${shard}`,
+            value: `${SHARD[shard as keyof typeof SHARD]}`,
+          })),
+        )
+        .setDescription('로그인할 서버 지역')
+        .setRequired(false),
     ),
   new SlashCommandBuilder()
     .setName(COMMAND.MULTIFACTOR_AUTH)
@@ -36,6 +50,7 @@ const commands = [
   new SlashCommandBuilder()
     .setName(COMMAND.REFRESH_AUTH)
     .setDescription('인증 정보를 새로고침 합니다'),
+  // new SlashCommandBuilder(),
   // new SlashCommandBuilder().setName(COMMAND.TEST).setDescription('테스트'),
 ];
 

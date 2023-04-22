@@ -1,2 +1,2 @@
-export * from './item-id.constrant';
+export * from './item-id.constant';
 export * from './valorant-database';

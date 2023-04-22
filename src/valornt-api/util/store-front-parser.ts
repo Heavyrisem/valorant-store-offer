@@ -1,5 +1,5 @@
 import { findOneById } from '../resource';
-import { SKIN_TIER, VALORANT_POINT } from '../resource/item-id.constrant';
+import { SKIN_TIER, VALORANT_POINT } from '../resource/item-id.constant';
 import { StorefrontResponse } from '../store/store-front';
 
 export interface StoreFrontItemInfo {
