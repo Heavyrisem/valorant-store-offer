@@ -1,5 +1,5 @@
 {
-  "version": "release-06.07",
+  "version": "release-06.08",
   "characters": [
     {
       "name": "Gekko",
@@ -479,6 +479,26 @@
       "name": "Prism Ares",
       "id": "8C464EAD-4B0D-1590-9880-57A5B6407D4E",
       "assetName": "Default__LightMachineGun_Iridescence_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "Monstrocity Ares",
+      "id": "1D83FA5F-42BB-54D4-9607-0AB57E0194B1",
+      "assetName": "Default__LMG_LittleNightmare_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "Monstrocity Ares\n(Variant 1 Brown)",
+      "id": "C143F8B5-4F06-4F14-CED5-288793E76725",
+      "assetName": "Default__LMG_LittleNightmare_v1_PrimaryAsset_C"
+    },
+    {
+      "name": "Monstrocity Ares\n(Variant 2 Blue)",
+      "id": "62C75670-4325-E684-0DC8-BA8D2A69C4B7",
+      "assetName": "Default__LMG_LittleNightmare_v2_PrimaryAsset_C"
+    },
+    {
+      "name": "Monstrocity Ares\n(Variant 3 Yellow)",
+      "id": "8E260534-4A27-E97D-28DC-0F8A50256705",
+      "assetName": "Default__LMG_LittleNightmare_v3_PrimaryAsset_C"
     },
     {
       "name": "Nunca Olvidados Ares",
@@ -996,6 +1016,26 @@
       "assetName": "Default__AK_Kingdom2_Standard_PrimaryAsset_C"
     },
     {
+      "name": "Monstrocity Vandal",
+      "id": "A6297A59-41E1-2730-9458-1C8D708A630A",
+      "assetName": "Default__AK_LittleNightmare_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "Monstrocity Vandal\n(Variant 1 Brown)",
+      "id": "9343E948-44C9-A5C4-C25A-98B32A83D4DA",
+      "assetName": "Default__AK_LittleNightmare_v1_PrimaryAsset_C"
+    },
+    {
+      "name": "Monstrocity Vandal\n(Variant 2 Blue)",
+      "id": "5F6BFA3B-4DFB-D24C-2EDF-AEBB69F70D5C",
+      "assetName": "Default__AK_LittleNightmare_v2_PrimaryAsset_C"
+    },
+    {
+      "name": "Monstrocity Vandal\n(Variant 3 Yellow)",
+      "id": "E8CD200C-4BD3-EC6E-D200-659251EAEBD3",
+      "assetName": "Default__AK_LittleNightmare_v3_PrimaryAsset_C"
+    },
+    {
       "name": "Nunca Olvidados Vandal",
       "id": "FE846170-4E07-DE82-0F4D-45ADAC6B166D",
       "assetName": "Default__AK_LosMuertos_Standard_PrimaryAsset_C"
@@ -1216,6 +1256,21 @@
       "assetName": "Default__Burst_Antares_v3_PrimaryAsset_C"
     },
     {
+      "name": "Radiant Entertainment System Bulldog",
+      "id": "09787460-4968-BFE4-8AEA-1FB276A2F628",
+      "assetName": "Default__Burst_Arcade_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "Radiant Entertainment System Bulldog Level 4\n(Variant 1 Dance Fever)",
+      "id": "D771E642-4A9D-865F-3234-ADBE20F7C63B",
+      "assetName": "Default__Burst_Arcade_v1_PrimaryAsset_C"
+    },
+    {
+      "name": "Radiant Entertainment System Bulldog Level 4\n(Variant 2 K.nock O.ut!!)",
+      "id": "A340C055-4156-C90D-36AD-F982F78C7DC3",
+      "assetName": "Default__Burst_Arcade_v2_PrimaryAsset_C"
+    },
+    {
       "name": "Aristocrat Bulldog",
       "id": "D2710367-42B2-CF4E-8B87-2F9D09A41261",
       "assetName": "Default__AssaultRifle_Burst_ArtDeco_Standard_PrimaryAsset_C"
@@ -1349,6 +1404,11 @@
       "name": "Black.Market Bulldog",
       "id": "12AE9457-43C9-EC30-C37D-F8A52F4AE3D1",
       "assetName": "Default__Burst_Infantry2_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "Bound Bulldog",
+      "id": "BE6AD1E2-45B8-C342-EF83-0FA78DB1E02C",
+      "assetName": "Default__Burst_InnerRage_Standard_PrimaryAsset_C"
     },
     {
       "name": "K/TAC Bulldog",
@@ -1546,6 +1606,21 @@
       "assetName": "Default__Carbine_Anime_Standard_PrimaryAsset_C"
     },
     {
+      "name": "Radiant Entertainment System Phantom",
+      "id": "4F04A759-4406-9AB7-18B4-0A9044ECDD60",
+      "assetName": "Default__Carbine_Arcade_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "Radiant Entertainment System Phantom Level 4\n(Variant 1 Dance Fever)",
+      "id": "A9AA0B3B-4F6B-52EB-CE5C-4FAE5EB240AB",
+      "assetName": "Default__Carbine_Arcade_v1_PrimaryAsset_C"
+    },
+    {
+      "name": "Radiant Entertainment System Phantom Level 4\n(Variant 2 K.nock O.ut!!)",
+      "id": "91E9BFBE-4DE0-03D1-D1EA-1D8FCEA4A7AB",
+      "assetName": "Default__Carbine_Arcade_v2_PrimaryAsset_C"
+    },
+    {
       "name": "Spectrum Phantom",
       "id": "E9014A77-4A74-4EA7-999C-44B0D0F84DAA",
       "assetName": "Default__Carbine_Atlas_Standard_PrimaryAsset_C"
@@ -1739,6 +1814,11 @@
       "name": "Avalanche Phantom",
       "id": "F9BDE748-403A-ACD2-E760-33B8EA9C1B80",
       "assetName": "Default__AssaultRifle_ACR_Ice_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "Bound Phantom",
+      "id": "37890535-4EB0-3E8E-6785-03BF5A8C130A",
+      "assetName": "Default__Carbine_InnerRage_Standard_PrimaryAsset_C"
     },
     {
       "name": "Prism Phantom",
@@ -2189,6 +2269,11 @@
       "name": "Outpost Judge",
       "id": "1D01F834-43C6-F2BA-AD12-FEAF075BE7E3",
       "assetName": "Default__AutoShotgun_Industrial_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "Bound Judge",
+      "id": "69BF123C-4DF1-D6C5-BD78-A4A972F730CC",
+      "assetName": "Default__AutoShotgun_InnerRage_Standard_PrimaryAsset_C"
     },
     {
       "name": "Prism III Judge",
@@ -2821,6 +2906,11 @@
       "assetName": "Default__AutoPistol_Military_v3_PrimaryAsset_C"
     },
     {
+      "name": "Moondash Frenzy",
+      "id": "247FF3FB-406F-5FD7-60A5-AF8CF7D3D5DC",
+      "assetName": "Default__AutoPistol_NineTails_Standard_PrimaryAsset_C"
+    },
+    {
       "name": "Ion Frenzy",
       "id": "9F96527A-4A4D-586B-DD25-BFAE0086F468",
       "assetName": "Default__AutoPistol_Oblivion2_Standard_PrimaryAsset_C"
@@ -3161,6 +3251,11 @@
       "assetName": "Default__BasePistol_Infantry2_Standard_PrimaryAsset_C"
     },
     {
+      "name": "Bound Classic",
+      "id": "4BF58E6E-4218-7443-A786-DB99C5B3EDF1",
+      "assetName": "Default__BasePistol_InnerRage_Standard_PrimaryAsset_C"
+    },
+    {
       "name": "Prism III Classic",
       "id": "F2DFD614-4A97-FFAE-CC4A-F6B8F581D90D",
       "assetName": "Default__BasePistol_Iridescence2_Standard_PrimaryAsset_C"
@@ -3329,6 +3424,21 @@
       "name": "VALORANT GO! Vol. 1 Ghost",
       "id": "5E51E03E-4C60-3D76-83C0-6EB3D98405EC",
       "assetName": "Default__Luger_Anime_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "Radiant Entertainment System Ghost",
+      "id": "04C7E366-4563-BE98-E870-66889E4F5DC4",
+      "assetName": "Default__Luger_Arcade_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "Radiant Entertainment System Ghost Level 4\n(Variant 1 Dance Fever)",
+      "id": "2D230B9A-4FA1-4FD7-6685-0EAA122D37F5",
+      "assetName": "Default__Luger_Arcade_v1_PrimaryAsset_C"
+    },
+    {
+      "name": "Radiant Entertainment System Ghost Level 4\n(Variant 2 K.nock O.ut!!)",
+      "id": "B274C07D-45E7-F259-FC0A-EB9CAF72B66A",
+      "assetName": "Default__Luger_Arcade_v2_PrimaryAsset_C"
     },
     {
       "name": "Gaia's Vengeance Ghost",
@@ -3781,6 +3891,26 @@
       "assetName": "Default__Revolver_Kingdom2_Standard_PrimaryAsset_C"
     },
     {
+      "name": "Monstrocity Sheriff",
+      "id": "1C6B960A-4FF4-4404-CD9D-6B88DE3542A5",
+      "assetName": "Default__Revolver_LittleNightmare_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "Monstrocity Sheriff\n(Variant 1 Brown)",
+      "id": "38A3E961-4B73-E296-65F4-B4AE19F5ACBE",
+      "assetName": "Default__Revolver_LittleNightmare_v1_PrimaryAsset_C"
+    },
+    {
+      "name": "Monstrocity Sheriff\n(Variant 2 Blue)",
+      "id": "BF1A33C4-4021-FD5D-9A7B-A892D9A509F9",
+      "assetName": "Default__Revolver_LittleNightmare_v2_PrimaryAsset_C"
+    },
+    {
+      "name": "Monstrocity Sheriff\n(Variant 3 Yellow)",
+      "id": "BA17751F-45AE-C417-FAA6-1C9998D7326F",
+      "assetName": "Default__Revolver_LittleNightmare_v3_PrimaryAsset_C"
+    },
+    {
       "name": "Iridian Thorn Sheriff",
       "id": "7F4259EA-468E-4743-0E28-E1BC05967650",
       "assetName": "Default__Revolver_LostTechnology_Standard_PrimaryAsset_C"
@@ -4229,6 +4359,21 @@
       "name": "Araxys Operator Level 4\n(Variant 3 Silver)",
       "id": "58F56085-4F00-7B1D-AAA0-F49395C1254D",
       "assetName": "Default__BoltSniper_Antares_v3_PrimaryAsset_C"
+    },
+    {
+      "name": "Radiant Entertainment System Operator",
+      "id": "F84ADD77-4DB2-4617-7575-5FBABD619B1A",
+      "assetName": "Default__BoltSniper_Arcade_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "Radiant Entertainment System Operator Level 4\n(Variant 1 Dance Fever)",
+      "id": "FB880B98-4A7C-EDB7-E4F3-B18BAD59AC44",
+      "assetName": "Default__BoltSniper_Arcade_v1_PrimaryAsset_C"
+    },
+    {
+      "name": "Radiant Entertainment System Operator Level 4\n(Variant 2 K.nock O.ut!!)",
+      "id": "E80A6075-4999-8A05-E7FB-F0A4A3D14F6B",
+      "assetName": "Default__BoltSniper_Arcade_v2_PrimaryAsset_C"
     },
     {
       "name": "Endeavour Operator",
@@ -4811,6 +4956,11 @@
       "assetName": "Default__DMR_Murals_Standard_PrimaryAsset_C"
     },
     {
+      "name": "Moondash Guardian",
+      "id": "8C6B9C03-45AA-262F-7039-0E81DCAE1B66",
+      "assetName": "Default__DMR_NineTails_Standard_PrimaryAsset_C"
+    },
+    {
       "name": "Oni Guardian Level 4\r\n(Variant 1 Kumo)",
       "id": "AED44A0E-4834-0EC9-AB68-729F22189BAD",
       "assetName": "Default__DMR_Oni_Black_PrimaryAsset_C"
@@ -5151,6 +5301,11 @@
       "assetName": "Default__LeverSniper_Mythic_Standard_PrimaryAsset_C"
     },
     {
+      "name": "Moondash Marshal",
+      "id": "17C01141-47B3-56BE-E390-259673611CB2",
+      "assetName": "Default__LeverSniper_NineTails_Standard_PrimaryAsset_C"
+    },
+    {
       "name": "POLYfrog Marshal",
       "id": "8502C2A0-439B-89BB-4F04-A09611B01AB9",
       "assetName": "Default__LeverSniper_Polyfrog_Standard_PrimaryAsset_C"
@@ -5464,6 +5619,26 @@
       "name": "Kingdom Spectre",
       "id": "10DA9310-479F-DF03-8229-809A69115FF3",
       "assetName": "Default__MP5_Kingdom_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "Monstrocity Spectre",
+      "id": "E59C9F02-406E-8D41-02E2-F297F1073AD4",
+      "assetName": "Default__MP5_LittleNightmare_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "Monstrocity Spectre\n(Variant 1 Brown)",
+      "id": "80948449-431B-B5DF-CEA8-D7B4C570FBE9",
+      "assetName": "Default__MP5_LittleNightmare_v1_PrimaryAsset_C"
+    },
+    {
+      "name": "Monstrocity Spectre\n(Variant 2 Blue)",
+      "id": "68A81CC9-4F7B-D3D8-0272-9491051748E6",
+      "assetName": "Default__MP5_LittleNightmare_v2_PrimaryAsset_C"
+    },
+    {
+      "name": "Monstrocity Spectre\n(Variant 3 Yellow)",
+      "id": "75D25071-44C5-D2E1-556B-39AB7C8B453A",
+      "assetName": "Default__MP5_LittleNightmare_v3_PrimaryAsset_C"
     },
     {
       "name": "Luxe Spectre",
@@ -5866,6 +6041,11 @@
       "assetName": "Default__Vector_MysticForest_Standard_PrimaryAsset_C"
     },
     {
+      "name": "Moondash Stinger",
+      "id": "CC7570D4-4674-926C-6BDB-F98BE77B82E5",
+      "assetName": "Default__Vector_NineTails_Standard_PrimaryAsset_C"
+    },
+    {
       "name": "Sensation Stinger",
       "id": "97C19875-4B44-BBC5-6578-D79C9D8B10F7",
       "assetName": "Default__Vector_Rainbow_Standard_PrimaryAsset_C"
@@ -6044,6 +6224,21 @@
       "name": "Neptune Anchor",
       "id": "E6D3F9C9-4B20-881D-C990-0B97B49A3FD8",
       "assetName": "Default__Melee_Aquarium_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "Power Fist",
+      "id": "9EDFEC92-43C6-FD03-4456-64B816DB778C",
+      "assetName": "Default__Melee_Arcade_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "Power Fist Level 2\n(Variant 1 Dance Fever)",
+      "id": "7B3948F7-44CD-EF60-747C-D09C2BBB502F",
+      "assetName": "Default__Melee_Arcade_v1_PrimaryAsset_C"
+    },
+    {
+      "name": "Power Fist Level 2\n(Variant 2 K.nock O.ut!!)",
+      "id": "868E42C3-4269-B75C-B249-AFA0DC8DEA15",
+      "assetName": "Default__Melee_Arcade_v2_PrimaryAsset_C"
     },
     {
       "name": "Gaia's Wrath",
@@ -6304,6 +6499,11 @@
       "name": "Black.Market Butterfly Knife",
       "id": "F5851647-448E-A209-915F-4597DF528522",
       "assetName": "Default__Melee_Infantry2_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "Bound ",
+      "id": "BEB877D1-4878-C887-2BFC-63BB9997D7EB",
+      "assetName": "Default__Melee_InnerRage_Standard_PrimaryAsset_C"
     },
     {
       "name": "Prism Knife",
@@ -6933,6 +7133,11 @@
       "assetName": "Default__LMG_Magepunk2_PrimaryAsset_C"
     },
     {
+      "name": "Monstrocity Ares",
+      "id": "FF0A538F-4EE6-A3E7-F7A8-A0B5A76E027B",
+      "assetName": "Default__LMG_LittleNightmare_PrimaryAsset_C"
+    },
+    {
       "name": "Minima Ares",
       "id": "CD8EB70D-443C-D9FD-48CD-98BACE9D5132",
       "assetName": "Default__LMG_Minima_PrimaryAsset_C"
@@ -7168,6 +7373,11 @@
       "assetName": "Default__AK_Luxury_PrimaryAsset_C"
     },
     {
+      "name": "Monstrocity Vandal",
+      "id": "B3A65992-469C-BAB8-736E-49BBDA91C650",
+      "assetName": "Default__AK_LittleNightmare_PrimaryAsset_C"
+    },
+    {
       "name": "Silvanus Vandal",
       "id": "D758ABC0-4D99-62D3-B22B-0DB0E57DE881",
       "assetName": "Default__AK_MysticForest_PrimaryAsset_C"
@@ -7278,6 +7488,11 @@
       "assetName": "Default__Burst_Antares_PrimaryAsset_C"
     },
     {
+      "name": "Radiant Entertainment System Bulldog",
+      "id": "E8BF5459-4789-F9BD-BFD1-C5BCAFEC96A6",
+      "assetName": "Default__Burst_Arcade_PrimaryAsset_C"
+    },
+    {
       "name": "Aristocrat Bulldog",
       "id": "C610DBC8-4A90-3C86-7F9E-BFA910F75BB9",
       "assetName": "Default__AssaultRifle_Burst_ArtDeco_PrimaryAsset_C"
@@ -7346,6 +7561,11 @@
       "name": "Couture Bulldog",
       "id": "199B8536-488A-09E6-8592-FF9CF21B4CEB",
       "assetName": "Default__AssaultRifle_Burst_LIW_PrimaryAsset_C"
+    },
+    {
+      "name": "Bound Bulldog",
+      "id": "0F992024-4C40-2EAD-311A-79BC37E5E61B",
+      "assetName": "Default__Burst_InnerRage_PrimaryAsset_C"
     },
     {
       "name": "Nunca Olvidados Bulldog",
@@ -7446,6 +7666,11 @@
       "name": "VALORANT GO! Vol. 1 Phantom",
       "id": "0ACBABBE-4F4C-F643-284B-F69029ABB54E",
       "assetName": "Default__Carbine_Anime_PrimaryAsset_C"
+    },
+    {
+      "name": "Radiant Entertainment System Phantom",
+      "id": "4EB45D71-4FA4-BE4F-7409-CF92123F1D22",
+      "assetName": "Default__Carbine_Arcade_PrimaryAsset_C"
     },
     {
       "name": "Spectrum Phantom",
@@ -7551,6 +7776,11 @@
       "name": "Serenity Phantom",
       "id": "A903E567-480F-A3F9-ADB8-1DA714A2D63C",
       "assetName": "Default__Carbine_Jade_PrimaryAsset_C"
+    },
+    {
+      "name": "Bound Phantom",
+      "id": "2F1DA068-4779-D711-85AE-90840F0E38FA",
+      "assetName": "Default__Carbine_InnerRage_PrimaryAsset_C"
     },
     {
       "name": "Ruination Phantom",
@@ -7771,6 +8001,11 @@
       "name": "Iridian Thorn Judge",
       "id": "0CBA5A5F-41AB-ED7D-158E-4FB92AB25C47",
       "assetName": "Default__AutoShotgun_LostTechnology_PrimaryAsset_C"
+    },
+    {
+      "name": "Bound Judge",
+      "id": "1C7E4522-49F7-4125-A7CA-1F8C943C804E",
+      "assetName": "Default__AutoShotgun_InnerRage_PrimaryAsset_C"
     },
     {
       "name": "Celestial Judge",
@@ -8093,6 +8328,11 @@
       "assetName": "Default__AutoPistol_Military_PrimaryAsset_C"
     },
     {
+      "name": "Moondash Frenzy",
+      "id": "87643553-437B-D057-8F06-25B5BD723378",
+      "assetName": "Default__AutoPistol_NineTails_PrimaryAsset_C"
+    },
+    {
       "name": "Ion Frenzy",
       "id": "906DCDA9-477A-6D09-F85D-599CCB86E168",
       "assetName": "Default__AutoPistol_Oblivion2_PrimaryAsset_C"
@@ -8268,6 +8508,11 @@
       "assetName": "Default__BasePistol_Lightning_PrimaryAsset_C"
     },
     {
+      "name": "Bound Classic",
+      "id": "94BC4D7A-4B88-4C84-EFEF-969CDF84019E",
+      "assetName": "Default__BasePistol_InnerRage_PrimaryAsset_C"
+    },
+    {
       "name": "Spline Classic",
       "id": "750D4F04-4FEA-391B-FA8B-539815A63164",
       "assetName": "Default__BasePistol_MagicSpline_PrimaryAsset_C"
@@ -8336,6 +8581,11 @@
       "name": "VALORANT GO! Vol. 1 Ghost",
       "id": "3714831B-4B90-BB6B-4185-7FB05BA9B9A2",
       "assetName": "Default__Luger_Anime_PrimaryAsset_C"
+    },
+    {
+      "name": "Radiant Entertainment System Ghost",
+      "id": "9AD4308F-4FFB-03A8-25C3-7A80B60579DE",
+      "assetName": "Default__Luger_Arcade_PrimaryAsset_C"
     },
     {
       "name": "Gaia's Vengeance Ghost",
@@ -8588,6 +8838,11 @@
       "assetName": "Default__Revolver_Magepunk2_PrimaryAsset_C"
     },
     {
+      "name": "Monstrocity Sheriff",
+      "id": "F8DFD0AD-496B-2B31-FFF8-DEA9DE2F04C0",
+      "assetName": "Default__Revolver_LittleNightmare_PrimaryAsset_C"
+    },
+    {
       "name": "Signature Sheriff",
       "id": "CB89C7BB-445E-DFEC-AD4A-B0BA37271329",
       "assetName": "Default__Revolver_MidnightAerosol_PrimaryAsset_C"
@@ -8831,6 +9086,11 @@
       "name": "Araxys Operator",
       "id": "6DB556E4-4255-6C2C-6A80-8A9DFAC96AA9",
       "assetName": "Default__BoltSniper_Antares_PrimaryAsset_C"
+    },
+    {
+      "name": "Radiant Entertainment System Operator",
+      "id": "507330D3-4311-E010-183B-ABA00A0705F1",
+      "assetName": "Default__BoltSniper_Arcade_PrimaryAsset_C"
     },
     {
       "name": "Endeavour Operator",
@@ -9118,6 +9378,11 @@
       "assetName": "Default__DMR_Oni_PrimaryAsset_C"
     },
     {
+      "name": "Moondash Guardian",
+      "id": "B7931D66-4CA3-D67C-C130-6692C55AE26C",
+      "assetName": "Default__DMR_NineTails_PrimaryAsset_C"
+    },
+    {
       "name": "9 Lives Guardian",
       "id": "1A38D03C-4114-6908-37DD-38A85D91CB2D",
       "assetName": "Default__DMR_Pets_PrimaryAsset_C"
@@ -9271,6 +9536,11 @@
       "name": "Divine Swine Marshal",
       "id": "AD83A57D-414C-F714-A97F-99BAD1128B2B",
       "assetName": "Default__LeverSniper_Polypig_PrimaryAsset_C"
+    },
+    {
+      "name": "Moondash Marshal",
+      "id": "43353883-446C-C2BF-5D44-298EB948EE80",
+      "assetName": "Default__LeverSniper_NineTails_PrimaryAsset_C"
     },
     {
       "name": "Artisan Marshal",
@@ -9443,6 +9713,11 @@
       "assetName": "Default__MP5_Magepunk_PrimaryAsset_C"
     },
     {
+      "name": "Monstrocity Spectre",
+      "id": "BDB396B1-49EB-851C-B107-1EA2027CAB26",
+      "assetName": "Default__MP5_LittleNightmare_PrimaryAsset_C"
+    },
+    {
       "name": "Spline Spectre",
       "id": "418EF9FE-4675-6620-3755-C19ACA3FF131",
       "assetName": "Default__MP5_MagicSpline_PrimaryAsset_C"
@@ -9598,6 +9873,11 @@
       "assetName": "Default__Vector_MysticForest_PrimaryAsset_C"
     },
     {
+      "name": "Moondash Stinger",
+      "id": "92F1DD4B-47F5-2088-9370-F89857962BC2",
+      "assetName": "Default__Vector_NineTails_PrimaryAsset_C"
+    },
+    {
       "name": "Sensation Stinger",
       "id": "9D7ED392-4C4C-B1C4-7232-3CBB07B2E133",
       "assetName": "Default__Vector_Rainbow_PrimaryAsset_C"
@@ -9701,6 +9981,11 @@
       "name": "Neptune Anchor",
       "id": "C3F1C9D6-441B-7DEF-1BF2-2C82719A4DE8",
       "assetName": "Default__Melee_Aquarium_PrimaryAsset_C"
+    },
+    {
+      "name": "Power Fist",
+      "id": "F0BA8044-4964-BA1F-7F0F-E68DC2118D42",
+      "assetName": "Default__Melee_Arcade_PrimaryAsset_C"
     },
     {
       "name": "Gaia's Wrath",
@@ -9871,6 +10156,11 @@
       "name": "Broken Blade of the Ruined King",
       "id": "B1E9530D-4618-4F2E-1B75-F1A90C91B19E",
       "assetName": "Default__Melee_King_PrimaryAsset_C"
+    },
+    {
+      "name": "Bound ",
+      "id": "82FBFA4C-4BAC-A6DA-C5ED-00898E83637F",
+      "assetName": "Default__Melee_InnerRage_PrimaryAsset_C"
     },
     {
       "name": "Kingdom Knife",
@@ -10313,6 +10603,11 @@
       "name": "Prism Ares",
       "id": "29BE6D9E-48B2-1229-4F7D-4DA1C20DEDA9",
       "assetName": "Default__LightMachineGun_IridescenceLv1_PrimaryAsset_C"
+    },
+    {
+      "name": "Monstrocity Ares",
+      "id": "DE269CD5-448A-7374-DB37-AD8E54A4D70D",
+      "assetName": "Default__LMG_LittleNightmare_Lv1_PrimaryAsset_C"
     },
     {
       "name": "Nunca Olvidados Ares",
@@ -10800,6 +11095,11 @@
       "assetName": "Default__AK_Kingdom2_Lv1_PrimaryAsset_C"
     },
     {
+      "name": "Monstrocity Vandal",
+      "id": "EAF52D49-4608-45D9-5F18-C8B12614E01F",
+      "assetName": "Default__AK_LittleNightmare_Lv1_PrimaryAsset_C"
+    },
+    {
       "name": "Nunca Olvidados Vandal",
       "id": "A2A15C4E-4102-41BD-102D-378DEC6CEE7F",
       "assetName": "Default__AK_LosMuertos_Lv1_PrimaryAsset_C"
@@ -11010,6 +11310,26 @@
       "assetName": "Default__Burst_Antares_Lv4_PrimaryAsset_C"
     },
     {
+      "name": "Radiant Entertainment System Bulldog",
+      "id": "7DEB8BD7-4FF6-64D2-1F23-2FB7143A5D98",
+      "assetName": "Default__Burst_Arcade_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "Radiant Entertainment System Bulldog Level 2",
+      "id": "7407DEC2-45B9-2218-2E17-D98B192FF08C",
+      "assetName": "Default__Burst_Arcade_Lv2_PrimaryAsset_C"
+    },
+    {
+      "name": "Radiant Entertainment System Bulldog Level 3",
+      "id": "045885E5-436D-506C-21A6-C289D9BAA7C6",
+      "assetName": "Default__Burst_Arcade_Lv3_PrimaryAsset_C"
+    },
+    {
+      "name": "Radiant Entertainment System Bulldog Level 4",
+      "id": "F078DC8F-49C8-9A7B-123D-2A811FE32AEE",
+      "assetName": "Default__Burst_Arcade_Lv4_PrimaryAsset_C"
+    },
+    {
       "name": "Aristocrat Bulldog",
       "id": "3BF9D39F-46B4-BA23-E079-488D799B9416",
       "assetName": "Default__AssaultRifle_Burst_ArtDeco_Lv1_PrimaryAsset_C"
@@ -11103,6 +11423,11 @@
       "name": "Black.Market Bulldog Level 2 - The skin design changes if you are Attacker or Defender",
       "id": "0A6F26FC-4FB6-EB60-7E92-32BB0930C073",
       "assetName": "Default__Burst_Infantry2_Lv2_PrimaryAsset_C"
+    },
+    {
+      "name": "Bound Bulldog",
+      "id": "AE2BAC38-48C3-A8B0-E843-EEA29FAB477B",
+      "assetName": "Default__Burst_InnerRage_Lv1_PrimaryAsset_C"
     },
     {
       "name": "K/TAC Bulldog",
@@ -11283,6 +11608,26 @@
       "name": "VALORANT GO! Vol. 1 Phantom",
       "id": "30423AF3-42F9-D0BA-DEE5-0B93704B39C8",
       "assetName": "Default__Carbine_Anime_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "Radiant Entertainment System Phantom",
+      "id": "28A7FD58-425C-6AA7-40D6-539D5FDAC46C",
+      "assetName": "Default__Carbine_Arcade_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "Radiant Entertainment System Phantom Level 2",
+      "id": "661E08FC-4459-AF2D-2D58-F7960825EE20",
+      "assetName": "Default__Carbine_Arcade_Lv2_PrimaryAsset_C"
+    },
+    {
+      "name": "Radiant Entertainment System Phantom Level 3",
+      "id": "6F0098D9-4809-A69E-334E-19B68FAC39A2",
+      "assetName": "Default__Carbine_Arcade_Lv3_PrimaryAsset_C"
+    },
+    {
+      "name": "Radiant Entertainment System Phantom Level 4",
+      "id": "FC3F7834-495B-30C2-D341-4D8FF3101EE6",
+      "assetName": "Default__Carbine_Arcade_Lv4_PrimaryAsset_C"
     },
     {
       "name": "Spectrum Phantom",
@@ -11488,6 +11833,11 @@
       "name": "Avalanche Phantom",
       "id": "66F68F67-4F5E-8188-8BA8-B183E25E93E7",
       "assetName": "Default__AssaultRifle_ACR_IceLv1_PrimaryAsset_C"
+    },
+    {
+      "name": "Bound Phantom",
+      "id": "EFD31E00-4A50-2B1D-E27F-DFA5BC9687F2",
+      "assetName": "Default__Carbine_InnerRage_Lv1_PrimaryAsset_C"
     },
     {
       "name": "Prism Phantom",
@@ -11848,6 +12198,11 @@
       "name": "Outpost Judge",
       "id": "11E342BA-4F18-B9AB-964E-E48FDF610890",
       "assetName": "Default__AutoShotgun_Industrial_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "Bound Judge",
+      "id": "2D535295-4AD0-BCB1-1AB7-B8B0617A9ABC",
+      "assetName": "Default__AutoShotgun_InnerRage_Lv1_PrimaryAsset_C"
     },
     {
       "name": "Prism III Judge",
@@ -12380,6 +12735,11 @@
       "assetName": "Default__AutoPistol_Military_Lv1_PrimaryAsset_C"
     },
     {
+      "name": "Moondash Frenzy",
+      "id": "205449A6-45B6-E045-FE74-B09E9CC6D713",
+      "assetName": "Default__AutoPistol_NineTails_Lv1_PrimaryAsset_C"
+    },
+    {
       "name": "Ion Frenzy",
       "id": "64FCB53F-465D-318E-5BF9-BFA7C39B1D67",
       "assetName": "Default__AutoPistol_Oblivion2_Lv1_PrimaryAsset_C"
@@ -12675,6 +13035,11 @@
       "assetName": "Default__BasePistol_Infantry2_Lv2_PrimaryAsset_C"
     },
     {
+      "name": "Bound Classic",
+      "id": "60F3166C-4A22-9D8C-519A-F09B5FA1416B",
+      "assetName": "Default__BasePistol_InnerRage_Lv1_PrimaryAsset_C"
+    },
+    {
       "name": "Prism III Classic",
       "id": "01868AF0-4D5C-6F65-5B77-B6BB5AADAF09",
       "assetName": "Default__BasePistol_Iridescence2_Lv1_PrimaryAsset_C"
@@ -12778,6 +13143,26 @@
       "name": "VALORANT GO! Vol. 1 Ghost",
       "id": "2DD042E4-409E-C8ED-EC76-758529E49D99",
       "assetName": "Default__Luger_Anime_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "Radiant Entertainment System Ghost",
+      "id": "B0C41F3B-4FA8-3768-4436-A29FBEF94A68",
+      "assetName": "Default__Luger_Arcade_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "Radiant Entertainment System Ghost Level 2",
+      "id": "77FC5EB2-40C4-0094-131A-5A803799CB9D",
+      "assetName": "Default__Luger_Arcade_Lv2_PrimaryAsset_C"
+    },
+    {
+      "name": "Radiant Entertainment System Ghost Level 3",
+      "id": "939E9432-443D-CC92-F44D-87A926ED0458",
+      "assetName": "Default__Luger_Arcade_Lv3_PrimaryAsset_C"
+    },
+    {
+      "name": "Radiant Entertainment System Ghost Level 4",
+      "id": "6ECB3BB6-4FE1-C337-89E9-34954C6D7A7D",
+      "assetName": "Default__Luger_Arcade_Lv4_PrimaryAsset_C"
     },
     {
       "name": "Gaia's Vengeance Ghost",
@@ -13138,6 +13523,11 @@
       "name": "K/TAC Sheriff",
       "id": "DF35B7DF-4ADD-58FB-418C-0DBEA48B7E82",
       "assetName": "Default__Revolver_Kingdom2_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "Monstrocity Sheriff",
+      "id": "F3D205B2-4975-3688-6613-039648E3A226",
+      "assetName": "Default__Revolver_LittleNightmare_Lv1_PrimaryAsset_C"
     },
     {
       "name": "Iridian Thorn Sheriff",
@@ -13578,6 +13968,26 @@
       "name": "Araxys Operator Level 4",
       "id": "34CCB66A-489F-F120-B9EF-739F4AF36549",
       "assetName": "Default__BoltSniper_Antares_Lv4_PrimaryAsset_C"
+    },
+    {
+      "name": "Radiant Entertainment System Operator",
+      "id": "722A1311-43E1-7C18-CE90-ACAC33E9C2AD",
+      "assetName": "Default__BoltSniper_Arcade_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "Radiant Entertainment System Operator Level 2",
+      "id": "C094F92D-40C2-70CA-DD28-53948CC8CED0",
+      "assetName": "Default__BoltSniper_Arcade_Lv2_PrimaryAsset_C"
+    },
+    {
+      "name": "Radiant Entertainment System Operator Level 3",
+      "id": "AD087B89-446F-7039-A6DF-3F9A36C3C64A",
+      "assetName": "Default__BoltSniper_Arcade_Lv3_PrimaryAsset_C"
+    },
+    {
+      "name": "Radiant Entertainment System Operator Level 4",
+      "id": "25C75539-4EBC-864F-C072-80925DA41892",
+      "assetName": "Default__BoltSniper_Arcade_Lv4_PrimaryAsset_C"
     },
     {
       "name": "Endeavour Operator",
@@ -14120,6 +14530,11 @@
       "assetName": "Default__DMR_Murals_Lv1_PrimaryAsset_C"
     },
     {
+      "name": "Moondash Guardian",
+      "id": "C04A92D3-445A-1D3C-07FB-99BA9637C0BD",
+      "assetName": "Default__DMR_NineTails_Lv1_PrimaryAsset_C"
+    },
+    {
       "name": "Oni Guardian",
       "id": "FEE2C305-40D1-1CCA-08B8-46BCEDA98ECA",
       "assetName": "Default__DMR_Oni_Lv1_PrimaryAsset_C"
@@ -14373,6 +14788,11 @@
       "name": "Crimsonbeast Marshal Level 2 - Every time you kill an enemy, a custom visual effect and sound plays.",
       "id": "55DB84F5-4B04-B9A8-6994-30BFE598286D",
       "assetName": "Default__LeverSniper_Mythic_Lv2_PrimaryAsset_C"
+    },
+    {
+      "name": "Moondash Marshal",
+      "id": "F92D4BEE-43A0-76E0-B07A-E6A064749617",
+      "assetName": "Default__LeverSniper_NineTails_Lv1_PrimaryAsset_C"
     },
     {
       "name": "POLYfrog Marshal",
@@ -14663,6 +15083,11 @@
       "name": "Kingdom Spectre",
       "id": "BD80C562-4C2D-F00A-156E-9190D023098E",
       "assetName": "Default__MP5_Kingdom_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "Monstrocity Spectre",
+      "id": "700E2EA1-474A-C575-1957-88A038E61982",
+      "assetName": "Default__MP5_LittleNightmare_Lv1_PrimaryAsset_C"
     },
     {
       "name": "Luxe Spectre",
@@ -14970,6 +15395,11 @@
       "assetName": "Default__Vector_MysticForest_Lv1_PrimaryAsset_C"
     },
     {
+      "name": "Moondash Stinger",
+      "id": "B50B4766-492D-56B0-0BC3-BEA6EBA2606D",
+      "assetName": "Default__Vector_NineTails_Lv1_PrimaryAsset_C"
+    },
+    {
       "name": "Sensation Stinger",
       "id": "FED9C3F3-40A5-DA67-4AC9-4683CC5A0EBA",
       "assetName": "Default__Vector_Rainbow_Lv1_PrimaryAsset_C"
@@ -15123,6 +15553,16 @@
       "name": "Neptune Anchor Level 2",
       "id": "F7F58211-4A5C-B514-E933-ACB5FB77E6B2",
       "assetName": "Default__Melee_Aquarium_Lv2_PrimaryAsset_C"
+    },
+    {
+      "name": "Power Fist",
+      "id": "F2090053-4392-37BF-18BC-E7A03C1EBD82",
+      "assetName": "Default__Melee_Arcade_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "Power Fist Level 2",
+      "id": "49C09BD8-4DC1-F3F4-1BE4-BE9DB7074D79",
+      "assetName": "Default__Melee_Arcade_Lv2_PrimaryAsset_C"
     },
     {
       "name": "Gaia's Wrath",
@@ -15393,6 +15833,11 @@
       "name": "Black.Market Butterfly Knife Level 2",
       "id": "F36FEB26-4F7D-2F06-F25F-769B179BD71F",
       "assetName": "Default__Melee_Infantry2_Lv2_PrimaryAsset_C"
+    },
+    {
+      "name": "Bound ",
+      "id": "76722E7D-4A64-A76E-98A7-0B9EC7D107E2",
+      "assetName": "Default__Melee_InnerRage_Lv1_PrimaryAsset_C"
     },
     {
       "name": "Prism Knife",
@@ -16088,6 +16533,21 @@
       "name": "Here I Am Spray",
       "id": "32DF08B6-4D6E-D642-B57C-FC915063418B",
       "assetName": "Default__AprilFools_PrimaryAsset_C"
+    },
+    {
+      "name": "Bazooka Badger Spray",
+      "id": "2734619D-4C78-5A1F-4393-BA899FED0651",
+      "assetName": "Default__BazookaBadger_PrimaryAsset_C"
+    },
+    {
+      "name": "Dance Fever Spray",
+      "id": "852A4E5F-4965-27E5-01AC-76896C216801",
+      "assetName": "Default__DanceFever_PrimaryAsset_C"
+    },
+    {
+      "name": "K.nock O.ut!! Spray",
+      "id": "4CF0FAFA-4F29-48C7-7495-47B5AC483514",
+      "assetName": "Default__KnockOut_PrimaryAsset_C"
     },
     {
       "name": "Gaia's Vengeance Spray",
@@ -17305,6 +17765,81 @@
       "assetName": "Default__YTho_PrimaryAsset_C"
     },
     {
+      "name": "Am I Clear? Spray",
+      "id": "D7090A91-4AAC-A474-CB34-3BA22A73E871",
+      "assetName": "Default__AlltheEvidence_PrimaryAsset_C"
+    },
+    {
+      "name": "Peace Out Spray",
+      "id": "E18E2511-4B7B-C2AF-2793-7DB054C8773A",
+      "assetName": "Default__CheckedOut_PrimaryAsset_C"
+    },
+    {
+      "name": "Not Your Healer Spray",
+      "id": "8852951F-4526-B079-CB81-71A31AC3DB2B",
+      "assetName": "Default__HealMe_PrimaryAsset_C"
+    },
+    {
+      "name": "Nothing to See Here Spray",
+      "id": "256A2AEA-4508-DE29-B87E-1C8A40B0647E",
+      "assetName": "Default__IKnowYoureThere_PrimaryAsset_C"
+    },
+    {
+      "name": "Bound Spray",
+      "id": "5B114143-4703-23D3-2DAD-F492BE9C4AAA",
+      "assetName": "Default__InnerRage_PrimaryAsset_C"
+    },
+    {
+      "name": "Already Locked Spray",
+      "id": "4230DED4-468D-D562-DAC7-32AC1238DF93",
+      "assetName": "Default__InstaLock_PrimaryAsset_C"
+    },
+    {
+      "name": "Don't Look Back Spray",
+      "id": "F0110CE4-4455-0E00-0B9C-7C81F4FBE159",
+      "assetName": "Default__KAYOKnifesPhoenix_PrimaryAsset_C"
+    },
+    {
+      "name": "Perfect Disaster Spray",
+      "id": "204AF89D-4CD2-81EE-FC71-1EB870DCF620",
+      "assetName": "Default__KJDisasterGirl_PrimaryAsset_C"
+    },
+    {
+      "name": "Monstrocity Spray",
+      "id": "8E36348F-4C9B-0A2E-EE07-B98901EC32E7",
+      "assetName": "Default__LittleNightmare_PrimaryAsset_C"
+    },
+    {
+      "name": "I'm Melting Spray",
+      "id": "FCC32073-4D5F-5DEC-DFBF-5D855DD5DF44",
+      "assetName": "Default__MeltEmoji_PrimaryAsset_C"
+    },
+    {
+      "name": "Omen Remembers Spray",
+      "id": "38E1D8D8-459C-AF7C-0C20-E7B1EF229CC5",
+      "assetName": "Default__MissingBind_PrimaryAsset_C"
+    },
+    {
+      "name": "Moondash Spray",
+      "id": "DF47482C-465A-79B6-3B97-3BA3421F8114",
+      "assetName": "Default__NineTails_PrimaryAsset_C"
+    },
+    {
+      "name": "Put it on my Card Spray",
+      "id": "EC0A7C44-48F2-3319-8DDA-3EB5DE3A5D07",
+      "assetName": "Default__PutitonmyCard_PrimaryAsset_C"
+    },
+    {
+      "name": "Nice! Spray",
+      "id": "D80C7DE5-4625-7ED6-F2B6-4EB4EC963717",
+      "assetName": "Default__ThumbsUp_PrimaryAsset_C"
+    },
+    {
+      "name": "Whack a Squirrel Spray",
+      "id": "1E53F6F2-4691-F261-04D9-26B6836AAE89",
+      "assetName": "Default__WhackaMole_PrimaryAsset_C"
+    },
+    {
       "name": "Champions 2022 Jett Diff Spray",
       "id": "556008F0-41BB-D752-3747-1AABC73499C8",
       "assetName": "Default__EsportsMode_PrimaryAsset_C"
@@ -17513,6 +18048,11 @@
       "name": "Magepunk, Ep 3 Spray",
       "id": "562A64D8-483C-5853-4E7A-EEA5CA95E3CE",
       "assetName": "Default__MagepunkFairPoster_PrimaryAsset_C"
+    },
+    {
+      "name": "Claw and Order Spray",
+      "id": "A9126263-439C-7BE6-D668-52A6C0C0A36F",
+      "assetName": "Default__8BitTactisloth_PrimaryAsset_C"
     },
     {
       "name": "Champions 2022 Curse Spray",
@@ -18120,6 +18660,21 @@
       "name": "Here I Am Spray",
       "id": "068549D6-4C48-6945-1B21-BE8EC749D492",
       "assetName": "Default__AprilFools_Level1_PrimaryAsset_C"
+    },
+    {
+      "name": "BazookaBadger",
+      "id": "831B9FD4-4B2C-D9E0-8079-53ACF7E9FA0A",
+      "assetName": "Default__BazookaBadger_Level1_PrimaryAsset_C"
+    },
+    {
+      "name": "DanceFever",
+      "id": "5F05DBC8-4220-9C13-7698-309B6C2D6B02",
+      "assetName": "Default__DanceFever_Level1_PrimaryAsset_C"
+    },
+    {
+      "name": "KnockOut",
+      "id": "D93B21CC-4225-BF75-2D18-649507027AB5",
+      "assetName": "Default__KnockOut_Level1_PrimaryAsset_C"
     },
     {
       "name": "Gaia's Vengeance Spray",
@@ -19337,6 +19892,81 @@
       "assetName": "Default__YTho_Level1_PrimaryAsset_C"
     },
     {
+      "name": "Am I Clear? Spray",
+      "id": "FBC62C4C-49D3-E586-638F-B88F1E7CE206",
+      "assetName": "Default__AlltheEvidence_Level1_PrimaryAsset_C"
+    },
+    {
+      "name": "Peace Out Spray",
+      "id": "D8D26295-4742-7DDC-DBB5-208AC81FD452",
+      "assetName": "Default__CheckedOut_Level1_PrimaryAsset_C"
+    },
+    {
+      "name": "Not Your Healer Spray",
+      "id": "764F33C1-4500-7543-10D6-72A9DA702E90",
+      "assetName": "Default__HealMe_Level1_PrimaryAsset_C"
+    },
+    {
+      "name": "Nothing to See Here Spray",
+      "id": "C91C5401-4503-76D5-D781-11827DE4F7CF",
+      "assetName": "Default__IKnowYoureThere_Level1_PrimaryAsset_C"
+    },
+    {
+      "name": "Bound Spray",
+      "id": "285288B6-4911-013B-EA58-04B6B3975F7A",
+      "assetName": "Default__InnerRage_Level1_PrimaryAsset_C"
+    },
+    {
+      "name": "Already Locked Spray",
+      "id": "FB41F35A-4A88-7D7F-8DBF-538D256AEA4E",
+      "assetName": "Default__InstaLock_Level1_PrimaryAsset_C"
+    },
+    {
+      "name": "Don't Look Back Spray",
+      "id": "3EF33B6D-4845-3984-29E2-1AB19813FD7C",
+      "assetName": "Default__KAYOKnifesPhoenix_Level1_PrimaryAsset_C"
+    },
+    {
+      "name": "Perfect Disaster Spray",
+      "id": "B1EDB136-4657-5F1A-655B-919B1D72E875",
+      "assetName": "Default__KJDisasterGirl_Level1_PrimaryAsset_C"
+    },
+    {
+      "name": "Monstrocity Spray",
+      "id": "76146884-4EAD-8626-9D77-BBAB56964B87",
+      "assetName": "Default__LittleNightmare_Level1_PrimaryAsset_C"
+    },
+    {
+      "name": "I'm Melting Spray",
+      "id": "1C6F36CF-4C58-C6A6-5DE6-09938753982E",
+      "assetName": "Default__MeltEmoji_Level1_PrimaryAsset_C"
+    },
+    {
+      "name": "Omen Remembers Spray",
+      "id": "B9E9D2AA-4A09-F78A-D79D-0F8F781335A8",
+      "assetName": "Default__MissingBind_Level1_PrimaryAsset_C"
+    },
+    {
+      "name": "Moondash Spray",
+      "id": "7D9C8BDC-42AB-7C7E-4553-FFB384B03980",
+      "assetName": "Default__NineTails_Level1_PrimaryAsset_C"
+    },
+    {
+      "name": "Put it on my Card Spray",
+      "id": "FF1F7985-4F4C-EE8D-D62F-BCA110C7A5FC",
+      "assetName": "Default__PutitonmyCard_Level1_PrimaryAsset_C"
+    },
+    {
+      "name": "Nice! Spray",
+      "id": "C64B1335-4A7D-DE82-18A2-F1BBEB69CA50",
+      "assetName": "Default__ThumbsUp_Level1_PrimaryAsset_C"
+    },
+    {
+      "name": "Whack a Squirrel Spray",
+      "id": "0922ED7D-41C9-C930-9588-61BB73F727E5",
+      "assetName": "Default__WhackaMole_Level1_PrimaryAsset_C"
+    },
+    {
       "name": "EsportsMode",
       "id": "39EE62F9-4AA1-6331-85D1-FE8C9116C960",
       "assetName": "Default__EsportsMode_Level1_PrimaryAsset_C"
@@ -19545,6 +20175,11 @@
       "name": "MagepunkFairPoster",
       "id": "DDB5C1EE-4D61-E9DD-83A5-62A25A3E2468",
       "assetName": "Default__MagepunkFairPoster_Level1_PrimaryAsset_C"
+    },
+    {
+      "name": "8BitTactisloth",
+      "id": "4FB29A38-4953-FD95-907A-BD8EFD1F02CD",
+      "assetName": "Default__8BitTactisloth_Level1_PrimaryAsset_C"
     },
     {
       "name": "9-3Curse",
@@ -20074,6 +20709,16 @@
       "assetName": "Default__GunBuddy_Backpack_PrimaryAsset_C"
     },
     {
+      "name": "Night Guard Buddy",
+      "id": "BAF4EBF5-4742-3179-4B9D-899A8D49C3FE",
+      "assetName": "Default__GunBuddy_Bat_PrimaryAsset_C"
+    },
+    {
+      "name": "Bazooka Badger Buddy",
+      "id": "63C9BC9A-48DC-D87D-4D8F-A996814A8B30",
+      "assetName": "Default__GunBuddy_BazookaBadger_PrimaryAsset_C"
+    },
+    {
       "name": "Big Brain Buddy",
       "id": "E2E91DBC-494B-BC7A-8979-0D9BA9991AEB",
       "assetName": "Default__GunBuddy_BigBrain_PrimaryAsset_C"
@@ -20097,6 +20742,11 @@
       "name": "BlastX Buddy",
       "id": "853DA947-486D-FEB3-EC2D-8BA25A6B545B",
       "assetName": "Default__GunBuddy_BlastX_PrimaryAsset_C"
+    },
+    {
+      "name": "Blueberry Buddy",
+      "id": "5D3744E9-4C9D-1A45-E79B-6B8004041A30",
+      "assetName": "Default__GunBuddy_Blueberry_PrimaryAsset_C"
     },
     {
       "name": "Boba Buddy",
@@ -20354,6 +21004,11 @@
       "assetName": "Default__GunBuddy_Coin_EP6_A2_PrimaryAsset_C"
     },
     {
+      "name": "Ep 6 // 3 Coin Buddy",
+      "id": "FE575BBD-4EBC-78B4-84B0-7EA97D6F9833",
+      "assetName": "Default__GunBuddy_Coin_EP6_A3_PrimaryAsset_C"
+    },
+    {
       "name": "Follow Me Buddy",
       "id": "BF01E45D-4C06-EE19-F66E-B1B5ACF073C4",
       "assetName": "Default__GunBuddy_Compass_PrimaryAsset_C"
@@ -20447,6 +21102,11 @@
       "name": "Dalgona Coffee Buddy",
       "id": "A1E75DDF-47AB-AE85-E223-90B94563C702",
       "assetName": "Default__GunBuddy_DalgonaCoffee_PrimaryAsset_C"
+    },
+    {
+      "name": "Dance Fever Buddy",
+      "id": "29372ECE-48EE-8B64-D0E7-98AFE80E4244",
+      "assetName": "Default__GunBuddy_DancePad_PrimaryAsset_C"
     },
     {
       "name": "Danger Lizard Buddy",
@@ -20582,6 +21242,11 @@
       "name": "Topotek Buddy",
       "id": "C28A5EA6-48BD-2BEF-D652-CD97C8E1F727",
       "assetName": "Default__GunBuddy_FidgetSpinner_PrimaryAsset_C"
+    },
+    {
+      "name": "K.nock O.ut!! Buddy",
+      "id": "7FBE5087-4AA3-DF44-310F-59A5B3E01814",
+      "assetName": "Default__GunBuddy_FightStick_PrimaryAsset_C"
     },
     {
       "name": "Lunar Firework Buddy",
@@ -20749,6 +21414,11 @@
       "assetName": "Default__GunBuddy_IcyCrate_PrimaryAsset_C"
     },
     {
+      "name": "Bound Buddy",
+      "id": "44E9059A-4098-868C-EB8F-3D89F9D49010",
+      "assetName": "Default__GunBuddy_InnerRage_PrimaryAsset_C"
+    },
+    {
       "name": "Mi Goreng Buddy",
       "id": "35083EC3-427E-D4F3-B7FC-1CA79FCB5703",
       "assetName": "Default__GunBuddy_InstantNoodle_PrimaryAsset_C"
@@ -20914,6 +21584,26 @@
       "assetName": "Default__GunBuddy_Monkey_PrimaryAsset_C"
     },
     {
+      "name": "Monster Cookie Buddy",
+      "id": "3B056085-4578-FC8C-553F-2DB7AAC380FB",
+      "assetName": "Default__GunBuddy_MonsterCookie_PrimaryAsset_C"
+    },
+    {
+      "name": "Hot and Spicy Buddy",
+      "id": "C35111AB-45E2-DF2B-6438-159B81378A04",
+      "assetName": "Default__GunBuddy_MonsterFood_PrimaryAsset_C"
+    },
+    {
+      "name": "Drop the Hammer Buddy",
+      "id": "9FDA7F76-4134-711D-EDB9-E8AD97064F98",
+      "assetName": "Default__GunBuddy_MonsterTruck_PrimaryAsset_C"
+    },
+    {
+      "name": "Epilogue: Drop the Hammer Buddy",
+      "id": "01B8E9E0-4CCB-7603-2BBA-B9BA952B0306",
+      "assetName": "Default__GunBuddy_MonsterTruckGold_PrimaryAsset_C"
+    },
+    {
       "name": "Matryoshka Buddy",
       "id": "3166A9A9-4778-5003-9DCF-8ABFE5341D87",
       "assetName": "Default__GunBuddy_NestingDoll_PrimaryAsset_C"
@@ -20927,6 +21617,11 @@
       "name": "Salmon Nigiri Buddy",
       "id": "EA9729A1-4C95-4A3B-62C8-1684CDC2568E",
       "assetName": "Default__GunBuddy_Nigiri_PrimaryAsset_C"
+    },
+    {
+      "name": "Moondash Buddy",
+      "id": "46103935-4DE3-15D9-2924-D0A05E5C39B7",
+      "assetName": "Default__GunBuddy_NineTails_PrimaryAsset_C"
     },
     {
       "name": "Deadly Precision Buddy",
@@ -20987,6 +21682,11 @@
       "name": "Peace and Love Buddy",
       "id": "A8CEEABC-4DD8-44DF-D90E-8DBBBD36F2A5",
       "assetName": "Default__GunBuddy_Peace_PrimaryAsset_C"
+    },
+    {
+      "name": "Mother of Pearl Buddy",
+      "id": "9DEB35D4-4128-4DF2-8624-DA89B30B1BC3",
+      "assetName": "Default__GunBuddy_Pearl_PrimaryAsset_C"
     },
     {
       "name": "Dan the Penguin Buddy",
@@ -21691,6 +22391,16 @@
       "assetName": "Default__GunBuddy_Backpack_Lv1_PrimaryAsset_C"
     },
     {
+      "name": "Night Guard Buddy",
+      "id": "F3DAA7EC-452D-7374-0BF3-A99DAB2EF071",
+      "assetName": "Default__GunBuddy_Bat_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "Bazooka Badger Buddy",
+      "id": "460DD6E0-4A76-6755-525F-4EBB37FA13BA",
+      "assetName": "Default__GunBuddy_BazookaBadger_Lv1_PrimaryAsset_C"
+    },
+    {
       "name": "Big Brain Buddy",
       "id": "C0268D62-4165-D045-E893-768BDE6E9E29",
       "assetName": "Default__GunBuddy_BigBrain_Lv1_PrimaryAsset_C"
@@ -21714,6 +22424,11 @@
       "name": "BlastX Buddy",
       "id": "DADB46D4-4760-141F-AA50-948F3054006E",
       "assetName": "Default__GunBuddy_BlastX_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "Blueberry Buddy",
+      "id": "772210D9-472D-424F-0F62-C881ED22B9C4",
+      "assetName": "Default__GunBuddy_Blueberry_Lv1_PrimaryAsset_C"
     },
     {
       "name": "Boba Buddy",
@@ -21971,6 +22686,11 @@
       "assetName": "Default__GunBuddy_Coin_EP6_A2_Lv1_PrimaryAsset_C"
     },
     {
+      "name": "Ep 6 // 3 Coin Buddy",
+      "id": "8B843E13-4B7A-71CF-B706-E99233C153A9",
+      "assetName": "Default__GunBuddy_Coin_EP6_A3_Lv1_PrimaryAsset_C"
+    },
+    {
       "name": "Follow Me Buddy",
       "id": "C5F4C423-43DE-9553-456D-FBB809CFB74C",
       "assetName": "Default__GunBuddy_Compass_Lv1_PrimaryAsset_C"
@@ -22064,6 +22784,11 @@
       "name": "Dalgona Coffee Buddy",
       "id": "35608D62-4F08-DC80-7211-CE94EC8B7508",
       "assetName": "Default__GunBuddy_DalgonaCoffee_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "Dance Fever Buddy",
+      "id": "95199F7A-4D45-8793-E320-0491DCF782D8",
+      "assetName": "Default__GunBuddy_DancePad_Lv1_PrimaryAsset_C"
     },
     {
       "name": "Danger Lizard Buddy",
@@ -22199,6 +22924,11 @@
       "name": "Topotek Buddy",
       "id": "A2F5E382-45C9-927D-1B56-329C04BC56C1",
       "assetName": "Default__GunBuddy_FidgetSpinner_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "K.nock O.ut!! Buddy",
+      "id": "7429BB0A-4ACE-A0EE-84F5-51804DB2D2E5",
+      "assetName": "Default__GunBuddy_FightStick_Lv1_PrimaryAsset_C"
     },
     {
       "name": "Lunar Firework Buddy",
@@ -22366,6 +23096,11 @@
       "assetName": "Default__GunBuddy_IcyCrate_Lv1_PrimaryAsset_C"
     },
     {
+      "name": "Bound Buddy",
+      "id": "DAEACB38-4EF2-D597-77E2-3698043BBDF0",
+      "assetName": "Default__GunBuddy_InnerRage_Lv1_PrimaryAsset_C"
+    },
+    {
       "name": "Mi Goreng Buddy",
       "id": "5042A9CD-41A6-FB8C-33AE-ABA44A7187B2",
       "assetName": "Default__GunBuddy_InstantNoodle_Lv1_PrimaryAsset_C"
@@ -22531,6 +23266,26 @@
       "assetName": "Default__GunBuddy_Monkey_Lv1_PrimaryAsset_C"
     },
     {
+      "name": "Monster Cookie Buddy",
+      "id": "57235CA8-47C1-9336-4201-35AE1F782E36",
+      "assetName": "Default__GunBuddy_MonsterCookie_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "Hot and Spicy Buddy",
+      "id": "2ADF46AD-4328-DDB4-A78F-8F8877B8DA8A",
+      "assetName": "Default__GunBuddy_MonsterFood_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "Drop the Hammer Buddy",
+      "id": "B3EB3989-4B44-7BFC-9E5E-6EB1586F4A32",
+      "assetName": "Default__GunBuddy_MonsterTruck_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "Epilogue: Drop the Hammer Buddy",
+      "id": "11C2EAD2-4F00-8ED2-32D1-4CADC9BD13C8",
+      "assetName": "Default__GunBuddy_MonsterTruckGold_Lv1_PrimaryAsset_C"
+    },
+    {
       "name": "Matryoshka Buddy",
       "id": "A40F40E8-4C8A-633A-A786-7BAA060BD970",
       "assetName": "Default__GunBuddy_NestingDoll_Lv1_PrimaryAsset_C"
@@ -22544,6 +23299,11 @@
       "name": "Salmon Nigiri Buddy",
       "id": "32647F2E-4B2F-FBC8-1E0C-80881F44FEAC",
       "assetName": "Default__GunBuddy_Nigiri_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "Moondash Buddy",
+      "id": "86957A8B-42E1-66C0-E4E2-C19112BA9DEE",
+      "assetName": "Default__GunBuddy_NineTails_Lv1_PrimaryAsset_C"
     },
     {
       "name": "Deadly Precision Buddy",
@@ -22604,6 +23364,11 @@
       "name": "Peace and Love Buddy",
       "id": "8333376D-4FA4-88AF-4431-5C8EEAC9B626",
       "assetName": "Default__GunBuddy_Peace_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "Mother of Pearl Buddy",
+      "id": "86916AA0-497A-4543-0ED8-D589B7AAD85C",
+      "assetName": "Default__GunBuddy_Pearl_Lv1_PrimaryAsset_C"
     },
     {
       "name": "Dan the Penguin Buddy",
@@ -24573,6 +25338,71 @@
       "assetName": "Default__Playercard_WeLoveBrunch_PrimaryAsset_C"
     },
     {
+      "name": "Claw Master Card",
+      "id": "B86E4BF8-43B1-D129-53AD-67BB65F36AF0",
+      "assetName": "Default__Playercard_ArcadeClawMachine_PrimaryAsset_C"
+    },
+    {
+      "name": "Epilogue: Claw Master Card",
+      "id": "F28776DE-44A5-973B-C106-C884E3D6F864",
+      "assetName": "Default__Playercard_ArcadeClawMachineGold_PrimaryAsset_C"
+    },
+    {
+      "name": "Caffeine Dreams Card",
+      "id": "59CB1A87-456B-9B1E-ACEF-3CA613286339",
+      "assetName": "Default__Playercard_CasualKJ_PrimaryAsset_C"
+    },
+    {
+      "name": "Death Trap Card",
+      "id": "F9214F21-45AA-F41B-798B-279F6C08B535",
+      "assetName": "Default__Playercard_FiberMaster_PrimaryAsset_C"
+    },
+    {
+      "name": "Bound Card",
+      "id": "771C867F-4C0F-E19B-8A96-8FAA10D7BA72",
+      "assetName": "Default__Playercard_InnerRage_PrimaryAsset_C"
+    },
+    {
+      "name": "Monstrocity Card",
+      "id": "2A8E14DC-485E-E4E1-2843-9A9B05873089",
+      "assetName": "Default__Playercard_LittleNightmare_PrimaryAsset_C"
+    },
+    {
+      "name": "Moondash Card",
+      "id": "A6D48DD0-40EB-E2F0-D862-219DF87A9583",
+      "assetName": "Default__Playercard_NineTails_PrimaryAsset_C"
+    },
+    {
+      "name": "Skyborne Greeting Card",
+      "id": "7D7F15C5-46F5-58EA-B1D5-BBA31C60D5D0",
+      "assetName": "Default__Playercard_SovaSkyeMeet_PrimaryAsset_C"
+    },
+    {
+      "name": "The Edge of Everything Card",
+      "id": "A34E1432-4C97-AC38-808F-859A7F79F5E6",
+      "assetName": "Default__Playercard_TheMonsterWithinAtlas_PrimaryAsset_C"
+    },
+    {
+      "name": "Scylla and Charybdis Card",
+      "id": "47B06F7B-4D29-49EF-30D5-C1A601A7AF5C",
+      "assetName": "Default__Playercard_TheMonsterWithinChamber_PrimaryAsset_C"
+    },
+    {
+      "name": "Radiants Detected Card",
+      "id": "16000B58-4479-402E-58D9-C994823544B1",
+      "assetName": "Default__Playercard_TheMonsterWithinKAYO_PrimaryAsset_C"
+    },
+    {
+      "name": "Best Served Cold Card",
+      "id": "D75FE051-441E-EA69-6D9B-48B175808CE2",
+      "assetName": "Default__Playercard_TheMonsterWithinMaxbot_PrimaryAsset_C"
+    },
+    {
+      "name": "Nothing To Lose Card",
+      "id": "87203E3F-4D77-3F90-CC4F-1A91E3A93504",
+      "assetName": "Default__Playercard_TheMonsterWithinViper_PrimaryAsset_C"
+    },
+    {
       "name": "EP 1 // IGNITION Card",
       "id": "BAB9CAAA-4913-2704-833E-8C89E2128EB9",
       "assetName": "Default__Playercard_EP1KeyArt_PrimaryAsset_C"
@@ -24663,6 +25493,11 @@
       "assetName": "Default__Playercard_GameChangers_PrimaryAsset_C"
     },
     {
+      "name": "Rank Up! // Masters Tokyo 2023 Card",
+      "id": "0C196EA1-48AC-97EB-5362-C884937C016F",
+      "assetName": "Default__Playercard_Masters1_PrimaryAsset_C"
+    },
+    {
       "name": "Champions 2022 Hero Card",
       "id": "C87737F8-44BC-1B71-8424-C18D9CD6336A",
       "assetName": "Default__Playercard_MusicVideoChampions2022_PrimaryAsset_C"
@@ -24676,6 +25511,16 @@
       "name": "Arcane Jinx Card",
       "id": "1EC054A0-4184-8802-57FB-0AB81599BEFD",
       "assetName": "Default__Playercard_PowderLoadout_PrimaryAsset_C"
+    },
+    {
+      "name": "Premier Beta Card",
+      "id": "23A03943-4C16-0DE4-0FE0-B9BCBA24A26A",
+      "assetName": "Default__Playercard_PremierOpenBeta_PrimaryAsset_C"
+    },
+    {
+      "name": "Premier Beta Champion Card",
+      "id": "3F77186A-40A9-7ABC-9AC6-5A988D279DAD",
+      "assetName": "Default__Playercard_PremierOpenBetaGold_PrimaryAsset_C"
     },
     {
       "name": "Duality Card",
@@ -24831,6 +25676,21 @@
       "name": "Araxys Card",
       "id": "DBF1B46F-480F-CFBD-8FA8-22A80F8A589D",
       "assetName": "Default__Playercard_Antares_PrimaryAsset_C"
+    },
+    {
+      "name": "Bazooka Badger Card",
+      "id": "A492F3AB-4961-7539-F946-2C828F464259",
+      "assetName": "Default__Playercard_BazookaBadger_PrimaryAsset_C"
+    },
+    {
+      "name": "Dance Fever Card",
+      "id": "1F4DF484-4E26-6BED-3D00-C9A1B79ED5F8",
+      "assetName": "Default__Playercard_DanceFever_PrimaryAsset_C"
+    },
+    {
+      "name": "K.nock O.ut!! Card",
+      "id": "4A3D6565-42C4-C25E-F846-1097E2A109A8",
+      "assetName": "Default__Playercard_KnockOut_PrimaryAsset_C"
     },
     {
       "name": "Gaia's Vengeance Card",
@@ -25620,6 +26480,21 @@
       "assetName": "Default__PlayerTitle_Slay_PrimaryAsset_C"
     },
     {
+      "name": "Beard Papi Title",
+      "id": "82DE8A03-4EC9-0879-109B-1DA4F2B3B1E6",
+      "assetName": "Default__PlayerTitle_BeardPapi_PrimaryAsset_C"
+    },
+    {
+      "name": "Gizem Title",
+      "id": "A8B8D049-471A-C3FF-3870-61B88E845B78",
+      "assetName": "Default__PlayerTitle_Gizem_PrimaryAsset_C"
+    },
+    {
+      "name": "UWU Title",
+      "id": "129190D4-42FA-4E79-75E3-FFB5679D1DC2",
+      "assetName": "Default__PlayerTitle_UWU_PrimaryAsset_C"
+    },
+    {
       "name": "Day One Title",
       "id": "631F4283-48B1-1855-D646-5E8F80E29821",
       "assetName": "Default__PlayerTitle_Episode1-1_DayOne_PrimaryAsset_C"
@@ -25660,14 +26535,14 @@
       "assetName": "Default__PlayerTitle_Torrential_PrimaryAsset_C"
     },
     {
-      "name": "Ally Title",
-      "id": "F3BF3C15-4E3B-6E58-64A3-8F9995F39370",
-      "assetName": "Default__PlayerTitle_Ally_PrimaryAsset_C"
+      "name": "Premier Beta Champion Title",
+      "id": "C3EA6AC6-4DAD-98D4-99A3-F7813EDBC431",
+      "assetName": "Default__PlayerTitle_PremierOpenBetaChampion_PrimaryAsset_C"
     },
     {
-      "name": "Proud Title",
-      "id": "C70F542B-4880-C65F-485E-EC8FFD055243",
-      "assetName": "Default__PlayerTitle_Proud_PrimaryAsset_C"
+      "name": "Premier Beta Title",
+      "id": "302F332D-4A9A-1F2C-9331-779B338FDCC7",
+      "assetName": "Default__PlayerTitle_PremierOpenBeta_PrimaryAsset_C"
     },
     {
       "name": "Clutch Title",
@@ -25760,9 +26635,24 @@
       "assetName": "Default__PlayerTitle_2023VCTLockIn_PrimaryAsset_C"
     },
     {
+      "name": "Unpredictable Title",
+      "id": "AF85E868-4C20-2E15-7B2E-51B6721ED93E",
+      "assetName": "Default__PlayerTitle_Masters1_PrimaryAsset_C"
+    },
+    {
       "name": "VCT Game Changer Title",
       "id": "D11E42F8-45E9-7D71-720B-8C9C54C3B808",
       "assetName": "Default__PlayerTitle_VCT_GameChanger_PrimaryAsset_C"
+    },
+    {
+      "name": "Ally Title",
+      "id": "F3BF3C15-4E3B-6E58-64A3-8F9995F39370",
+      "assetName": "Default__PlayerTitle_Ally_PrimaryAsset_C"
+    },
+    {
+      "name": "Proud Title",
+      "id": "C70F542B-4880-C65F-485E-EC8FFD055243",
+      "assetName": "Default__PlayerTitle_Proud_PrimaryAsset_C"
     }
   ],
   "acts": [
@@ -25925,14 +26815,14 @@
       "parentId": "3ec8084a-4e45-4d22-d801-f8a63e5a208b",
       "type": "act",
       "name": "ACT 2",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "2de5423b-4aad-02ad-8d9b-c0a931958861",
       "parentId": "3ec8084a-4e45-4d22-d801-f8a63e5a208b",
       "type": "act",
       "name": "ACT 3",
-      "isActive": false
+      "isActive": true
     },
     {
       "id": "3ec8084a-4e45-4d22-d801-f8a63e5a208b",
