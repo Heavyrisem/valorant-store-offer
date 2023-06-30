@@ -1,5 +1,5 @@
 {
-  "version": "release-06.08",
+  "version": "release-07.00",
   "characters": [
     {
       "name": "게코",
@@ -15,6 +15,11 @@
       "name": "브리치",
       "id": "5F8D3A7F-467B-97F3-062C-13ACF203C006",
       "assetName": "Default__Breach_PrimaryAsset_C"
+    },
+    {
+      "name": "데드록",
+      "id": "CC8B64C8-4B25-4FF9-6E7F-37B4DA43D235",
+      "assetName": "Default__Cable_PrimaryAsset_C"
     },
     {
       "name": "레이즈",
@@ -154,6 +159,24 @@
       "assetPath": "/Game/Maps/Foxtrot/Foxtrot"
     },
     {
+      "name": "디스트릭트",
+      "id": "690B3ED2-4DFF-945B-8223-6DA834E30D24",
+      "assetName": "HURM_Alley",
+      "assetPath": "/Game/Maps/HURM/HURM_Alley/HURM_Alley"
+    },
+    {
+      "name": "카즈바",
+      "id": "12452A9D-48C3-0B02-E7EB-0381C3520404",
+      "assetName": "HURM_Bowl",
+      "assetPath": "/Game/Maps/HURM/HURM_Bowl/HURM_Bowl"
+    },
+    {
+      "name": "피아자",
+      "id": "DE28AA9B-4CBE-1003-320E-6CB3EC309557",
+      "assetName": "HURM_Yard",
+      "assetPath": "/Game/Maps/HURM/HURM_Yard/HURM_Yard"
+    },
+    {
       "name": "로터스",
       "id": "2FE4ED3A-450A-948B-6D6B-E89A78E680A9",
       "assetName": "Jam",
@@ -234,6 +257,26 @@
       "name": ".EXE 오딘",
       "id": "C1ED5BF3-4827-3E3A-EBBB-1BA42A226E59",
       "assetName": "Default__HeavyMachineGun_Grid_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 오딘",
+      "id": "E20C028F-4E3E-0DF7-551D-8C9EB51D08E7",
+      "assetName": "Default__HMG_Gunslinger_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 오딘 4레벨\n(변형 1 금색)",
+      "id": "10BE56F0-48EB-9293-3888-84BA8249CF46",
+      "assetName": "Default__HMG_Gunslinger_v1_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 오딘 4레벨\n(변형 2 은색)",
+      "id": "CE250C6A-4873-B305-4872-7392D0D84C1B",
+      "assetName": "Default__HMG_Gunslinger_v2_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 오딘 4레벨\n(변형 3 동색)",
+      "id": "6DE72B14-4680-8A4E-92BC-DD85A0AA67D7",
+      "assetName": "Default__HMG_Gunslinger_v3_PrimaryAsset_C"
     },
     {
       "name": "프라임//2.0 오딘 4레벨\n(변형 1 금색)",
@@ -459,6 +502,26 @@
       "name": "스핏파이어 아레스",
       "id": "F72769F3-4A87-FA60-B4EF-8287A718760D",
       "assetName": "Default__LMG_Fury_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "디지헥스 아레스",
+      "id": "7E2BB264-470B-72BC-942B-3593C797FCAE",
+      "assetName": "Default__LMG_Hex_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "디지헥스 아레스\n(변형 1 빨간색)",
+      "id": "4566F17E-4249-E60B-CAEF-B48DC8168106",
+      "assetName": "Default__LMG_Hex_v1_PrimaryAsset_C"
+    },
+    {
+      "name": "디지헥스 아레스\n(변형 2 녹색)",
+      "id": "F2585317-48CD-E343-FB7F-FF96BB5358E0",
+      "assetName": "Default__LMG_Hex_v2_PrimaryAsset_C"
+    },
+    {
+      "name": "디지헥스 아레스\n(변형 3 금색)",
+      "id": "BF12C267-439C-38CD-1749-FEBC136973B2",
+      "assetName": "Default__LMG_Hex_v3_PrimaryAsset_C"
     },
     {
       "name": "보병대 아레스",
@@ -1056,6 +1119,26 @@
       "assetName": "Default__AK_Luxury_Standard_PrimaryAsset_C"
     },
     {
+      "name": "메이지펑크 밴달",
+      "id": "71C769CE-48D7-FE22-2D4B-A996AFD0A076",
+      "assetName": "Default__AK_Magepunk3_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "메이지펑크 밴달 4레벨\n(변형 1 녹색)",
+      "id": "5C79F324-43D6-99A2-7089-6B9A34D41A6C",
+      "assetName": "Default__AK_Magepunk3_V1_PrimaryAsset_C"
+    },
+    {
+      "name": "메이지펑크 밴달 4레벨\n(변형 2 검은색/빨간색)",
+      "id": "241B0BD7-4573-E632-1CD4-A3AFB216EC28",
+      "assetName": "Default__AK_Magepunk3_V2_PrimaryAsset_C"
+    },
+    {
+      "name": "메이지펑크 밴달 4레벨\n(변형 3 노란색)",
+      "id": "DB0A8A44-4AA1-16FC-5B35-CC9146743C87",
+      "assetName": "Default__AK_Magepunk3_v3_PrimaryAsset_C"
+    },
+    {
       "name": "실바누스 밴달",
       "id": "D5327938-46FB-929C-E117-59888B3516DF",
       "assetName": "Default__AK_MysticForest_Standard_PrimaryAsset_C"
@@ -1199,6 +1282,11 @@
       "name": "밴달",
       "id": "19629AE1-4996-AE98-7742-24A240D41F99",
       "assetName": "Default__AssaultRifle_AK_Standard_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "무제한 밴달",
+      "id": "D774CE6B-4749-AE3B-9111-A2B5E36799AB",
+      "assetName": "Default__AK_Tokyo_Standard_PrimaryAsset_C"
     },
     {
       "name": "심해 밴달",
@@ -1396,6 +1484,26 @@
       "assetName": "Default__Burst_Glitter_v3_PrimaryAsset_C"
     },
     {
+      "name": "디지헥스 불독",
+      "id": "CE2F7E2C-456F-344E-D800-2A86EAE7CDCA",
+      "assetName": "Default__Burst_Hex_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "디지헥스 불독\n(변형 1 빨간색)",
+      "id": "CB3FDE52-4C2D-9097-1BE7-22AFDBF4D181",
+      "assetName": "Default__Burst_Hex_v1_PrimaryAsset_C"
+    },
+    {
+      "name": "디지헥스 불독\n(변형 2 녹색)",
+      "id": "6202AE37-40CF-7B35-0206-CBB9FC02CDA5",
+      "assetName": "Default__Burst_Hex_v2_PrimaryAsset_C"
+    },
+    {
+      "name": "디지헥스 불독\n(변형 3 금색)",
+      "id": "F040A205-4A97-3A24-679B-1FBA01BE3955",
+      "assetName": "Default__Burst_Hex_v3_PrimaryAsset_C"
+    },
+    {
       "name": "호라이즌 불독",
       "id": "383EC3DB-4A96-9CB3-473F-849185937687",
       "assetName": "Default__Burst_Horizon_Standard_PrimaryAsset_C"
@@ -1556,6 +1664,11 @@
       "assetName": "Default__Burst_Synthwave_Standard_PrimaryAsset_C"
     },
     {
+      "name": "무제한 불독",
+      "id": "5B1AFE39-404B-3D9A-2375-09A45096EB60",
+      "assetName": "Default__Burst_Tokyo_Standard_PrimaryAsset_C"
+    },
+    {
       "name": "콘벡스 불독",
       "id": "1789BE1E-42FB-A43A-2F40-EB9B793481B0",
       "assetName": "Default__Burst_Triangles_Standard_PrimaryAsset_C"
@@ -1644,6 +1757,11 @@
       "name": "태양석 팬텀",
       "id": "91CBA992-415A-2AA2-D0F4-4080C360D0B4",
       "assetName": "Default__Carbine_Aztec_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "컴포짓 팬텀",
+      "id": "E840CF19-4D90-E162-8942-36B2F771FF81",
+      "assetName": "Default__Carbine_Ballistic_Standard_PrimaryAsset_C"
     },
     {
       "name": "2022 챔피언스 팬텀",
@@ -1786,6 +1904,26 @@
       "assetName": "Default__Carbine_Flyer_Standard_PrimaryAsset_C"
     },
     {
+      "name": "네오 프런티어 팬텀",
+      "id": "9663EA87-4FF9-2934-0919-1FB72EE59A9B",
+      "assetName": "Default__Carbine_Gunslinger_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 팬텀 4레벨\n(변형 1 금색)",
+      "id": "D57B01A6-40F3-0A06-5007-05AF96377F3B",
+      "assetName": "Default__Carbine_Gunslinger_v1_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 팬텀 4레벨\n(변형 2 은색)",
+      "id": "A768C1DA-497F-0BEE-B325-F89183AB1C5D",
+      "assetName": "Default__Carbine_Gunslinger_v2_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 팬텀 4레벨\n(변형 3 동색)",
+      "id": "072CF7FE-4362-F93F-E844-FD9F4F305EBE",
+      "assetName": "Default__Carbine_Gunslinger_v3_PrimaryAsset_C"
+    },
+    {
       "name": "소울스트라이프 팬텀",
       "id": "BB276FA6-4EED-EA24-EFCA-C3984986CF2D",
       "assetName": "Default__Carbine_Haunted_Standard_PrimaryAsset_C"
@@ -1874,6 +2012,26 @@
       "name": "셀레스티얼 팬텀",
       "id": "F78791CF-4084-55C2-9205-9AA2533284A8",
       "assetName": "Default__Carbine_Lunar_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "메이지펑크 팬텀",
+      "id": "0F3AC4E7-4723-6069-4875-F89C32DB7894",
+      "assetName": "Default__Carbine_Magepunk3_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "메이지펑크 팬텀 4레벨\n(변형 1 녹색)",
+      "id": "648EC235-4708-A36E-C102-C787D489D3FA",
+      "assetName": "Default__Carbine_Magepunk3_v1_PrimaryAsset_C"
+    },
+    {
+      "name": "메이지펑크 팬텀 4레벨\n(변형 2 검은색/빨간색)",
+      "id": "181AB093-46E5-34B2-494F-D0938A29EE22",
+      "assetName": "Default__Carbine_Magepunk3_v2_PrimaryAsset_C"
+    },
+    {
+      "name": "메이지펑크 팬텀 4레벨\n(변형 3 노란색)",
+      "id": "899279BF-46E0-10ED-4E40-E8AEE16977D7",
+      "assetName": "Default__Carbine_Magepunk3_v3_PrimaryAsset_C"
     },
     {
       "name": "스플라인 팬텀\n(변형 3 파란색)",
@@ -2254,6 +2412,26 @@
       "name": ".EXE 저지",
       "id": "066F07A2-42C5-4197-497A-F0A3FDBB4A6B",
       "assetName": "Default__AutomaticShotgun_Grid_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "디지헥스 저지",
+      "id": "2E097C60-45D2-18C0-6061-B1B3092ADB22",
+      "assetName": "Default__AutoShotgun_Hex_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "디지헥스 저지\n(변형 1 빨간색)",
+      "id": "CCC4DF2C-4998-B2C9-BB2A-6082CDF6B414",
+      "assetName": "Default__AutoShotgun_Hex_v1_PrimaryAsset_C"
+    },
+    {
+      "name": "디지헥스 저지\n(변형 2 녹색)",
+      "id": "81318E4B-4DE4-5911-9F4D-1D82E2EFF970",
+      "assetName": "Default__AutoShotgun_Hex_v2_PrimaryAsset_C"
+    },
+    {
+      "name": "디지헥스 저지\n(변형 3 금색)",
+      "id": "74DF9CB4-49F5-1819-7ACE-F3A61EF058DF",
+      "assetName": "Default__AutoShotgun_Hex_v3_PrimaryAsset_C"
     },
     {
       "name": "골드윙 저지",
@@ -2861,6 +3039,11 @@
       "assetName": "Default__AutomaticPistol_HypeBeast2_Standard_PrimaryAsset_C"
     },
     {
+      "name": "블러쉬 프렌지",
+      "id": "C65291CC-4042-0A68-FFE9-D3A3E09581BD",
+      "assetName": "Default__AutoPistol_Liquidpink_Standard_PrimaryAsset_C"
+    },
+    {
       "name": "쿠튀르 프렌지",
       "id": "67DB243D-4393-F827-50AB-69BADCA7B162",
       "assetName": "Default__AutomaticPistol_LIW_Standard_PrimaryAsset_C"
@@ -3044,6 +3227,11 @@
       "name": "블라스트X 프렌지 4레벨\n(변형 3 분홍색)",
       "id": "5C2AD1F3-4A4A-6AE0-69F6-D082C3721162",
       "assetName": "Default__AutoPistol_URF_v3_PrimaryAsset_C"
+    },
+    {
+      "name": "Standard",
+      "id": "6D98B855-4EEA-2602-F26D-C1B594473F98",
+      "assetName": "Default__BasePistol_A23_Standard_PrimaryAsset_C"
     },
     {
       "name": "RGX 11z 프로 클래식",
@@ -3516,6 +3704,26 @@
       "assetName": "Default__Luger_Haunted_Standard_PrimaryAsset_C"
     },
     {
+      "name": "디지헥스 고스트",
+      "id": "B95BE8BD-4318-3D88-9E0D-BFA1DCCA5818",
+      "assetName": "Default__Luger_Hex_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "디지헥스 고스트\n(변형 1 빨간색)",
+      "id": "FDAE9F4C-4955-51C2-693E-F9B58D1B995C",
+      "assetName": "Default__Luger_Hex_v1_PrimaryAsset_C"
+    },
+    {
+      "name": "디지헥스 고스트\n(변형 2 녹색)",
+      "id": "7141E8D8-424C-AA0D-51BB-BAB234F2F44F",
+      "assetName": "Default__Luger_Hex_v2_PrimaryAsset_C"
+    },
+    {
+      "name": "디지헥스 고스트\n(변형 3 금색)",
+      "id": "85524E2B-4A11-3AC3-FDD9-F1B1C716FBBE",
+      "assetName": "Default__Luger_Hex_v3_PrimaryAsset_C"
+    },
+    {
       "name": "보병대 고스트",
       "id": "962AAF76-4EDF-21DD-93F7-B6B3A0D46D28",
       "assetName": "Default__Luger_Historical_Standard_PrimaryAsset_C"
@@ -3726,6 +3934,11 @@
       "assetName": "Default__Luger_Synthwave_Standard_PrimaryAsset_C"
     },
     {
+      "name": "무제한 고스트",
+      "id": "9E1D4DCF-43F9-4F6A-9374-06B9071BE48F",
+      "assetName": "Default__Luger_Tokyo_Standard_PrimaryAsset_C"
+    },
+    {
       "name": "심해 고스트",
       "id": "02CC5691-4A5F-76B2-A73C-7CA6A1F5EFDA",
       "assetName": "Default__Luger_UnderTheSea_Standard_PrimaryAsset_C"
@@ -3801,6 +4014,11 @@
       "assetName": "Default__RevolverPistol_ArtDeco_Standard_PrimaryAsset_C"
     },
     {
+      "name": "컴포짓 셰리프",
+      "id": "24923F62-4DAB-75C9-951E-239B8A2C0A37",
+      "assetName": "Default__Revolver_Ballistic_Standard_PrimaryAsset_C"
+    },
+    {
       "name": "네뷸라 셰리프",
       "id": "27881222-49EA-88B1-C2F6-C5B440ED91C1",
       "assetName": "Default__Revolver_Cosmos_Standard_PrimaryAsset_C"
@@ -3874,6 +4092,26 @@
       "name": ".SYS 셰리프",
       "id": "C4A68945-4C6F-F844-3682-2498BC01E964",
       "assetName": "Default__Revolver_Grid2_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 셰리프",
+      "id": "6C75E3AE-4500-A127-B0AB-349CD9583539",
+      "assetName": "Default__Revolver_Gunslinger_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 셰리프 4레벨\n(변형 1 금색)",
+      "id": "2F59B5FF-4A79-FFD3-92C0-B0864D5294E0",
+      "assetName": "Default__Revolver_Gunslinger_v1_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 셰리프 4레벨\n(변형 2 은색)",
+      "id": "F253157D-46B8-10E4-F879-B49D8843A7C1",
+      "assetName": "Default__Revolver_Gunslinger_v2_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 셰리프 4레벨\n(변형 3 동색)",
+      "id": "70C33C1B-4B2E-8033-D330-96B95783FDFD",
+      "assetName": "Default__Revolver_Gunslinger_v3_PrimaryAsset_C"
     },
     {
       "name": "프로텍터 셰리프",
@@ -4536,6 +4774,11 @@
       "assetName": "Default__BoltSniper_Koi_v1_PrimaryAsset_C"
     },
     {
+      "name": "블러쉬 오퍼레이터",
+      "id": "3DD94127-48C5-BE65-C621-BF8F0D0FEA4B",
+      "assetName": "Default__BoltSniper_Liquidpink_Standard_PrimaryAsset_C"
+    },
+    {
       "name": "이리디언 쏜 오퍼레이터",
       "id": "1FD790CA-42A2-4DD2-EBCE-60A88735B3E3",
       "assetName": "Default__BoltSniper_LostTechnology_Standard_PrimaryAsset_C"
@@ -4926,6 +5169,11 @@
       "assetName": "Default__DMR_King_v3_PrimaryAsset_C"
     },
     {
+      "name": "블러쉬 가디언",
+      "id": "794E1185-4579-003A-B37A-BC84BBFE81D5",
+      "assetName": "Default__DMR_Liquidpink_Standard_PrimaryAsset_C"
+    },
+    {
       "name": "메이지펑크 가디언",
       "id": "6415FC9E-475B-2AF7-CEE4-8586E68384F8",
       "assetName": "Default__DMR_Magepunk2_Standard_PrimaryAsset_C"
@@ -5191,6 +5439,11 @@
       "assetName": "Default__LeverSniper_Ashen_v3_PrimaryAsset_C"
     },
     {
+      "name": "컴포짓 마샬",
+      "id": "9EBD26AF-470E-AB40-AA03-878EB88A694A",
+      "assetName": "Default__LeverSniper_Ballistic_Standard_PrimaryAsset_C"
+    },
+    {
       "name": "룬스톤 마샬",
       "id": "DFB8B619-49C8-745E-E6BA-62A9339DAF86",
       "assetName": "Default__LeverSniper_Codex_Standard_PrimaryAsset_C"
@@ -5224,6 +5477,26 @@
       "name": "몰락 마샬",
       "id": "609F948B-4D2E-99EE-631E-B98A74468877",
       "assetName": "Default__LeverSniper_Gothic_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 마샬",
+      "id": "71D1A8D4-4345-DCAB-E5D1-AC9F78CA7C4F",
+      "assetName": "Default__LeverSniper_Gunslinger_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 마샬 4레벨\n(변형 1 금색)",
+      "id": "3DF43772-4D92-BBFE-F31B-979B1BA901CF",
+      "assetName": "Default__LeverSniper_Gunslinger_v1_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 마샬 4레벨\n(변형 2 은색)",
+      "id": "96F23788-4E55-D038-2C1D-DAAE987310E7",
+      "assetName": "Default__LeverSniper_Gunslinger_v2_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 마샬 4레벨\n(변형 3 동색)",
+      "id": "00BBD75A-4B6E-8A5E-49F5-9D89CE43A4BB",
+      "assetName": "Default__LeverSniper_Gunslinger_v3_PrimaryAsset_C"
     },
     {
       "name": "모나크 마샬",
@@ -5621,6 +5894,11 @@
       "assetName": "Default__MP5_Kingdom_Standard_PrimaryAsset_C"
     },
     {
+      "name": "블러쉬 스펙터",
+      "id": "662BA954-40D4-9E88-49CE-2688B3FA4488",
+      "assetName": "Default__MP5_Liquidpink_Standard_PrimaryAsset_C"
+    },
+    {
       "name": "몬스트로시티 스펙터",
       "id": "E59C9F02-406E-8D41-02E2-F297F1073AD4",
       "assetName": "Default__MP5_LittleNightmare_Standard_PrimaryAsset_C"
@@ -5861,6 +6139,11 @@
       "assetName": "Default__MP5_Tiger_Standard_PrimaryAsset_C"
     },
     {
+      "name": "무제한 스펙터",
+      "id": "CBA0B54E-4A6C-9CB4-66C9-3CA967E88D0C",
+      "assetName": "Default__MP5_Tokyo_Standard_PrimaryAsset_C"
+    },
+    {
       "name": "콘벡스 스펙터",
       "id": "B6A4A45D-4592-8216-21AC-C7BC26E947BA",
       "assetName": "Default__MP5_Triangles_Standard_PrimaryAsset_C"
@@ -5934,6 +6217,11 @@
       "name": "아리스토크랫 스팅어",
       "id": "C78E4616-4499-7926-0F1E-93977020063F",
       "assetName": "Default__Vector_ArtDeco_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "컴포짓 스팅어",
+      "id": "07F8AA65-46BE-54EF-4179-4DAC64870596",
+      "assetName": "Default__Vector_Ballistic_Standard_PrimaryAsset_C"
     },
     {
       "name": "적색경보 스팅어",
@@ -6286,6 +6574,11 @@
       "assetName": "Default__Melee_Aztec_Standard_PrimaryAsset_C"
     },
     {
+      "name": "컴포짓 칼",
+      "id": "66D057A7-4681-BD8B-ECBC-258573E6FD0A",
+      "assetName": "Default__Melee_Ballistic_Standard_PrimaryAsset_C"
+    },
+    {
       "name": "2021 챔피언스 카람빗",
       "id": "62926DFC-4FFB-C65E-DD4B-8B96B6DEEE77",
       "assetName": "Default__Melee_Champions_Standard_PrimaryAsset_C"
@@ -6476,6 +6769,26 @@
       "assetName": "Default__Melee_Grid2_Standard_PrimaryAsset_C"
     },
     {
+      "name": "네오 프런티어 도끼",
+      "id": "2AD9B50A-40F8-82FD-3594-D69ED33F8755",
+      "assetName": "Default__Melee_Gunslinger_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 도끼 2레벨\n(변형 1 금색)",
+      "id": "E25B616F-47EB-19E9-08F3-F6B6EA18B8D6",
+      "assetName": "Default__Melee_Gunslinger_v1_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 도끼 2레벨\n(변형 2 은색)",
+      "id": "A4BBEDDA-4177-6910-4955-A89B5EA7E395",
+      "assetName": "Default__Melee_Gunslinger_v2_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 도끼 2레벨\n(변형 3 동색)",
+      "id": "F4C1851B-4793-9947-06D1-A9A471B81DFB",
+      "assetName": "Default__Melee_Gunslinger_v3_PrimaryAsset_C"
+    },
+    {
       "name": "소울스트라이프 대낫",
       "id": "252C202E-4F8F-C064-8059-0EA0C851CC3C",
       "assetName": "Default__Melee_Haunted_Standard_PrimaryAsset_C"
@@ -6644,6 +6957,26 @@
       "name": "메이지펑크 쇼크 건틀릿 2레벨 (변형 3 주황색)",
       "id": "2B032D73-4916-EA28-8692-84A66F231208",
       "assetName": "Default__Melee_Magepunk2_v3_PrimaryAsset_C"
+    },
+    {
+      "name": "메이지펑크 스파크스위치",
+      "id": "64344670-4E0D-CC45-6F4E-88BA4B17F7A7",
+      "assetName": "Default__Melee_Magepunk3_Standard_PrimaryAsset_C"
+    },
+    {
+      "name": "메이지펑크 스파크스위치 2레벨\n(변형 1 녹색)",
+      "id": "C45DDD12-4787-F8A0-0952-FC8A4A7F6CB2",
+      "assetName": "Default__Melee_Magepunk3_v1_PrimaryAsset_C"
+    },
+    {
+      "name": "메이지펑크 스파크스위치 2레벨\n(변형 2 검은색/빨간색)",
+      "id": "8853576A-4697-B970-3619-AA8AE560B663",
+      "assetName": "Default__Melee_Magepunk3_v2_PrimaryAsset_C"
+    },
+    {
+      "name": "메이지펑크 스파크스위치 2레벨\n(변형 3 노란색)",
+      "id": "AB198343-436D-72B7-1AD7-EB822B5068A4",
+      "assetName": "Default__Melee_Magepunk3_v3_PrimaryAsset_C"
     },
     {
       "name": "스플라인 단검",
@@ -6891,6 +7224,11 @@
       "assetName": "Default__Melee_Tiger_Standard_PrimaryAsset_C"
     },
     {
+      "name": "무제한 방망이",
+      "id": "650191FD-4AC7-691E-F2E1-0D83B8BE4702",
+      "assetName": "Default__Melee_Tokyo_Standard_PrimaryAsset_C"
+    },
+    {
       "name": "원탭 칼",
       "id": "9C8ED548-4AD7-6D82-9D1E-A0A57D7E2267",
       "assetName": "Default__Melee_Unstoppable_Standard_PrimaryAsset_C"
@@ -6986,6 +7324,11 @@
       "name": ".EXE 오딘",
       "id": "CDA41B87-4D3A-C17C-5F6D-8990CC9C5EFB",
       "assetName": "Default__HeavyMachineGun_Grid_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 오딘",
+      "id": "BD647D56-4542-19CD-E1ED-4FB429C78CF9",
+      "assetName": "Default__HMG_Gunslinger_PrimaryAsset_C"
     },
     {
       "name": "프라임//2.0 오딘",
@@ -7098,6 +7441,11 @@
       "assetName": "Default__LMG_Fury_PrimaryAsset_C"
     },
     {
+      "name": "디지헥스 아레스",
+      "id": "B4803277-468A-F798-7120-718963B94D7A",
+      "assetName": "Default__LMG_Hex_PrimaryAsset_C"
+    },
+    {
       "name": "보병대 아레스",
       "id": "E089BE41-4242-B28D-1894-BBBA193957A2",
       "assetName": "Default__LMG_Historical_PrimaryAsset_C"
@@ -7116,6 +7464,11 @@
       "name": "프리즘 아레스",
       "id": "841C9AAB-4005-F7FD-3B67-24B335100FB4",
       "assetName": "Default__LightMachineGun_Iridescence_PrimaryAsset_C"
+    },
+    {
+      "name": "몬스트로시티 아레스",
+      "id": "FF0A538F-4EE6-A3E7-F7A8-A0B5A76E027B",
+      "assetName": "Default__LMG_LittleNightmare_PrimaryAsset_C"
     },
     {
       "name": "눈까 올비다도스 아레스",
@@ -7363,6 +7716,11 @@
       "assetName": "Default__AK_Kingdom2_PrimaryAsset_C"
     },
     {
+      "name": "몬스트로시티 밴달",
+      "id": "B3A65992-469C-BAB8-736E-49BBDA91C650",
+      "assetName": "Default__AK_LittleNightmare_PrimaryAsset_C"
+    },
+    {
       "name": "눈까 올비다도스 밴달",
       "id": "6460E252-48EF-8312-6F4F-2CB5F1B56972",
       "assetName": "Default__AK_LosMuertos_PrimaryAsset_C"
@@ -7373,9 +7731,9 @@
       "assetName": "Default__AK_Luxury_PrimaryAsset_C"
     },
     {
-      "name": "몬스트로시티 밴달",
-      "id": "B3A65992-469C-BAB8-736E-49BBDA91C650",
-      "assetName": "Default__AK_LittleNightmare_PrimaryAsset_C"
+      "name": "메이지펑크 밴달",
+      "id": "148D7F02-4259-9C17-A1A4-6FA220A56551",
+      "assetName": "Default__AK_Magepunk3_PrimaryAsset_C"
     },
     {
       "name": "실바누스 밴달",
@@ -7463,6 +7821,11 @@
       "assetName": "Default__AssaultRifle_AK_Standard_PrimaryAsset_C"
     },
     {
+      "name": "무제한 밴달",
+      "id": "44A98286-4E42-6976-937F-C982C5A31A79",
+      "assetName": "Default__AK_Tokyo_PrimaryAsset_C"
+    },
+    {
       "name": "심해 밴달",
       "id": "F2871246-441C-5F41-3DAC-13947139ADEC",
       "assetName": "Default__AK_UnderTheSea_PrimaryAsset_C"
@@ -7543,6 +7906,11 @@
       "assetName": "Default__Burst_Glitter_PrimaryAsset_C"
     },
     {
+      "name": "디지헥스 불독",
+      "id": "0F2DA2B0-41CC-2162-CB46-ADAD9AE4FDD1",
+      "assetName": "Default__Burst_Hex_PrimaryAsset_C"
+    },
+    {
       "name": "호라이즌 불독",
       "id": "E931DCC8-48D4-F895-48B1-199EC573625B",
       "assetName": "Default__Burst_Horizon_PrimaryAsset_C"
@@ -7551,6 +7919,11 @@
       "name": "암.시장 불독",
       "id": "1CBBDD73-4B22-4FAA-ACD0-0A9D6EA1963F",
       "assetName": "Default__Burst_Infantry2_PrimaryAsset_C"
+    },
+    {
+      "name": "바운드 불독",
+      "id": "0F992024-4C40-2EAD-311A-79BC37E5E61B",
+      "assetName": "Default__Burst_InnerRage_PrimaryAsset_C"
     },
     {
       "name": "K/TAC 불독",
@@ -7633,6 +8006,11 @@
       "assetName": "Default__Burst_Synthwave_PrimaryAsset_C"
     },
     {
+      "name": "무제한 불독",
+      "id": "8C7238C8-4161-A5AC-69F2-129F8A4CE5FA",
+      "assetName": "Default__Burst_Tokyo_PrimaryAsset_C"
+    },
+    {
       "name": "콘벡스 불독",
       "id": "F580899D-49C4-8BF8-9718-C9A6A38DD503",
       "assetName": "Default__Burst_Triangles_PrimaryAsset_C"
@@ -7681,6 +8059,11 @@
       "name": "태양석 팬텀",
       "id": "D556B1C2-46FA-FCA4-0516-5C887FD2352A",
       "assetName": "Default__Carbine_Aztec_PrimaryAsset_C"
+    },
+    {
+      "name": "컴포짓 팬텀",
+      "id": "052A0BA8-48A5-ACD4-F989-87B067140B35",
+      "assetName": "Default__Carbine_Ballistic_PrimaryAsset_C"
     },
     {
       "name": "2022 챔피언스 팬텀",
@@ -7753,6 +8136,11 @@
       "assetName": "Default__Carbine_Flyer_PrimaryAsset_C"
     },
     {
+      "name": "네오 프런티어 팬텀",
+      "id": "52417DC8-48B7-111A-B63B-5DB108B2E63A",
+      "assetName": "Default__Carbine_Gunslinger_PrimaryAsset_C"
+    },
+    {
       "name": "소울스트라이프 팬텀",
       "id": "98C9BC4E-4FB3-206F-3F6B-06A17B53E95B",
       "assetName": "Default__Carbine_Haunted_PrimaryAsset_C"
@@ -7766,6 +8154,11 @@
       "name": "아발란체 팬텀",
       "id": "C38DCED0-454D-D296-522E-6F8643DECD3B",
       "assetName": "Default__AssaultRifle_ACR_Ice_PrimaryAsset_C"
+    },
+    {
+      "name": "바운드 팬텀",
+      "id": "2F1DA068-4779-D711-85AE-90840F0E38FA",
+      "assetName": "Default__Carbine_InnerRage_PrimaryAsset_C"
     },
     {
       "name": "프리즘 팬텀",
@@ -7806,6 +8199,11 @@
       "name": "셀레스티얼 팬텀",
       "id": "8C0CC1E8-4C1B-20A0-122D-16B4334D1B80",
       "assetName": "Default__Carbine_Lunar_PrimaryAsset_C"
+    },
+    {
+      "name": "메이지펑크 팬텀",
+      "id": "F2531D6F-40D8-AD18-4E74-ED812E0A6B1F",
+      "assetName": "Default__Carbine_Magepunk3_PrimaryAsset_C"
     },
     {
       "name": "스플라인 팬텀",
@@ -7963,6 +8361,11 @@
       "assetName": "Default__AutomaticShotgun_Grid_PrimaryAsset_C"
     },
     {
+      "name": "디지헥스 저지",
+      "id": "4FD7995B-492C-7CFD-36F8-A68DDF07F3E5",
+      "assetName": "Default__AutoShotgun_Hex_PrimaryAsset_C"
+    },
+    {
       "name": "골드윙 저지",
       "id": "37735CF0-4C4F-6EFD-6222-8582622D68A0",
       "assetName": "Default__AutoShotgun_Hohloma_PrimaryAsset_C"
@@ -7976,6 +8379,11 @@
       "name": "아웃포스트 저지",
       "id": "400D71B1-4090-6ABF-224E-21938569FE24",
       "assetName": "Default__AutoShotgun_Industrial_PrimaryAsset_C"
+    },
+    {
+      "name": "바운드 저지",
+      "id": "1C7E4522-49F7-4125-A7CA-1F8C943C804E",
+      "assetName": "Default__AutoShotgun_InnerRage_PrimaryAsset_C"
     },
     {
       "name": "프리즘 III 저지",
@@ -8308,6 +8716,11 @@
       "assetName": "Default__AutomaticPistol_HypeBeast2_PrimaryAsset_C"
     },
     {
+      "name": "블러쉬 프렌지",
+      "id": "068CF886-4688-6609-E79F-D4B6AFE1D3CB",
+      "assetName": "Default__AutoPistol_Liquidpink_PrimaryAsset_C"
+    },
+    {
       "name": "쿠튀르 프렌지",
       "id": "08BFB08F-48CC-2699-2F5C-AABEC43DD43A",
       "assetName": "Default__AutomaticPistol_LIW_PrimaryAsset_C"
@@ -8391,6 +8804,11 @@
       "name": "블라스트X 프렌지",
       "id": "79005812-4D5C-CC6D-E2BD-19BC86C29349",
       "assetName": "Default__AutoPistol_URF_PrimaryAsset_C"
+    },
+    {
+      "name": "레졸루션 클래식",
+      "id": "EA9DA25C-422D-D256-A970-CBAEB55542BF",
+      "assetName": "Default__BasePistol_A23_PrimaryAsset_C"
     },
     {
       "name": "RGX 11z 프로 클래식",
@@ -8486,6 +8904,11 @@
       "name": "암.시장 클래식",
       "id": "A6B46CEF-4ED2-79E4-D49A-459180CDBD23",
       "assetName": "Default__BasePistol_Infantry2_PrimaryAsset_C"
+    },
+    {
+      "name": "바운드 클래식",
+      "id": "94BC4D7A-4B88-4C84-EFEF-969CDF84019E",
+      "assetName": "Default__BasePistol_InnerRage_PrimaryAsset_C"
     },
     {
       "name": "프리즘 III 클래식",
@@ -8633,6 +9056,11 @@
       "assetName": "Default__Luger_Haunted_PrimaryAsset_C"
     },
     {
+      "name": "디지헥스 고스트",
+      "id": "A754999A-4ACF-0FCA-A155-3684F176B5FE",
+      "assetName": "Default__Luger_Hex_PrimaryAsset_C"
+    },
+    {
       "name": "보병대 고스트",
       "id": "65CE6A98-4867-B695-279F-819C44EC6F95",
       "assetName": "Default__Luger_Historical_PrimaryAsset_C"
@@ -8738,6 +9166,11 @@
       "assetName": "Default__Luger_Synthwave_PrimaryAsset_C"
     },
     {
+      "name": "무제한 고스트",
+      "id": "3F59B69F-4391-B0EE-705E-329175931502",
+      "assetName": "Default__Luger_Tokyo_PrimaryAsset_C"
+    },
+    {
       "name": "심해 고스트",
       "id": "69ADDB00-4EB5-EEBB-C4C5-2296549CBA6F",
       "assetName": "Default__Luger_UnderTheSea_PrimaryAsset_C"
@@ -8783,6 +9216,11 @@
       "assetName": "Default__RevolverPistol_ArtDeco_PrimaryAsset_C"
     },
     {
+      "name": "컴포짓 셰리프",
+      "id": "DB5DB925-45CC-9A63-3351-6BA36EF1BB9C",
+      "assetName": "Default__Revolver_Ballistic_PrimaryAsset_C"
+    },
+    {
       "name": "네뷸라 셰리프",
       "id": "55EF0FFA-44FE-03AC-DCF0-1982DF0857AA",
       "assetName": "Default__Revolver_Cosmos_PrimaryAsset_C"
@@ -8813,6 +9251,11 @@
       "assetName": "Default__Revolver_Grid2_PrimaryAsset_C"
     },
     {
+      "name": "네오 프런티어 셰리프",
+      "id": "B73F455A-4D77-44E7-FD90-1DB9DB82A8F6",
+      "assetName": "Default__Revolver_Gunslinger_PrimaryAsset_C"
+    },
+    {
       "name": "프로텍터 셰리프",
       "id": "4F1FDE01-4130-0AE7-1320-6FB2F2FB6AB9",
       "assetName": "Default__RevolverPistol_Hunter_PrimaryAsset_C"
@@ -8826,6 +9269,11 @@
       "name": "K/TAC 셰리프",
       "id": "95EB82E2-4859-5564-7B3B-DDBF2FB8088D",
       "assetName": "Default__Revolver_Kingdom2_PrimaryAsset_C"
+    },
+    {
+      "name": "몬스트로시티 셰리프",
+      "id": "F8DFD0AD-496B-2B31-FFF8-DEA9DE2F04C0",
+      "assetName": "Default__Revolver_LittleNightmare_PrimaryAsset_C"
     },
     {
       "name": "이리디언 쏜 셰리프",
@@ -9168,6 +9616,11 @@
       "assetName": "Default__BoltSniper_Koi_PrimaryAsset_C"
     },
     {
+      "name": "블러쉬 오퍼레이터",
+      "id": "201918D4-4C69-A91E-6A4F-6B86B084DF1E",
+      "assetName": "Default__BoltSniper_Liquidpink_PrimaryAsset_C"
+    },
+    {
       "name": "이리디언 쏜 오퍼레이터",
       "id": "CB07878F-484F-50DD-AB6B-5380640B13C5",
       "assetName": "Default__BoltSniper_LostTechnology_PrimaryAsset_C"
@@ -9358,6 +9811,11 @@
       "assetName": "Default__DMR_King_PrimaryAsset_C"
     },
     {
+      "name": "블러쉬 가디언",
+      "id": "F6DD8D93-4DBB-F7B2-D82A-41BFC8F46E31",
+      "assetName": "Default__DMR_Liquidpink_PrimaryAsset_C"
+    },
+    {
       "name": "메이지펑크 가디언",
       "id": "80DBFA46-4A1F-C7A4-2E88-1499308C7B9A",
       "assetName": "Default__DMR_Magepunk2_PrimaryAsset_C"
@@ -9371,6 +9829,11 @@
       "name": "갤러리아 가디언",
       "id": "F097983D-4C5A-C7ED-C325-039C99BB824E",
       "assetName": "Default__DMR_Murals_PrimaryAsset_C"
+    },
+    {
+      "name": "문대시 가디언",
+      "id": "B7931D66-4CA3-D67C-C130-6692C55AE26C",
+      "assetName": "Default__DMR_NineTails_PrimaryAsset_C"
     },
     {
       "name": "도깨비 가디언",
@@ -9458,6 +9921,11 @@
       "assetName": "Default__LeverSniper_Ashen_PrimaryAsset_C"
     },
     {
+      "name": "컴포짓 마샬",
+      "id": "8A5B92E4-4147-0D85-5E2C-D6A179645BEC",
+      "assetName": "Default__LeverSniper_Ballistic_PrimaryAsset_C"
+    },
+    {
       "name": "룬스톤 마샬",
       "id": "DB3BF2D9-449E-CD8A-950E-018CA893D404",
       "assetName": "Default__LeverSniper_Codex_PrimaryAsset_C"
@@ -9481,6 +9949,11 @@
       "name": "몰락 마샬",
       "id": "027A5D7F-4BFC-7C41-A012-24B8C6720FDA",
       "assetName": "Default__LeverSniper_Gothic_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 마샬",
+      "id": "D70D33FF-4A88-BF66-F256-BCB05FA9BD60",
+      "assetName": "Default__LeverSniper_Gunslinger_PrimaryAsset_C"
     },
     {
       "name": "모나크 마샬",
@@ -9526,6 +9999,11 @@
       "name": "크림슨비스트 마샬",
       "id": "AF77E583-41FC-B0C2-3728-058D02502039",
       "assetName": "Default__LeverSniper_Mythic_PrimaryAsset_C"
+    },
+    {
+      "name": "문대시 마샬",
+      "id": "43353883-446C-C2BF-5D44-298EB948EE80",
+      "assetName": "Default__LeverSniper_NineTails_PrimaryAsset_C"
     },
     {
       "name": "폴리프로그 마샬",
@@ -9703,6 +10181,16 @@
       "assetName": "Default__MP5_Kingdom_PrimaryAsset_C"
     },
     {
+      "name": "블러쉬 스펙터",
+      "id": "8BADCE8C-4239-34A5-A23D-6595689DF562",
+      "assetName": "Default__MP5_Liquidpink_PrimaryAsset_C"
+    },
+    {
+      "name": "몬스트로시티 스펙터",
+      "id": "BDB396B1-49EB-851C-B107-1EA2027CAB26",
+      "assetName": "Default__MP5_LittleNightmare_PrimaryAsset_C"
+    },
+    {
       "name": "럭스 스펙터",
       "id": "3EB4D837-4AE9-B52A-B41D-2789F9974F15",
       "assetName": "Default__MP5_Luxury_PrimaryAsset_C"
@@ -9793,6 +10281,11 @@
       "assetName": "Default__MP5_Tiger_PrimaryAsset_C"
     },
     {
+      "name": "무제한 스펙터",
+      "id": "DDBEAD4D-40B1-AFE4-E44F-ECA9E2022458",
+      "assetName": "Default__MP5_Tokyo_PrimaryAsset_C"
+    },
+    {
       "name": "콘벡스 스펙터",
       "id": "C8A5BA23-4F0D-C7DE-8E2F-C184E2FC27BA",
       "assetName": "Default__MP5_Triangles_PrimaryAsset_C"
@@ -9821,6 +10314,11 @@
       "name": "아리스토크랫 스팅어",
       "id": "42DA0F19-4017-5CB8-08A4-368315561FDF",
       "assetName": "Default__Vector_ArtDeco_PrimaryAsset_C"
+    },
+    {
+      "name": "컴포짓 스팅어",
+      "id": "CEBD9A89-4EF1-48FA-6C4E-6BBC1CDD1BE8",
+      "assetName": "Default__Vector_Ballistic_PrimaryAsset_C"
     },
     {
       "name": "적색경보 스팅어",
@@ -10003,6 +10501,11 @@
       "assetName": "Default__Melee_Aztec_PrimaryAsset_C"
     },
     {
+      "name": "컴포짓 칼",
+      "id": "093E3C69-4E14-6F75-1EE4-FC92EFB91F9A",
+      "assetName": "Default__Melee_Ballistic_PrimaryAsset_C"
+    },
+    {
       "name": "2021 챔피언스 카람빗",
       "id": "1EA64C8D-43C4-FCE8-7354-01BDD6C0EE17",
       "assetName": "Default__Melee_Champions_PrimaryAsset_C"
@@ -10118,6 +10621,11 @@
       "assetName": "Default__Melee_Grid2_PrimaryAsset_C"
     },
     {
+      "name": "네오 프런티어 도끼",
+      "id": "CDCFAB50-425D-6410-7A54-6AA913B7CE48",
+      "assetName": "Default__Melee_Gunslinger_PrimaryAsset_C"
+    },
+    {
       "name": "소울스트라이프 대낫",
       "id": "DFE96F5A-4BE0-C3F4-8E31-7F962BCA2ADE",
       "assetName": "Default__Melee_Haunted_PrimaryAsset_C"
@@ -10141,6 +10649,11 @@
       "name": "암.시장 버터플라이 나이프",
       "id": "9B6D0E3D-43EB-E9D5-4069-2194E02D6E6E",
       "assetName": "Default__Melee_Infantry2_PrimaryAsset_C"
+    },
+    {
+      "name": "바운드 ",
+      "id": "82FBFA4C-4BAC-A6DA-C5ED-00898E83637F",
+      "assetName": "Default__Melee_InnerRage_PrimaryAsset_C"
     },
     {
       "name": "프리즘 칼",
@@ -10211,6 +10724,11 @@
       "name": "메이지펑크 쇼크 건틀릿",
       "id": "59F627F1-42F3-670D-5323-3499C2913289",
       "assetName": "Default__Melee_Magepunk2_PrimaryAsset_C"
+    },
+    {
+      "name": "메이지펑크 스파크스위치",
+      "id": "6029AC35-4ECA-8428-26D5-0896013E4C63",
+      "assetName": "Default__Melee_Magepunk3_PrimaryAsset_C"
     },
     {
       "name": "스플라인 단검",
@@ -10338,6 +10856,11 @@
       "assetName": "Default__Melee_Tiger_PrimaryAsset_C"
     },
     {
+      "name": "무제한 방망이",
+      "id": "B6D1788F-4EF6-6B05-3650-43BD455BA744",
+      "assetName": "Default__Melee_Tokyo_PrimaryAsset_C"
+    },
+    {
       "name": "원탭 칼",
       "id": "C52FE5D7-4500-FFC0-CBCD-BFA29B7EA040",
       "assetName": "Default__Melee_Unstoppable_PrimaryAsset_C"
@@ -10408,6 +10931,26 @@
       "name": ".EXE 오딘",
       "id": "49292F21-4F5E-0A1A-3671-54B7CA8FE65A",
       "assetName": "Default__HeavyMachineGun_Grid_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 오딘",
+      "id": "6F60B3CE-4CBF-91EA-2CA7-59BBF1923751",
+      "assetName": "Default__HMG_Gunslinger_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 오딘 2레벨",
+      "id": "8C531DAF-4B31-06F7-0CBE-F989029245D1",
+      "assetName": "Default__HMG_Gunslinger_Lv2_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 오딘 3레벨",
+      "id": "C5175815-41DA-879B-C547-429CE4D7A191",
+      "assetName": "Default__HMG_Gunslinger_Lv3_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 오딘 4레벨",
+      "id": "220BFEEA-44F4-51EE-C903-1DBFB1021EC4",
+      "assetName": "Default__HMG_Gunslinger_Lv4_PrimaryAsset_C"
     },
     {
       "name": "프라임//2.0 오딘",
@@ -10583,6 +11126,11 @@
       "name": "스핏파이어 아레스",
       "id": "E5B8E4AC-4092-6968-704C-DF8ACAF0AC1D",
       "assetName": "Default__LMG_Fury_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "디지헥스 아레스",
+      "id": "CBA40DA2-40B5-7F53-14F8-60A82BCDEEE8",
+      "assetName": "Default__LMG_Hex_Lv1_PrimaryAsset_C"
     },
     {
       "name": "보병대 아레스",
@@ -11110,6 +11658,26 @@
       "assetName": "Default__AK_Luxury_Lv1_PrimaryAsset_C"
     },
     {
+      "name": "메이지펑크 밴달",
+      "id": "A0801408-4A88-3BC7-DF50-0BAAECF5040B",
+      "assetName": "Default__AK_Magepunk3_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "메이지펑크 밴달 2레벨",
+      "id": "C863D31A-4E01-44EB-5BF6-2F8F937F0E0F",
+      "assetName": "Default__AK_Magepunk3_Lv2_PrimaryAsset_C"
+    },
+    {
+      "name": "메이지펑크 밴달 3레벨",
+      "id": "9D247029-4D6F-5814-58BB-3C86759FBC94",
+      "assetName": "Default__AK_Magepunk3_Lv3_PrimaryAsset_C"
+    },
+    {
+      "name": "메이지펑크 밴달 4레벨",
+      "id": "052EE955-42EB-810A-F3DC-AABAA38D56BD",
+      "assetName": "Default__AK_Magepunk3_Lv4_PrimaryAsset_C"
+    },
+    {
       "name": "실바누스 밴달",
       "id": "9D501EEC-4084-5D44-32EF-6E8ED5B0ED49",
       "assetName": "Default__AK_MysticForest_Lv1_PrimaryAsset_C"
@@ -11270,6 +11838,11 @@
       "assetName": "Default__AssaultRifle_AK_Standard_Lv1_PrimaryAsset_C"
     },
     {
+      "name": "무제한 밴달",
+      "id": "CB931D7A-48C9-F349-6276-1B9ABA1EF3E9",
+      "assetName": "Default__AK_Tokyo_Lv1_PrimaryAsset_C"
+    },
+    {
       "name": "심해 밴달",
       "id": "BD1B4801-4BF2-1444-82CE-3CA3636159D4",
       "assetName": "Default__AK_UnderTheSea_Lv1_PrimaryAsset_C"
@@ -11408,6 +11981,11 @@
       "name": "시머 불독",
       "id": "41A683EE-4D8D-51CB-DB4F-06BFB2371D86",
       "assetName": "Default__Burst_Glitter_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "디지헥스 불독",
+      "id": "C58376CC-41F8-BA0B-C42D-319B135AB994",
+      "assetName": "Default__Burst_Hex_Lv1_PrimaryAsset_C"
     },
     {
       "name": "호라이즌 불독",
@@ -11550,6 +12128,11 @@
       "assetName": "Default__Burst_Synthwave_Lv1_PrimaryAsset_C"
     },
     {
+      "name": "무제한 불독",
+      "id": "79249AD0-4AE3-1EC3-A18A-C28521F21A51",
+      "assetName": "Default__Burst_Tokyo_Lv1_PrimaryAsset_C"
+    },
+    {
       "name": "콘벡스 불독",
       "id": "84F8D0F4-4442-5892-6A20-8F83E65A5E96",
       "assetName": "Default__Burst_Triangles_Lv1_PrimaryAsset_C"
@@ -11653,6 +12236,11 @@
       "name": "태양석 팬텀",
       "id": "BEBEFDF3-43CB-FC4C-CD0A-52A9DD9B035F",
       "assetName": "Default__Carbine_Aztec_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "컴포짓 팬텀",
+      "id": "0D203D6E-4944-7341-5F43-46A563B084C5",
+      "assetName": "Default__Carbine_Ballistic_Lv1_PrimaryAsset_C"
     },
     {
       "name": "2022 챔피언스 팬텀",
@@ -11800,6 +12388,26 @@
       "assetName": "Default__Carbine_Flyer_Lv1_PrimaryAsset_C"
     },
     {
+      "name": "네오 프런티어 팬텀",
+      "id": "814FB822-4585-C9FE-85B4-BF8157646AE7",
+      "assetName": "Default__Carbine_Gunslinger_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 팬텀 2레벨",
+      "id": "52642B28-4896-EF9D-7931-618BD3743B04",
+      "assetName": "Default__Carbine_Gunslinger_Lv2_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 팬텀 3레벨",
+      "id": "C9EEF0E2-47F7-9A62-0BF3-16B0FB3C4DF6",
+      "assetName": "Default__Carbine_Gunslinger_Lv3_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 팬텀 4레벨",
+      "id": "5475BFB2-4E56-144F-D904-1DB96BC038C2",
+      "assetName": "Default__Carbine_Gunslinger_Lv4_PrimaryAsset_C"
+    },
+    {
       "name": "소울스트라이프 팬텀",
       "id": "A165DB9B-4692-AC34-D00B-D39C5FAD6F31",
       "assetName": "Default__Carbine_Haunted_Lv1_PrimaryAsset_C"
@@ -11888,6 +12496,26 @@
       "name": "셀레스티얼 팬텀",
       "id": "AA610521-4BEA-BC0E-1BD4-94B67FD90DB6",
       "assetName": "Default__Carbine_Lunar_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "메이지펑크 팬텀",
+      "id": "82DA0235-41C6-4A04-8296-E9BAAA8F12A0",
+      "assetName": "Default__Carbine_Magepunk3_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "메이지펑크 팬텀 2레벨",
+      "id": "C2970E2C-4783-96E1-2FAC-1AA7BF41E413",
+      "assetName": "Default__Carbine_Magepunk3_Lv2_PrimaryAsset_C"
+    },
+    {
+      "name": "메이지펑크 팬텀 3레벨",
+      "id": "34005566-4B64-C21D-36EA-2A8F25FBDB23",
+      "assetName": "Default__Carbine_Magepunk3_Lv3_PrimaryAsset_C"
+    },
+    {
+      "name": "메이지펑크 팬텀 4레벨",
+      "id": "9B866C42-4201-9C1C-86B0-5E95B7E4C3CD",
+      "assetName": "Default__Carbine_Magepunk3_Lv4_PrimaryAsset_C"
     },
     {
       "name": "스플라인 팬텀",
@@ -12183,6 +12811,11 @@
       "name": ".EXE 저지",
       "id": "F8CD4279-4530-DB62-1E4E-AA82C129B045",
       "assetName": "Default__AutomaticShotgun_Grid_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "디지헥스 저지",
+      "id": "64F5EAEF-434B-69C5-5014-36A58EC1DE20",
+      "assetName": "Default__AutoShotgun_Hex_Lv1_PrimaryAsset_C"
     },
     {
       "name": "골드윙 저지",
@@ -12715,6 +13348,11 @@
       "assetName": "Default__AutomaticPistol_HypeBeast2_Lv4_PrimaryAsset_C"
     },
     {
+      "name": "블러쉬 프렌지",
+      "id": "7B04CFC0-4C93-3BCB-7F3A-E189611412E3",
+      "assetName": "Default__AutoPistol_Liquidpink_Lv1_PrimaryAsset_C"
+    },
+    {
       "name": "쿠튀르 프렌지",
       "id": "9D333FF1-47E2-04C7-2A26-688C08E9164D",
       "assetName": "Default__AutomaticPistol_LIWLv1_PrimaryAsset_C"
@@ -12843,6 +13481,11 @@
       "name": "블라스트X 프렌지 4레벨",
       "id": "79EABC1B-45ED-EA03-35F4-FFAADCCFC675",
       "assetName": "Default__AutoPistol_URF_Lv4_PrimaryAsset_C"
+    },
+    {
+      "name": "레졸루션 클래식",
+      "id": "02CF19C4-4F91-3B66-3368-7EBCABE89E3E",
+      "assetName": "Default__BasePistol_A23_Lv1_PrimaryAsset_C"
     },
     {
       "name": "RGX 11z 프로 클래식",
@@ -13230,6 +13873,11 @@
       "assetName": "Default__Luger_Haunted_Lv2_PrimaryAsset_C"
     },
     {
+      "name": "디지헥스 고스트",
+      "id": "9E0CFAB0-428D-8EBA-C554-EBAC2614E43F",
+      "assetName": "Default__Luger_Hex_Lv1_PrimaryAsset_C"
+    },
+    {
       "name": "보병대 고스트",
       "id": "A14FA0B5-4B03-2AD9-3B0E-A3AC6A0B033B",
       "assetName": "Default__Luger_Historical_Lv1_PrimaryAsset_C"
@@ -13405,6 +14053,11 @@
       "assetName": "Default__Luger_Synthwave_Lv1_PrimaryAsset_C"
     },
     {
+      "name": "무제한 고스트",
+      "id": "85D45183-4CB8-0E04-8610-BB817318EDA0",
+      "assetName": "Default__Luger_Tokyo_Lv1_PrimaryAsset_C"
+    },
+    {
       "name": "심해 고스트",
       "id": "BB0450C4-47DB-4FC7-D0C3-A8A5320D673B",
       "assetName": "Default__Luger_UnderTheSea_Lv1_PrimaryAsset_C"
@@ -13448,6 +14101,11 @@
       "name": "아리스토크랫 셰리프",
       "id": "6D4766D0-41F0-8493-93EB-A4902A0C6034",
       "assetName": "Default__RevolverPistol_ArtDecoLv1_PrimaryAsset_C"
+    },
+    {
+      "name": "컴포짓 셰리프",
+      "id": "77445D85-4B8A-3008-F98E-C3A42F72044A",
+      "assetName": "Default__Revolver_Ballistic_Lv1_PrimaryAsset_C"
     },
     {
       "name": "네뷸라 셰리프",
@@ -13508,6 +14166,26 @@
       "name": ".SYS 셰리프",
       "id": "6287A1F1-4D10-5190-86EC-659B26020E87",
       "assetName": "Default__Revolver_Grid2_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 셰리프",
+      "id": "D9F04B7A-4CA6-1083-3AF4-E3810BF15440",
+      "assetName": "Default__Revolver_Gunslinger_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 셰리프 2레벨",
+      "id": "91E4F917-4691-AF54-03D2-DF932E61B233",
+      "assetName": "Default__Revolver_Gunslinger_Lv2_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 셰리프 3레벨",
+      "id": "F28B1E1A-43D7-24D1-6859-1DA020F45BA0",
+      "assetName": "Default__Revolver_Gunslinger_Lv3_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 셰리프 4레벨",
+      "id": "4EB685B3-4015-826B-8111-6F9EF16EB5D6",
+      "assetName": "Default__Revolver_Gunslinger_Lv4_PrimaryAsset_C"
     },
     {
       "name": "프로텍터 셰리프",
@@ -14140,6 +14818,11 @@
       "assetName": "Default__BoltSniper_Koi_Lv1_PrimaryAsset_C"
     },
     {
+      "name": "블러쉬 오퍼레이터",
+      "id": "93F788FA-4FB5-B372-CE71-B6B413CE0902",
+      "assetName": "Default__BoltSniper_Liquidpink_Lv1_PrimaryAsset_C"
+    },
+    {
       "name": "이리디언 쏜 오퍼레이터",
       "id": "D4A5F5A7-4831-F240-FAC7-BFA06B50CD73",
       "assetName": "Default__BoltSniper_LostTechnology_Lv1_PrimaryAsset_C"
@@ -14500,6 +15183,11 @@
       "assetName": "Default__DMR_King_Lv4_PrimaryAsset_C"
     },
     {
+      "name": "블러쉬 가디언",
+      "id": "80FD2B3E-4854-204B-718D-AEAAEB5B63A5",
+      "assetName": "Default__DMR_Liquidpink_Lv1_PrimaryAsset_C"
+    },
+    {
       "name": "메이지펑크 가디언",
       "id": "E63EAB09-47E4-25BE-6C9F-57995385429D",
       "assetName": "Default__DMR_Magepunk2_Lv1_PrimaryAsset_C"
@@ -14690,6 +15378,11 @@
       "assetName": "Default__LeverSniper_Ashen_Lv4_PrimaryAsset_C"
     },
     {
+      "name": "컴포짓 마샬",
+      "id": "B878EA87-4383-CAEB-CE4B-F7A37F42BB02",
+      "assetName": "Default__LeverSniper_Ballistic_Lv1_PrimaryAsset_C"
+    },
+    {
       "name": "룬스톤 마샬",
       "id": "3E87C99D-4A98-15F5-BA6D-0383DB725558",
       "assetName": "Default__LeverSniper_Codex_Lv1_PrimaryAsset_C"
@@ -14718,6 +15411,26 @@
       "name": "몰락 마샬",
       "id": "60DC909F-4C52-B96E-DD37-DFAA2392E373",
       "assetName": "Default__LeverSniper_Gothic_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 마샬",
+      "id": "A1711423-49BD-794E-8F77-F1B9F8749242",
+      "assetName": "Default__LeverSniper_Gunslinger_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 마샬 2레벨",
+      "id": "EB3BB8AE-4B73-BFB7-4270-0E896A0261C3",
+      "assetName": "Default__LeverSniper_Gunslinger_Lv2_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 마샬 3레벨",
+      "id": "2A90F830-4B92-614D-810F-C39E87BA861F",
+      "assetName": "Default__LeverSniper_Gunslinger_Lv3_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 마샬 4레벨",
+      "id": "A59D4749-4881-F403-63D8-ED9FFB76966E",
+      "assetName": "Default__LeverSniper_Gunslinger_Lv4_PrimaryAsset_C"
     },
     {
       "name": "모나크 마샬",
@@ -15085,6 +15798,11 @@
       "assetName": "Default__MP5_Kingdom_Lv1_PrimaryAsset_C"
     },
     {
+      "name": "블러쉬 스펙터",
+      "id": "F3E9786C-44F4-712E-8033-C99C90D55E1B",
+      "assetName": "Default__MP5_Liquidpink_Lv1_PrimaryAsset_C"
+    },
+    {
       "name": "몬스트로시티 스펙터",
       "id": "700E2EA1-474A-C575-1957-88A038E61982",
       "assetName": "Default__MP5_LittleNightmare_Lv1_PrimaryAsset_C"
@@ -15260,6 +15978,11 @@
       "assetName": "Default__MP5_Tiger_Lv1_PrimaryAsset_C"
     },
     {
+      "name": "무제한 스펙터",
+      "id": "3DE643CB-457B-E0A7-3AA4-5F8F4B799E38",
+      "assetName": "Default__MP5_Tokyo_Lv1_PrimaryAsset_C"
+    },
+    {
       "name": "콘벡스 스펙터",
       "id": "FBE265CF-4E3D-9891-791E-5089F1F7F102",
       "assetName": "Default__MP5_Triangles_Lv1_PrimaryAsset_C"
@@ -15323,6 +16046,11 @@
       "name": "아리스토크랫 스팅어",
       "id": "DF37B069-48B2-0A7C-78EA-5B8EEDC684F7",
       "assetName": "Default__Vector_ArtDecoLv1_PrimaryAsset_C"
+    },
+    {
+      "name": "컴포짓 스팅어",
+      "id": "D9B038D8-4F8C-E4A6-E538-6E9CFB0DBB11",
+      "assetName": "Default__Vector_Ballistic_Lv1_PrimaryAsset_C"
     },
     {
       "name": "적색경보 스팅어",
@@ -15590,6 +16318,11 @@
       "assetName": "Default__Melee_Aztec_Lv1_PrimaryAsset_C"
     },
     {
+      "name": "컴포짓 칼",
+      "id": "54AA7EA7-4839-65B3-E0A8-D6A6AEB945FD",
+      "assetName": "Default__Melee_Ballistic_Lv1_PrimaryAsset_C"
+    },
+    {
       "name": "2021 챔피언스 카람빗",
       "id": "470E2855-4B86-F62D-258F-4588056A7B23",
       "assetName": "Default__Melee_Champions_Lv1_PrimaryAsset_C"
@@ -15790,6 +16523,16 @@
       "assetName": "Default__Melee_Grid2_Lv1_PrimaryAsset_C"
     },
     {
+      "name": "네오 프런티어 도끼",
+      "id": "895715E4-4111-A737-8CB7-0AB420659BC9",
+      "assetName": "Default__Melee_Gunslinger_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 도끼 2레벨",
+      "id": "8A3DD15F-4B47-45C7-152B-2EAB3F364787",
+      "assetName": "Default__Melee_Gunslinger_Lv2_PrimaryAsset_C"
+    },
+    {
       "name": "소울스트라이프 대낫",
       "id": "656C5DE8-47CA-4EEB-6051-C9AABBF37BAA",
       "assetName": "Default__Melee_Haunted_Lv1_PrimaryAsset_C"
@@ -15928,6 +16671,16 @@
       "name": "메이지펑크 쇼크 건틀릿 2레벨",
       "id": "4379EF43-451A-A1EB-7C69-919ABAFF068B",
       "assetName": "Default__Melee_Magepunk2_Lv2_PrimaryAsset_C"
+    },
+    {
+      "name": "메이지펑크 스파크스위치",
+      "id": "35792A19-4E62-F3BC-F5DF-289599D6CAFC",
+      "assetName": "Default__Melee_Magepunk3_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "메이지펑크 스파크스위치 2레벨",
+      "id": "C5A76FCD-405F-A78B-7212-FAB0E58EC5FB",
+      "assetName": "Default__Melee_Magepunk3_Lv2_PrimaryAsset_C"
     },
     {
       "name": "스플라인 단검",
@@ -16140,6 +16893,11 @@
       "assetName": "Default__Melee_Tiger_Lv1_PrimaryAsset_C"
     },
     {
+      "name": "무제한 방망이",
+      "id": "6359A802-440E-B775-4BA4-FA88D3BDDB07",
+      "assetName": "Default__Melee_Tokyo_Lv1_PrimaryAsset_C"
+    },
+    {
       "name": "원탭 칼",
       "id": "5BF17117-4EAD-A0A8-2961-288D38985E93",
       "assetName": "Default__Melee_Unstoppable_Lv1_PrimaryAsset_C"
@@ -16162,14 +16920,19 @@
   ],
   "equips": [
     {
-      "name": "헤드헌터",
-      "id": "856D9A7E-4B06-DC37-15DC-9D809C37CB90",
-      "assetName": "Default__Deadeye_Q_Gun_PrimaryAsset_C"
+      "name": "근접 무기",
+      "id": "2F59173C-4BED-B6C3-2191-DEA9B58BE9C7",
+      "assetName": "Default__Melee_PrimaryAsset_C"
     },
     {
-      "name": "역작",
-      "id": "39099FB5-4293-DEF4-1E09-2E9080CE7456",
-      "assetName": "Default__Deadeye_X_Gun_PrimaryAsset_C"
+      "name": "스파이크",
+      "id": "0AFB2636-4093-C63B-4EF1-1E97966E2A3E",
+      "assetName": "Default__BombEquippable_PrimaryAsset_C"
+    },
+    {
+      "name": "클래식",
+      "id": "C5DE005C-4BDC-26A7-A47D-C295EAAAE9D8",
+      "assetName": "Default__BasePistolNPEPrimaryAsset_C"
     },
     {
       "name": "케이/오 코어",
@@ -16180,11 +16943,6 @@
       "name": "오버드라이브",
       "id": "95336AE4-45D4-1032-CFAF-6BAD01910607",
       "assetName": "Default__Gun_Sprinter_X_PrimaryAsset_C"
-    },
-    {
-      "name": "스파이크",
-      "id": "0AFB2636-4093-C63B-4EF1-1E97966E2A3E",
-      "assetName": "Default__BombEquippable_PrimaryAsset_C"
     },
     {
       "name": "오딘",
@@ -16272,16 +17030,6 @@
       "assetName": "Default__VectorPrimaryAsset_C"
     },
     {
-      "name": "근접 무기",
-      "id": "2F59173C-4BED-B6C3-2191-DEA9B58BE9C7",
-      "assetName": "Default__Melee_PrimaryAsset_C"
-    },
-    {
-      "name": "클래식",
-      "id": "C5DE005C-4BDC-26A7-A47D-C295EAAAE9D8",
-      "assetName": "Default__BasePistolNPEPrimaryAsset_C"
-    },
-    {
       "name": "황금 총기",
       "id": "3DE32920-4A8F-0499-7740-648A5BF95470",
       "assetName": "Default__SpikeRush_GoldenGun_PrimaryAsset_C"
@@ -16325,6 +17073,16 @@
       "name": "눈덩이 발사기",
       "id": "5261A41B-4C56-8EB5-9E46-7193F363477E",
       "assetName": "Default__SnowballLauncher_WithSkates_DataAsset_C"
+    },
+    {
+      "name": "헤드헌터",
+      "id": "856D9A7E-4B06-DC37-15DC-9D809C37CB90",
+      "assetName": "Default__Deadeye_Q_Gun_PrimaryAsset_C"
+    },
+    {
+      "name": "역작",
+      "id": "39099FB5-4293-DEF4-1E09-2E9080CE7456",
+      "assetName": "Default__Deadeye_X_Gun_PrimaryAsset_C"
     }
   ],
   "gameModes": [
@@ -16345,6 +17103,12 @@
       "id": "A4ED6518-4741-6DCB-35BD-F884AECDC859",
       "assetName": "GunGameTeamsGameMode",
       "assetPath": "/Game/GameModes/GunGame/GunGameTeamsGameMode.GunGameTeamsGameMode_C"
+    },
+    {
+      "name": "팀 데스매치",
+      "id": "E086DB66-47FD-E791-CA81-06A645AC7661",
+      "assetName": "HURMGameMode",
+      "assetPath": "/Game/GameModes/HURM/HURMGameMode.HURMGameMode_C"
     },
     {
       "name": "교육 중",
@@ -16600,6 +17364,21 @@
       "assetName": "Default__Spray_Bullets_Act1BP_PrimaryAsset_C"
     },
     {
+      "name": "데드록 스프레이",
+      "id": "2EC48842-4A7E-C15E-4D6A-18A50AC0F124",
+      "assetName": "Default__CableCallSign_PrimaryAsset_C"
+    },
+    {
+      "name": "와이어 결박 스프레이",
+      "id": "5D9B029F-4321-2025-65A9-02A774D498F4",
+      "assetName": "Default__CatCradle_PrimaryAsset_C"
+    },
+    {
+      "name": "사이버 오크 스프레이",
+      "id": "656D82AB-499E-FC2D-5CF9-229A9699A882",
+      "assetName": "Default__OakTree_PrimaryAsset_C"
+    },
+    {
       "name": "캠퍼 스프레이",
       "id": "71E8FDCA-4099-AF1C-FABF-09A35684E2D0",
       "assetName": "Default__Spray_Camper_Act1BP_PrimaryAsset_C"
@@ -16608,6 +17387,11 @@
       "name": "저기요? 스프레이",
       "id": "500DA6BD-4CF1-3362-BE2B-1487EC286B91",
       "assetName": "Default__Spray_CatWhat_Act1BP_PrimaryAsset_C"
+    },
+    {
+      "name": "게코 차이 스프레이",
+      "id": "8080BA65-4089-3487-DCF5-F298BE03A470",
+      "assetName": "Default__Champions2023Drop_PrimaryAsset_C"
     },
     {
       "name": "치즈 스프레이",
@@ -17840,6 +18624,81 @@
       "assetName": "Default__WhackaMole_PrimaryAsset_C"
     },
     {
+      "name": "컴포짓 스프레이",
+      "id": "D5A2EF47-42E2-C3EE-D6E5-5A8915D40055",
+      "assetName": "Default__Ballistic_PrimaryAsset_C"
+    },
+    {
+      "name": "사 줘 스프레이",
+      "id": "0E1D476E-4CB0-291F-324A-AA81AA39B591",
+      "assetName": "Default__BuyBuyBuy_PrimaryAsset_C"
+    },
+    {
+      "name": "생명의 병 스프레이",
+      "id": "9462B16A-4F3E-AA0D-4EA7-F2B700856C7C",
+      "assetName": "Default__HealthPotion_PrimaryAsset_C"
+    },
+    {
+      "name": "디지헥스 스프레이",
+      "id": "6CEAA750-4211-0EA6-515E-30827CE32737",
+      "assetName": "Default__Hex_PrimaryAsset_C"
+    },
+    {
+      "name": "뭘 한 거야? 스프레이",
+      "id": "8EA5D8F8-480A-472F-02F5-3A91CA6E1192",
+      "assetName": "Default__JawDrop_PrimaryAsset_C"
+    },
+    {
+      "name": "아슬아슬했어 스프레이",
+      "id": "621543A9-45F0-60B1-0A13-33919A859EEE",
+      "assetName": "Default__JustinTime_PrimaryAsset_C"
+    },
+    {
+      "name": "블러쉬 스프레이",
+      "id": "6EF4D8E1-475D-97B3-E3FA-28B69359A671",
+      "assetName": "Default__LiquidPink_PrimaryAsset_C"
+    },
+    {
+      "name": "연막 미로 스프레이",
+      "id": "31122F81-4DF6-737C-1AA1-E59E1AB2F723",
+      "assetName": "Default__LostinSmoke_PrimaryAsset_C"
+    },
+    {
+      "name": "크레딧 없음 스프레이",
+      "id": "5774206B-4082-F2D1-AABF-57B1F756277B",
+      "assetName": "Default__NoCredit_PrimaryAsset_C"
+    },
+    {
+      "name": "진정해 스프레이",
+      "id": "1B73D3D1-4B52-375A-EB71-569C42BCC240",
+      "assetName": "Default__OhGod_PrimaryAsset_C"
+    },
+    {
+      "name": "두근두근 스프레이",
+      "id": "23EEA927-49D7-16D7-AEE1-2BB44F283C8E",
+      "assetName": "Default__Pumped_PrimaryAsset_C"
+    },
+    {
+      "name": "역할 거부 스프레이",
+      "id": "534EA29C-4944-A755-6445-E4866D3D3F83",
+      "assetName": "Default__SelfConflict_PrimaryAsset_C"
+    },
+    {
+      "name": "팬케이크 탑 스프레이",
+      "id": "5D9FE2CE-4E8E-CFB8-982F-AC9B61F35F4A",
+      "assetName": "Default__StackSite_PrimaryAsset_C"
+    },
+    {
+      "name": "상자가 좋다냥 스프레이",
+      "id": "CE53F1EB-433E-BEF9-FB3B-25811FD9CDF2",
+      "assetName": "Default__Tacticat_PrimaryAsset_C"
+    },
+    {
+      "name": "무조건 돌진 스프레이",
+      "id": "07FA3ADD-4304-648E-2120-A8B9CAE634F5",
+      "assetName": "Default__Wgaming_PrimaryAsset_C"
+    },
+    {
       "name": "2022 챔피언스 제트 차이 스프레이",
       "id": "556008F0-41BB-D752-3747-1AABC73499C8",
       "assetName": "Default__EsportsMode_PrimaryAsset_C"
@@ -17948,6 +18807,11 @@
       "name": "감시 스프레이",
       "id": "DB1DCDC0-4473-5598-05E4-D4859FA9D340",
       "assetName": "Default__Spray_Gumshoe02_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 스프레이 ",
+      "id": "AE35781F-465A-FD46-745A-959A795AA333",
+      "assetName": "Default__Gunslinger_PrimaryAsset_C"
     },
     {
       "name": "소울스트라이프 스프레이",
@@ -18098,6 +18962,11 @@
       "name": "연주회 스프레이",
       "id": "2D9BE381-4686-B392-310E-8BB2A6707F7E",
       "assetName": "Default__TinyViolin_PrimaryAsset_C"
+    },
+    {
+      "name": "곤란한 친구들 스프레이",
+      "id": "770CBCCA-40BD-0C68-0AAE-B2A98747C8F0",
+      "assetName": "Default__Umm_PrimaryAsset_C"
     },
     {
       "name": "잡았다! 넌 죽었어! 스프레이",
@@ -18445,6 +19314,11 @@
       "assetName": "Default__Tiger_PrimaryAsset_C"
     },
     {
+      "name": "장착한 스프레이 없음",
+      "id": "D7EFBDD5-4A77-F858-A133-CFB8956CA1FE",
+      "assetName": "Default__UnequipSpray_PrimaryAsset_C"
+    },
+    {
       "name": "브이 포 발로란트 스프레이",
       "id": "5D88FD45-434D-B0D6-2331-E8B3D47B8395",
       "assetName": "Default__Spray_VALLogoNPE_PrimaryAsset_C"
@@ -18727,6 +19601,21 @@
       "assetName": "Default__Spray_Bullets_Act1BP_Level1_PrimaryAsset_C"
     },
     {
+      "name": "CableCallSign",
+      "id": "FD158597-4105-B938-03B8-408C1E731533",
+      "assetName": "Default__CableCallSign_Level1_PrimaryAsset_C"
+    },
+    {
+      "name": "CatCradle",
+      "id": "29DC3BEB-449C-20F2-D062-F7891671DA65",
+      "assetName": "Default__CatCradle_Level1_PrimaryAsset_C"
+    },
+    {
+      "name": "OakTree",
+      "id": "1DBB17B3-4321-D4DC-BD28-9FBCA09939F9",
+      "assetName": "Default__OakTree_Level1_PrimaryAsset_C"
+    },
+    {
       "name": "캠퍼 스프레이",
       "id": "7C5FD8CC-4B81-1D14-45BE-A99B00DE2EB8",
       "assetName": "Default__Spray_Camper_Act1BP_Level1_PrimaryAsset_C"
@@ -18735,6 +19624,11 @@
       "name": "저기요? 스프레이",
       "id": "25741009-4CE6-F6B4-9B76-B38006925758",
       "assetName": "Default__Spray_CatWhat_Act1BP_Level1_PrimaryAsset_C"
+    },
+    {
+      "name": "게코 차이 스프레이",
+      "id": "A43A6E2C-4755-BFE9-94A9-5F8A36C0CDB1",
+      "assetName": "Default__Champions2023Drop_Level1_PrimaryAsset_C"
     },
     {
       "name": "치즈 스프레이",
@@ -19967,6 +20861,81 @@
       "assetName": "Default__WhackaMole_Level1_PrimaryAsset_C"
     },
     {
+      "name": "컴포짓 스프레이",
+      "id": "9994C4B4-4F08-4839-BA14-C5941917A2E5",
+      "assetName": "Default__Ballistic_Level1_PrimaryAsset_C"
+    },
+    {
+      "name": "사 줘 스프레이",
+      "id": "50293A88-4552-E868-19F3-EA801E9F2643",
+      "assetName": "Default__BuyBuyBuy_Level1_PrimaryAsset_C"
+    },
+    {
+      "name": "생명의 병 스프레이",
+      "id": "A21E2DC7-43D1-8AD5-6474-ECBC813AFA34",
+      "assetName": "Default__HealthPotion_Level1_PrimaryAsset_C"
+    },
+    {
+      "name": "디지헥스 스프레이",
+      "id": "9C54239E-43C7-6DB2-887A-3C99683FFD35",
+      "assetName": "Default__Hex_Level1_PrimaryAsset_C"
+    },
+    {
+      "name": "뭘 한 거야? 스프레이",
+      "id": "973D30BC-4804-ACF7-8965-68B52A10E04A",
+      "assetName": "Default__JawDrop_Level1_PrimaryAsset_C"
+    },
+    {
+      "name": "아슬아슬했어 스프레이",
+      "id": "2809C004-4885-4977-6D64-0BB6D94485A0",
+      "assetName": "Default__JustinTime_Level1_PrimaryAsset_C"
+    },
+    {
+      "name": "블러쉬 스프레이",
+      "id": "FB1AB55C-4466-CE0D-959B-F1973587D440",
+      "assetName": "Default__LiquidPink_Level1_PrimaryAsset_C"
+    },
+    {
+      "name": "연막 미로 스프레이",
+      "id": "2318AAA4-40E7-6747-FDD4-579543175E9C",
+      "assetName": "Default__LostinSmoke_Level1_PrimaryAsset_C"
+    },
+    {
+      "name": "크레딧 없음 스프레이",
+      "id": "F3773CD7-4DA8-6F3F-DACE-1FA12DD5A7B4",
+      "assetName": "Default__NoCredit_Level1_PrimaryAsset_C"
+    },
+    {
+      "name": "진정해 스프레이",
+      "id": "72AD4B40-4494-3952-DFFF-2C9C4951B572",
+      "assetName": "Default__OhGod_Level1_PrimaryAsset_C"
+    },
+    {
+      "name": "두근두근 스프레이",
+      "id": "2DB64318-4DC1-A7AF-91D8-589E03B5222A",
+      "assetName": "Default__Pumped_Level1_PrimaryAsset_C"
+    },
+    {
+      "name": "역할 거부 스프레이",
+      "id": "2D1EC3B7-4088-E567-DD42-389718CF3749",
+      "assetName": "Default__SelfConflict_Level1_PrimaryAsset_C"
+    },
+    {
+      "name": "팬케이크 탑 스프레이",
+      "id": "36404194-41B5-20E4-F952-F89EE42A813D",
+      "assetName": "Default__StackSite_Level1_PrimaryAsset_C"
+    },
+    {
+      "name": "상자가 좋다냥 스프레이",
+      "id": "0E8DF368-49E9-7F95-142F-44ABFCB97A44",
+      "assetName": "Default__Tacticat_Level1_PrimaryAsset_C"
+    },
+    {
+      "name": "무조건 돌진 스프레이",
+      "id": "423FCCA9-4622-BDE2-1FAA-0F94922B3333",
+      "assetName": "Default__Wgaming_Level1_PrimaryAsset_C"
+    },
+    {
       "name": "EsportsMode",
       "id": "39EE62F9-4AA1-6331-85D1-FE8C9116C960",
       "assetName": "Default__EsportsMode_Level1_PrimaryAsset_C"
@@ -20075,6 +21044,11 @@
       "name": "감시 스프레이",
       "id": "266D3C0A-47D8-3B9F-597F-6DAFC7A02F97",
       "assetName": "Default__Spray_Gumshoe02_Level1_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 스프레이 ",
+      "id": "C4227386-4D52-BE1B-7588-A6BC6FB2B8F3",
+      "assetName": "Default__Gunslinger_Level1_PrimaryAsset_C"
     },
     {
       "name": "Haunted",
@@ -20225,6 +21199,11 @@
       "name": "연주회 스프레이",
       "id": "9B07F17E-4DE4-0D6C-D7D7-D7B7CE769D33",
       "assetName": "Default__TinyViolin_Level1_PrimaryAsset_C"
+    },
+    {
+      "name": "곤란한 친구들 스프레이",
+      "id": "9179C8B4-4551-1D07-A399-18BD14B94405",
+      "assetName": "Default__Umm_Level1_PrimaryAsset_C"
     },
     {
       "name": "Monkey",
@@ -20572,6 +21551,11 @@
       "assetName": "Default__Tiger_Level1_PrimaryAsset_C"
     },
     {
+      "name": "UnequipSpray",
+      "id": "D1537344-4FE7-79BB-2689-A293E49DD094",
+      "assetName": "Default__UnequipSpray_Level1_PrimaryAsset_C"
+    },
+    {
       "name": "브이 포 발로란트 스프레이",
       "id": "280B9B3F-4BFA-9CF5-C72B-78AB277C30E7",
       "assetName": "Default__Spray_VALLogoNPE_Level1_PrimaryAsset_C"
@@ -20709,6 +21693,11 @@
       "assetName": "Default__GunBuddy_Backpack_PrimaryAsset_C"
     },
     {
+      "name": "컴포짓 총기 장식",
+      "id": "49D304E1-4E20-4A0B-EDE3-698422DC8CDE",
+      "assetName": "Default__GunBuddy_Ballistic_PrimaryAsset_C"
+    },
+    {
       "name": "밤의 수호자 총기 장식",
       "id": "BAF4EBF5-4742-3179-4B9D-899A8D49C3FE",
       "assetName": "Default__GunBuddy_Bat_PrimaryAsset_C"
@@ -20807,6 +21796,11 @@
       "name": "연락해 총기 장식",
       "id": "5CB098FA-4A93-24E8-4B6C-2396D262DE1E",
       "assetName": "Default__GunBuddy_BusinessCard_PrimaryAsset_C"
+    },
+    {
+      "name": "나노와이어 카트리지 총기 장식",
+      "id": "C3E0CECF-44EF-A147-C426-BE9DBFCD810B",
+      "assetName": "Default__GunBuddy_CableCartridge_PrimaryAsset_C"
     },
     {
       "name": "사막의 장미 총기 장식",
@@ -21009,6 +22003,11 @@
       "assetName": "Default__GunBuddy_Coin_EP6_A3_PrimaryAsset_C"
     },
     {
+      "name": "에피소드 7 // 1 코인 총기 장식",
+      "id": "23511E47-44F8-A1B2-34DA-09B2962693E5",
+      "assetName": "Default__GunBuddy_Coin_EP7_A1_PrimaryAsset_C"
+    },
+    {
       "name": "날 따라와 총기 장식",
       "id": "BF01E45D-4C06-EE19-F66E-B1B5ACF073C4",
       "assetName": "Default__GunBuddy_Compass_PrimaryAsset_C"
@@ -21079,6 +22078,11 @@
       "assetName": "Default__GunBuddy_CupidTheo_PrimaryAsset_C"
     },
     {
+      "name": "후루룩 총기 장식",
+      "id": "C42AFAAF-4E7E-CCC8-248E-848A290E3499",
+      "assetName": "Default__GunBuddy_CupNoodle_PrimaryAsset_C"
+    },
+    {
       "name": "글리치팝 총기 장식",
       "id": "C5BEE9F1-4548-03C3-F88D-D7BF38D1943E",
       "assetName": "Default__GunBuddy_Cyberpunk_PrimaryAsset_C"
@@ -21112,6 +22116,11 @@
       "name": "위험한 도마뱀 총기 장식",
       "id": "D5B10115-43EA-42E7-8843-5BB5C1E73C6E",
       "assetName": "Default__GunBuddy_DangerLizard_PrimaryAsset_C"
+    },
+    {
+      "name": "달마대사 총기 장식",
+      "id": "B3066549-4B2A-F7D4-D655-3784181DB732",
+      "assetName": "Default__GunBuddy_Daruma_PrimaryAsset_C"
     },
     {
       "name": "혼돈의 서막 총기 장식",
@@ -21309,6 +22318,16 @@
       "assetName": "Default__GunBuddy_GameChangers_PrimaryAsset_C"
     },
     {
+      "name": "펭귄 깜놀 총기 장식",
+      "id": "B67CF6FC-4F40-761A-C823-8EB8D9DEE804",
+      "assetName": "Default__GunBuddy_GatchaPenguinDan_PrimaryAsset_C"
+    },
+    {
+      "name": "에필로그: 펭귄 깜놀 총기 장식",
+      "id": "3B2177BB-4D3E-C527-2F14-97937F73137C",
+      "assetName": "Default__GunBuddy_GatchaPenguinDanGold_PrimaryAsset_C"
+    },
+    {
       "name": "젤라토 큐티 총기 장식",
       "id": "108A36D5-44EF-9B4C-B783-B29A6A9AE340",
       "assetName": "Default__GunBuddy_Gelato_PrimaryAsset_C"
@@ -21364,6 +22383,11 @@
       "assetName": "Default__GunBuddy_Gumshoe_PrimaryAsset_C"
     },
     {
+      "name": "네오 프런티어 총기 장식",
+      "id": "0E5AAC9D-419A-3767-A154-4C9ABFE8C72F",
+      "assetName": "Default__GunBuddy_Gunslinger_PrimaryAsset_C"
+    },
+    {
       "name": "할로 할로 총기 장식",
       "id": "F671190D-4DFB-89CE-B668-28BF81ECB33A",
       "assetName": "Default__GunBuddy_HaloHalo_PrimaryAsset_C"
@@ -21382,6 +22406,11 @@
       "name": "전문가용 통신 기기 총기 장식",
       "id": "8848FF77-43B1-5F73-8106-778F1EA8593E",
       "assetName": "Default__GunBuddy_Headset_PrimaryAsset_C"
+    },
+    {
+      "name": "디지헥스 총기 장식",
+      "id": "6A34AD97-4070-BD56-64C2-81A3484922D6",
+      "assetName": "Default__GunBuddy_Hex_PrimaryAsset_C"
     },
     {
       "name": "올빼미 총기 장식",
@@ -21489,6 +22518,11 @@
       "assetName": "Default__GunBuddy_KitsuneMask_PrimaryAsset_C"
     },
     {
+      "name": "신경 패턴 총기 장식",
+      "id": "1FB3788C-4A20-1DE8-C9A9-0F9987D21F1D",
+      "assetName": "Default__GunBuddy_KnitDollCypher_PrimaryAsset_C"
+    },
+    {
       "name": "완벽한 패턴 총기 장식",
       "id": "25C6099B-411E-573E-673C-B594CBA84C10",
       "assetName": "Default__GunBuddy_KnitDollJett_PrimaryAsset_C"
@@ -21502,6 +22536,11 @@
       "name": "행운의 춤 총기 장식",
       "id": "90B6B7EB-4960-5A26-7D49-7CBAB0D7CFB2",
       "assetName": "Default__GunBuddy_Liondance_PrimaryAsset_C"
+    },
+    {
+      "name": "블러쉬 총기 장식",
+      "id": "89D92AA5-4D95-D65A-C515-A1AEE5B64657",
+      "assetName": "Default__GunBuddy_Liquidpink_PrimaryAsset_C"
     },
     {
       "name": "이리디언 쏜 총기 장식",
@@ -21532,6 +22571,11 @@
       "name": "메이지펑크 총기 장식",
       "id": "7B7D715A-48FF-CE97-4D7F-6CB75D763F7F",
       "assetName": "Default__GunBuddy_Magepunk_PrimaryAsset_C"
+    },
+    {
+      "name": "메이지펑크, 에피소드 6 총기 장식",
+      "id": "2D250F34-47D9-58CE-F734-16AE122660C8",
+      "assetName": "Default__GunBuddy_Magepunk3_PrimaryAsset_C"
     },
     {
       "name": "마법의 벌새 총기 장식",
@@ -22004,6 +23048,51 @@
       "assetName": "Default__GunBuddy_RankEP5_Silver_PrimaryAsset_C"
     },
     {
+      "name": "에피소드 6: 초월자 총기 장식",
+      "id": "623CDFDB-4928-2AE5-614C-8BABB10E1C80",
+      "assetName": "Default__GunBuddy_RankEP6_Ascendant_PrimaryAsset_C"
+    },
+    {
+      "name": "에피소드 6: 브론즈 총기 장식",
+      "id": "E82C8E05-4D33-3C2B-E930-DEBC81D34A29",
+      "assetName": "Default__GunBuddy_RankEP6_Bronze_PrimaryAsset_C"
+    },
+    {
+      "name": "에피소드 6: 다이아몬드 총기 장식",
+      "id": "BA6C7A2B-405D-776E-0750-9A9C97703FFA",
+      "assetName": "Default__GunBuddy_RankEP6_Diamond_PrimaryAsset_C"
+    },
+    {
+      "name": "에피소드 6: 골드 총기 장식",
+      "id": "7DEA59F7-4D88-4C9B-E3EE-D4AD0C334760",
+      "assetName": "Default__GunBuddy_RankEP6_Gold_PrimaryAsset_C"
+    },
+    {
+      "name": "에피소드 6: 불멸 총기 장식",
+      "id": "675E1E1D-433A-EC48-1582-96AD0F830D76",
+      "assetName": "Default__GunBuddy_RankEP6_Immortal_PrimaryAsset_C"
+    },
+    {
+      "name": "에피소드 6: 아이언 총기 장식",
+      "id": "59C6B549-4327-6755-0CB2-40AF28D47313",
+      "assetName": "Default__GunBuddy_RankEP6_Iron_PrimaryAsset_C"
+    },
+    {
+      "name": "에피소드 6: 플래티넘 총기 장식",
+      "id": "299C52E2-4E57-8EF1-4783-9CBC82504FA3",
+      "assetName": "Default__GunBuddy_RankEP6_Plantinum_PrimaryAsset_C"
+    },
+    {
+      "name": "에피소드 6: 레디언트 총기 장식",
+      "id": "A518656D-4CE2-B818-E6C9-91A9A96E78E7",
+      "assetName": "Default__GunBuddy_RankEP6_Radiant_PrimaryAsset_C"
+    },
+    {
+      "name": "에피소드 6: 실버 총기 장식",
+      "id": "CF881B03-4F5D-307A-23EB-EEBC254E3DC3",
+      "assetName": "Default__GunBuddy_RankEP6_Silver_PrimaryAsset_C"
+    },
+    {
       "name": "중력 우라늄 뉴로블래스터 총기 장식",
       "id": "90356707-45E1-5D0B-2B34-2D9AADF78B4E",
       "assetName": "Default__GunBuddy_Raygun_PrimaryAsset_C"
@@ -22017,6 +23106,11 @@
       "name": "별가루 총기 장식",
       "id": "A1907073-46C5-6A62-17BB-A186D437A728",
       "assetName": "Default__GunBuddy_Rift_PrimaryAsset_C"
+    },
+    {
+      "name": "로봇 친구 총기 장식",
+      "id": "473CD7C2-4C12-9289-3A5A-949F4EA3B06C",
+      "assetName": "Default__GunBuddy_Robodog_PrimaryAsset_C"
     },
     {
       "name": "루트 비어 총기 장식",
@@ -22062,6 +23156,11 @@
       "name": "에필로그: 미니 셰리프 총기 장식",
       "id": "3826B22C-4F99-587F-A06D-E48DB47D3FC4",
       "assetName": "Default__GunBuddy_SheriffGold_PrimaryAsset_C"
+    },
+    {
+      "name": "그네 타는 만두 총기 장식",
+      "id": "95D55177-4CAD-93D0-BA2A-2CB3648904A8",
+      "assetName": "Default__GunBuddy_ShuMai_PrimaryAsset_C"
     },
     {
       "name": "늑대인간 총기 장식",
@@ -22217,6 +23316,11 @@
       "name": "토스터 총기 장식",
       "id": "22481BD6-45D7-55A9-DB2F-F4A7B86C0D05",
       "assetName": "Default__GunBuddy_Toaster_PrimaryAsset_C"
+    },
+    {
+      "name": "무제한 총기 장식",
+      "id": "533C84EE-405E-42AA-2F1E-54A60436259E",
+      "assetName": "Default__GunBuddy_Tokyo_PrimaryAsset_C"
     },
     {
       "name": "쪼꼬미 쓰레기통 총기 장식",
@@ -22391,6 +23495,11 @@
       "assetName": "Default__GunBuddy_Backpack_Lv1_PrimaryAsset_C"
     },
     {
+      "name": "컴포짓 총기 장식",
+      "id": "7AAB57E0-44CF-8243-B703-9C8BD3F9D3E0",
+      "assetName": "Default__GunBuddy_Ballistic_Lv1_PrimaryAsset_C"
+    },
+    {
       "name": "밤의 수호자 총기 장식",
       "id": "F3DAA7EC-452D-7374-0BF3-A99DAB2EF071",
       "assetName": "Default__GunBuddy_Bat_Lv1_PrimaryAsset_C"
@@ -22489,6 +23598,11 @@
       "name": "연락해 총기 장식",
       "id": "9AFFDE6C-4BE2-D11B-F1EB-1B9BCC354ED0",
       "assetName": "Default__GunBuddy_BusinessCard_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "나노와이어 카트리지 총기 장식",
+      "id": "943E0E6C-4400-67F0-3D58-D18A777A6D45",
+      "assetName": "Default__GunBuddy_CableCartridge_Lv1_PrimaryAsset_C"
     },
     {
       "name": "사막의 장미 총기 장식",
@@ -22691,6 +23805,11 @@
       "assetName": "Default__GunBuddy_Coin_EP6_A3_Lv1_PrimaryAsset_C"
     },
     {
+      "name": "에피소드 7 // 1 코인 총기 장식",
+      "id": "D81CC7D8-4E4F-CD9D-2B41-E897874B1CF0",
+      "assetName": "Default__GunBuddy_Coin_EP7_A1_Lv1_PrimaryAsset_C"
+    },
+    {
       "name": "날 따라와 총기 장식",
       "id": "C5F4C423-43DE-9553-456D-FBB809CFB74C",
       "assetName": "Default__GunBuddy_Compass_Lv1_PrimaryAsset_C"
@@ -22761,6 +23880,11 @@
       "assetName": "Default__GunBuddy_CupidTheo_Lv1_PrimaryAsset_C"
     },
     {
+      "name": "후루룩 총기 장식",
+      "id": "54D1541B-4650-9074-B26A-A49542896FA2",
+      "assetName": "Default__GunBuddy_CupNoodle_Lv1_PrimaryAsset_C"
+    },
+    {
       "name": "글리치팝 총기 장식",
       "id": "E6EEE5EC-4F6F-E764-1C4D-048CE271BE27",
       "assetName": "Default__GunBuddy_Cyberpunk_Lv1_PrimaryAsset_C"
@@ -22794,6 +23918,11 @@
       "name": "위험한 도마뱀 총기 장식",
       "id": "28227664-476A-72DB-ADAA-159084FBD149",
       "assetName": "Default__GunBuddy_DangerLizard_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "달마대사 총기 장식",
+      "id": "23AC846F-4A76-B338-94E6-D9BED52F07CE",
+      "assetName": "Default__GunBuddy_Daruma_Lv1_PrimaryAsset_C"
     },
     {
       "name": "혼돈의 서막 총기 장식",
@@ -22991,6 +24120,16 @@
       "assetName": "Default__GunBuddy_GameChangers_Lv1_PrimaryAsset_C"
     },
     {
+      "name": "펭귄 깜놀 총기 장식",
+      "id": "DAA9162D-412A-13E7-86B3-C9B0661E57BF",
+      "assetName": "Default__GunBuddy_GatchaPenguinDan_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "에필로그: 펭귄 깜놀 총기 장식",
+      "id": "A8444588-4B87-93B2-D521-DCB3396DD91D",
+      "assetName": "Default__GunBuddy_GatchaPenguinDanGold_Lv1_PrimaryAsset_C"
+    },
+    {
       "name": "젤라토 큐티 총기 장식",
       "id": "461EE5BC-4325-67F1-9E3F-42952FB8F898",
       "assetName": "Default__GunBuddy_Gelato_Lv1_PrimaryAsset_C"
@@ -23046,6 +24185,11 @@
       "assetName": "Default__GunBuddy_Gumshoe_Lv1_PrimaryAsset_C"
     },
     {
+      "name": "네오 프런티어 총기 장식",
+      "id": "FC35C2A0-4028-F217-FAAC-79A02AEEEF90",
+      "assetName": "Default__GunBuddy_Gunslinger_Lv1_PrimaryAsset_C"
+    },
+    {
       "name": "할로 할로 총기 장식",
       "id": "A85B109C-4252-B779-CFDC-B28F9A774B89",
       "assetName": "Default__GunBuddy_HaloHalo_Lv1_PrimaryAsset_C"
@@ -23064,6 +24208,11 @@
       "name": "전문가용 통신 기기 총기 장식",
       "id": "FFA52256-404C-8C43-39E2-37ACEDA2BCB6",
       "assetName": "Default__GunBuddy_Headset_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "디지헥스 총기 장식",
+      "id": "7FCE01AD-4E72-47DB-0349-85B2AE9281AF",
+      "assetName": "Default__GunBuddy_Hex_Lv1_PrimaryAsset_C"
     },
     {
       "name": "올빼미 총기 장식",
@@ -23171,6 +24320,11 @@
       "assetName": "Default__GunBuddy_KitsuneMask_Lv1_PrimaryAsset_C"
     },
     {
+      "name": "신경 패턴 총기 장식",
+      "id": "30C26D81-48E3-47CA-50C4-8591AE6A72A7",
+      "assetName": "Default__GunBuddy_KnitDollCypher_Lv1_PrimaryAsset_C"
+    },
+    {
       "name": "완벽한 패턴 총기 장식",
       "id": "ABD1ACB2-45CA-67A2-328E-B9AFC833240A",
       "assetName": "Default__GunBuddy_KnitDollJett_Lv1_PrimaryAsset_C"
@@ -23184,6 +24338,11 @@
       "name": "행운의 춤 총기 장식",
       "id": "FDC908CF-493D-4B1D-BDBD-0DA7E7525520",
       "assetName": "Default__GunBuddy_Liondance_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "블러쉬 총기 장식",
+      "id": "7DEE58C2-427B-779A-CB08-A8905AFCCFF8",
+      "assetName": "Default__GunBuddy_Liquidpink_Lv1_PrimaryAsset_C"
     },
     {
       "name": "이리디언 쏜 총기 장식",
@@ -23214,6 +24373,11 @@
       "name": "메이지펑크 총기 장식",
       "id": "03B6FBF7-4228-0712-3D91-DA847F958B1B",
       "assetName": "Default__GunBuddy_Magepunk_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "메이지펑크, 에피소드 6 총기 장식",
+      "id": "9342E22F-4570-6449-3983-01B5023FC1A3",
+      "assetName": "Default__GunBuddy_Magepunk3_Lv1_PrimaryAsset_C"
     },
     {
       "name": "마법의 벌새 총기 장식",
@@ -23686,6 +24850,51 @@
       "assetName": "Default__GunBuddy_RankEP5_Silver_Lv1_PrimaryAsset_C"
     },
     {
+      "name": "에피소드 6: 초월자 총기 장식",
+      "id": "CA259E3E-4AED-3E6B-773B-F88E5A484409",
+      "assetName": "Default__GunBuddy_RankEP6_Ascendant_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "에피소드 6: 브론즈 총기 장식",
+      "id": "8C8466CF-43F0-61A8-DD4E-56B8C8E32271",
+      "assetName": "Default__GunBuddy_RankEP6_Bronze_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "에피소드 6: 다이아몬드 총기 장식",
+      "id": "36381A44-4FC5-741B-E3F4-B1926C95E8F1",
+      "assetName": "Default__GunBuddy_RankEP6_Diamond_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "에피소드 6: 골드 총기 장식",
+      "id": "CEA560BF-4FBB-A631-650B-DA968ACB5DF0",
+      "assetName": "Default__GunBuddy_RankEP6_Gold_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "에피소드 6: 불멸 총기 장식",
+      "id": "43574983-4ACF-DF95-60AD-81908B90AF31",
+      "assetName": "Default__GunBuddy_RankEP6_Immortal_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "에피소드 6: 아이언 총기 장식",
+      "id": "9124DEBC-4F6F-976D-FEB2-55B5FCE221F4",
+      "assetName": "Default__GunBuddy_RankEP6_Iron_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "에피소드 6: 플래티넘 총기 장식",
+      "id": "F1D09A2A-4743-0EB4-2381-0DB12D6CD8CF",
+      "assetName": "Default__GunBuddy_RankEP6_Plantinum_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "에피소드 6: 레디언트 총기 장식",
+      "id": "C078A957-4AB8-AFA6-81FB-6A9F2AE45D60",
+      "assetName": "Default__GunBuddy_RankEP6_Radiant_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "에피소드 6: 실버 총기 장식",
+      "id": "C77CA32B-4D9F-3CDD-AAEC-87A2109A5D9F",
+      "assetName": "Default__GunBuddy_RankEP6_Silver_Lv1_PrimaryAsset_C"
+    },
+    {
       "name": "중력 우라늄 뉴로블래스터 총기 장식",
       "id": "2484E328-45E9-A5C0-960F-AD8B0F620D0E",
       "assetName": "Default__GunBuddy_Raygun_Lv1_PrimaryAsset_C"
@@ -23699,6 +24908,11 @@
       "name": "별가루 총기 장식",
       "id": "D1472303-4E9C-2C04-0AB6-95B7F787612A",
       "assetName": "Default__GunBuddy_Rift_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "로봇 친구 총기 장식",
+      "id": "914AE03F-43FE-775C-124B-0BB485FA7A54",
+      "assetName": "Default__GunBuddy_Robodog_Lv1_PrimaryAsset_C"
     },
     {
       "name": "루트 비어 총기 장식",
@@ -23744,6 +24958,11 @@
       "name": "에필로그: 미니 셰리프 총기 장식",
       "id": "21E67B07-4D0A-E438-88EE-93A8AF385B06",
       "assetName": "Default__GunBuddy_SheriffGold_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "그네 타는 만두 총기 장식",
+      "id": "87C38998-4FF0-6360-5F35-ADB68D2D7E49",
+      "assetName": "Default__GunBuddy_ShuMai_Lv1_PrimaryAsset_C"
     },
     {
       "name": "늑대인간 총기 장식",
@@ -23899,6 +25118,11 @@
       "name": "토스터 총기 장식",
       "id": "7944B081-4B0F-81C8-E41F-3AA5C634B782",
       "assetName": "Default__GunBuddy_Toaster_Lv1_PrimaryAsset_C"
+    },
+    {
+      "name": "무제한 총기 장식",
+      "id": "AB0D9C89-4B57-B072-ED0C-CDA7C040B5E7",
+      "assetName": "Default__GunBuddy_Tokyo_Lv1_PrimaryAsset_C"
     },
     {
       "name": "쪼꼬미 쓰레기통 총기 장식",
@@ -24211,6 +25435,16 @@
       "name": "전원 생존 카드",
       "id": "109EA8C8-B372-4FE0-BE3C-A5C3E549B38A",
       "assetName": "Default__Playercard_Brimstone_2_PrimaryAsset_C"
+    },
+    {
+      "name": "발로란트 데드록 카드",
+      "id": "3AB51388-48A4-5DE7-488D-AEA7C14F8CE4",
+      "assetName": "Default__Playercard_CableCard1_PrimaryAsset_C"
+    },
+    {
+      "name": "볼트를 향해 카드",
+      "id": "6BA7BD0C-430C-2505-EA50-C78283A8E82F",
+      "assetName": "Default__Playercard_CableCard2_PrimaryAsset_C"
     },
     {
       "name": "발로란트 사이퍼 카드",
@@ -25403,6 +26637,71 @@
       "assetName": "Default__Playercard_TheMonsterWithinViper_PrimaryAsset_C"
     },
     {
+      "name": "컴포짓 카드",
+      "id": "371A4F06-4D1F-194A-03C3-AAB323FF376A",
+      "assetName": "Default__Playercard_Ballistic_PrimaryAsset_C"
+    },
+    {
+      "name": "한가로운 레이즈 카드",
+      "id": "B3BB210C-4737-E824-80F6-AF863B8FFFA9",
+      "assetName": "Default__Playercard_CasualRaze_PrimaryAsset_C"
+    },
+    {
+      "name": "전술적 도로 횡단 카드",
+      "id": "62C2EAB3-42DC-474A-FFBE-88B66E433C9C",
+      "assetName": "Default__Playercard_CrossingRoad_PrimaryAsset_C"
+    },
+    {
+      "name": "에필로그: 전술적 도로 횡단 카드",
+      "id": "BA8823F8-4070-12E2-0D67-1CBB7497F8D6",
+      "assetName": "Default__Playercard_CrossingRoadGold_PrimaryAsset_C"
+    },
+    {
+      "name": "저지 불가 // 사이퍼 카드",
+      "id": "7EAD31BE-4EA0-8039-C130-DCA54DD61485",
+      "assetName": "Default__Playercard_CypherPowerfantasy_PrimaryAsset_C"
+    },
+    {
+      "name": "찌릿한 질투 카드",
+      "id": "5CDCB11A-4CA4-2877-DFC4-EEB6ECD4E599",
+      "assetName": "Default__Playercard_GoodBoombot_PrimaryAsset_C"
+    },
+    {
+      "name": "옆머리만 밀어주세요 카드",
+      "id": "65249A0F-469E-D164-E499-39BAC37F63A7",
+      "assetName": "Default__Playercard_HaircutPhoenix_PrimaryAsset_C"
+    },
+    {
+      "name": "디지헥스 카드",
+      "id": "08A14229-47C3-73A5-CB19-848731220747",
+      "assetName": "Default__Playercard_Hex_PrimaryAsset_C"
+    },
+    {
+      "name": "랜파티 카드",
+      "id": "6ABD3C65-4D5C-3B38-0A0C-9982620628B2",
+      "assetName": "Default__Playercard_Lan_PrimaryAsset_C"
+    },
+    {
+      "name": "블러쉬 카드",
+      "id": "425130DB-43FA-554E-2046-189EACB7EB2B",
+      "assetName": "Default__Playercard_LiquidPink_PrimaryAsset_C"
+    },
+    {
+      "name": "낙하 주의 카드",
+      "id": "E6027FD8-49E9-5E91-40FD-00ABD1077878",
+      "assetName": "Default__Playercard_MindtheDrop_PrimaryAsset_C"
+    },
+    {
+      "name": "해 질 무렵 카드",
+      "id": "CD87781F-4D21-CDE6-959C-28B61B882FA3",
+      "assetName": "Default__Playercard_PalmTree_PrimaryAsset_C"
+    },
+    {
+      "name": "폭발 봇 도면 카드",
+      "id": "D4E27F78-4234-4DB7-AB0D-EC872E748D80",
+      "assetName": "Default__Playercard_RazeGadgetSchema_PrimaryAsset_C"
+    },
+    {
       "name": "에피소드 1 // 이그니션 카드",
       "id": "BAB9CAAA-4913-2704-833E-8C89E2128EB9",
       "assetName": "Default__Playercard_EP1KeyArt_PrimaryAsset_C"
@@ -25421,6 +26720,16 @@
       "name": "자선 // 2022 카드",
       "id": "B320FFDD-4943-5642-1A49-2DA19A740AB9",
       "assetName": "Default__Playercard_GiveBackBundle22Card_PrimaryAsset_C"
+    },
+    {
+      "name": "프런티어 카드",
+      "id": "55269116-42C4-00DB-D7DE-BCBBE40651D2",
+      "assetName": "Default__Playercard_CowboyGunslinger_PrimaryAsset_C"
+    },
+    {
+      "name": "네오 프런티어 카드",
+      "id": "404030ED-416E-C25F-0CF8-E090E6C0E3A6",
+      "assetName": "Default__Playercard_NeoCowboyGunslinger_PrimaryAsset_C"
     },
     {
       "name": "하버 ID 카드",
@@ -25468,6 +26777,11 @@
       "assetName": "Default__Playercard_BreezeBed_PrimaryAsset_C"
     },
     {
+      "name": "2023 챔피언스 로우라이더 카드",
+      "id": "01AA3A02-4AB1-0739-83FD-F3B37EBA01DB",
+      "assetName": "Default__Playercard_Champions2023Drop_PrimaryAsset_C"
+    },
+    {
       "name": "하나 잡았어 카드",
       "id": "33910CD9-4AC5-A0E1-8E79-3CA6916AF3EF",
       "assetName": "Default__Playercard_CypherSlowCard_PrimaryAsset_C"
@@ -25493,7 +26807,7 @@
       "assetName": "Default__Playercard_GameChangers_PrimaryAsset_C"
     },
     {
-      "name": "랭크 상승! // 2023 마스터스 도쿄 카드",
+      "name": "랭크 업! // 2023 마스터스 도쿄 카드",
       "id": "0C196EA1-48AC-97EB-5362-C884937C016F",
       "assetName": "Default__Playercard_Masters1_PrimaryAsset_C"
     },
@@ -25833,6 +27147,11 @@
       "assetName": "Default__Playercard_Magepunk1-1_PrimaryAsset_C"
     },
     {
+      "name": "메이지펑크, 에피소드 6 카드",
+      "id": "19068A0B-4C7F-36DC-FC94-DF9725528340",
+      "assetName": "Default__Playercard_Magepunk3_PrimaryAsset_C"
+    },
+    {
       "name": "스플라인 카드",
       "id": "1D0FE8D7-42DD-6F77-50B0-798D1FF90BEF",
       "assetName": "Default__Playercard_MagicSpline_PrimaryAsset_C"
@@ -25906,6 +27225,11 @@
       "name": "티그리스 카드",
       "id": "53EBE88A-4548-6582-9DD0-EDAF67AD8C1E",
       "assetName": "Default__Playercard_Tiger_PrimaryAsset_C"
+    },
+    {
+      "name": "무제한 카드",
+      "id": "1E7D4DFE-4A18-F31C-AF8D-B9BD48927D9A",
+      "assetName": "Default__Playercard_Tokyo_PrimaryAsset_C"
     },
     {
       "name": "원탭 카드",
@@ -25990,7 +27314,7 @@
       "assetName": "Default__PlayerTitle_Deadeye_PrimaryAsset_C"
     },
     {
-      "name": " ",
+      "name": "",
       "id": "D13E579C-435E-44D4-CEC2-6EAE5A3C5ED4",
       "assetName": "Default__PlayerTitle_Default_PrimaryAsset_C"
     },
@@ -26208,6 +27532,21 @@
       "name": "살아있는 악몽 칭호",
       "id": "DAAE405E-4FC7-0C3A-0AB6-08BEBCA1A8DC",
       "assetName": "Default__PlayerTitle_LivingNightmare_PrimaryAsset_C"
+    },
+    {
+      "name": "와이어 칭호",
+      "id": "C9788603-495C-F7A6-ABE1-88AD75C2AFF3",
+      "assetName": "Default__PlayerTitle_CableTitle1_PrimaryAsset_C"
+    },
+    {
+      "name": "스톨예거 칭호",
+      "id": "3D5EC384-436C-2D09-6359-6B89EC5C9682",
+      "assetName": "Default__PlayerTitle_CableTitle2_PrimaryAsset_C"
+    },
+    {
+      "name": "로우라이더 칭호",
+      "id": "E8C04A61-49A8-8D0A-501C-13B26F20110A",
+      "assetName": "Default__PlayerTitle_Champions2023_PrimaryAsset_C"
     },
     {
       "name": "인기인 칭호",
@@ -26490,9 +27829,24 @@
       "assetName": "Default__PlayerTitle_Gizem_PrimaryAsset_C"
     },
     {
-      "name": "UWU 칭호",
+      "name": "UwU 칭호",
       "id": "129190D4-42FA-4E79-75E3-FFB5679D1DC2",
       "assetName": "Default__PlayerTitle_UWU_PrimaryAsset_C"
+    },
+    {
+      "name": "셰프 칭호",
+      "id": "083766C1-4FDF-6602-311C-F6B634DDF564",
+      "assetName": "Default__PlayerTitle_Chef_PrimaryAsset_C"
+    },
+    {
+      "name": "갈증 칭호",
+      "id": "9FBEC649-47D4-E7D3-579E-2E924AD1743F",
+      "assetName": "Default__PlayerTitle_Thirsty_PrimaryAsset_C"
+    },
+    {
+      "name": "Twisten 칭호",
+      "id": "33098AD2-4F3C-E93F-2BF9-70ADD3B90573",
+      "assetName": "Default__PlayerTitle_Twisten_PrimaryAsset_C"
     },
     {
       "name": "첫날 칭호",
@@ -26543,6 +27897,21 @@
       "name": "프리미어 베타 칭호",
       "id": "302F332D-4A9A-1F2C-9331-779B338FDCC7",
       "assetName": "Default__PlayerTitle_PremierOpenBeta_PrimaryAsset_C"
+    },
+    {
+      "name": "아군 칭호",
+      "id": "F3BF3C15-4E3B-6E58-64A3-8F9995F39370",
+      "assetName": "Default__PlayerTitle_Ally_PrimaryAsset_C"
+    },
+    {
+      "name": "프리미어 베타 칭호",
+      "id": "302F332D-4A9A-1F2C-9331-779B338FDCC7",
+      "assetName": "Default__PlayerTitle_PremierOpenBeta_PrimaryAsset_C"
+    },
+    {
+      "name": "용감무쌍 칭호",
+      "id": "4EF6AFA5-41DE-2D89-2BEC-ADB0FEEECFAD",
+      "assetName": "Default__PlayerTitle_PrideTitle_PrimaryAsset_C"
     },
     {
       "name": "클러치 칭호",
@@ -26638,6 +28007,11 @@
       "name": "예측 불가 칭호",
       "id": "AF85E868-4C20-2E15-7B2E-51B6721ED93E",
       "assetName": "Default__PlayerTitle_Masters1_PrimaryAsset_C"
+    },
+    {
+      "name": "VCT 마스터스 도쿄 우승자 칭호",
+      "id": "CC33F13B-4B66-56DA-F80A-E9BE7271B163",
+      "assetName": "Default__PlayerTitle_2023MastersTokyoWinner_PrimaryAsset_C"
     },
     {
       "name": "VCT 게임 체인저 칭호",
@@ -26829,6 +28203,34 @@
       "parentId": "00000000-0000-0000-0000-000000000000",
       "type": "episode",
       "name": "에피소드 6",
+      "isActive": false
+    },
+    {
+      "id": "0981a882-4e7d-371a-70c4-c3b4f46c504a",
+      "parentId": "1a2fc1de-4f58-4a89-49d0-f28b720ff76f",
+      "type": "act",
+      "name": "액트 1",
+      "isActive": true
+    },
+    {
+      "id": "03dfd004-45d4-ebfd-ab0a-948ce780dac4",
+      "parentId": "1a2fc1de-4f58-4a89-49d0-f28b720ff76f",
+      "type": "act",
+      "name": "액트 2",
+      "isActive": false
+    },
+    {
+      "id": "4401f9fd-4170-2e4c-4bc3-f3b4d7d150d1",
+      "parentId": "1a2fc1de-4f58-4a89-49d0-f28b720ff76f",
+      "type": "act",
+      "name": "액트 3",
+      "isActive": false
+    },
+    {
+      "id": "1a2fc1de-4f58-4a89-49d0-f28b720ff76f",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "type": "episode",
+      "name": "에피소드 7",
       "isActive": true
     }
   ],
